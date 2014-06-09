@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Weapons/sea/nuclear_sub_fire"
     }
   },
-  "max_health": 700,
+  "max_health": 1400,
   "mesh_bounds": [
     5,
     35,

@@ -17,7 +17,7 @@
       "audio_cue": "/SE/Death/Sea"
     }
   },
-  "max_health": 500,
+  "max_health": 1000,
   "model": {
     "animations": {
       "idle": "/pa/units/sea/sonar/sonar_anim_work.papa"
