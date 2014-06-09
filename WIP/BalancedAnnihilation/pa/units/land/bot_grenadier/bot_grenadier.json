@@ -25,11 +25,11 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 90,
-  "description": "Grenadier: Area effect, lobbing assault bot",
+  "build_metal_cost": 400,
+  "description": "Smasher: Dual gattling gun bot.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Grenadier",
+  "display_name": "Smasher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
@@ -105,7 +105,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Artillery",
     "UNITTYPE_Land",
-    "UNITTYPE_Basic",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild"
   ]
 }

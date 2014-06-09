@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 90,
+  "build_metal_cost": 180,
   "description": "Stomper: Anti structure lobbing assault bot",
   "display_group": 40,
   "display_index": 80,
