@@ -3,9 +3,9 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 300,
+  "build_metal_cost": 1000,
   "consumption": {
-    "energy": 150
+    "energy": 1350
   },
   "description": "Orbital and Deepspace Radar: Orbital and Celestial radar telemetry",
   "display_group": 50,
@@ -63,7 +63,7 @@
           "shape": "capsule"
         },
         {
-          "channel": "sight",
+          "channel": "radar",
           "layer": "celestial",
           "radius": 1,
           "shape": "sphere",
