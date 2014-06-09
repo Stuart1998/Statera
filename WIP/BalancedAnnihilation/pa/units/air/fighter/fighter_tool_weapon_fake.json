@@ -1,0 +1,22 @@
+{
+	"base_spec": "/pa/tools/base_bomb_bay/base_bomb_bay.json",
+	"ammo_id": "/pa/ammo/base_bomb/fake_bomb.json",
+	"ammo_source": "energy",
+	"ammo_capacity": 1,
+	"ammo_demand": 0,
+	"ammo_per_shot": 0,
+	"rate_of_fire": 0.2,
+	"max_range": 7,
+	"yaw_rate": 3600,
+	"pitch_rate": 3600,
+	"yaw_range": 180,
+	"pitch_range": 180,
+	"auto_attack": true,
+	"carpet_fire": true,
+	"target_layers": ["WL_Air","WL_LandHorizontal",
+	"WL_WaterSurface"],
+	"target_priorities": ["Mobile",
+	"Naval",
+	"Structure - Wall",
+	"Wall"]
+}

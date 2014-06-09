@@ -1,89 +1,92 @@
 {
-  "TEMP_texelinfo": 6.1803,
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/air/air_fighter_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
-  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 135,
-  "description": "Fighter: Anti-air missiles",
-  "display_group": 60,
-  "display_index": 80,
-  "display_name": "Hummingbird",
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/air"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Air",
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
-    },
-    "firing": {
-      "audio_cue": "/SE/Weapons/air/fighter_fire"
-    }
-  },
-  "fx_offsets": [
-    {
-      "filename": "/pa/units/air/fighter/fighter_jets.pfx",
-      "offset": [
-        0,
-        2.9,
-        0.836
-      ],
-      "type": "moving_forward"
-    }
-  ],
-  "guard_layer": "WL_Air",
-  "guard_radius": 200,
-  "max_health": 100,
-  "model": {
-    "arrows": 5,
-    "filename": "/pa/units/air/fighter/fighter.papa"
-  },
-  "navigation": {
-    "acceleration": 90,
-    "aggressive_distance": 50.0,
-    "bank_factor": 10,
-    "brake": 90,
-    "move_speed": 75,
-    "turn_speed": 270,
-    "type": "air"
-  },
-  "physics": {
-    "gravity_scalar": 1,
-    "push_class": 2,
-    "radius": 6
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 150,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "tools": [
-    {
-      "aim_bone": "bone_root",
-      "muzzle_bone": "bone_root",
-      "spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json"
-    }
-  ],
-  "unit_types": [
-    "UNITTYPE_Fighter",
-    "UNITTYPE_Air",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
-  ]
+	"display_group": 60,
+	"fx_offsets": [{
+		"offset": [0,
+		2.9,
+		0.836],
+		"type": "moving_forward",
+		"filename": "/pa/units/air/fighter/fighter_jets.pfx"
+	}],
+	"physics": {
+		"gravity_scalar": 1,
+		"radius": 6,
+		"push_class": 2
+	},
+	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+	"events": {
+		"firing": {
+			"audio_cue": "/SE/Weapons/veh/land_scout_fire"
+		},
+		"died": {
+			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
+			"audio_cue": "/SE/Death/Air"
+		},
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/air"
+		}
+	},
+	"display_name": "Hummingbird",
+	"guard_layer": "WL_AnySurface",
+	"tools": [{
+		"aim_bone": "bone_root",
+		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon_fake.json",
+		"muzzle_bone": "bone_root",
+		"primary_weapon": true,
+		"aim_weapon": true
+
+	},
+	{
+		"aim_bone": "bone_root",
+		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
+		"muzzle_bone": "bone_root",
+		"primary_weapon": false
+	}],
+	"audio": {
+		"loops": {
+			"move": {
+				"should_start_func": "is_moving",
+				"flag": "vel_changed",
+				"should_stop_func": "is_not_moving",
+				"cue": "/SE/Movement/air/air_fighter_loop"
+			}
+		}
+	},
+	"unit_types": ["UNITTYPE_Fighter",
+	"UNITTYPE_Air",
+	"UNITTYPE_Mobile",
+	"UNITTYPE_Basic",
+	"UNITTYPE_FactoryBuild"],
+	"TEMP_texelinfo": 6.1803,
+	"model": {
+		"arrows": 5,
+		"filename": "/pa/units/air/fighter/fighter.papa"
+	},
+	"description": "Fighter: Armed with a multi-purpose missile launcher.",
+	"recon": {
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"radius": 150,
+				"channel": "sight",
+				"shape": "capsule"
+			}]
+		}
+	},
+	"build_metal_cost": 130,
+	"display_index": 80,
+	"max_health": 200,
+	"guard_radius": 100,
+	"navigation": {
+		"aggressive_height": 100,
+		"aggressive_distance": 250,
+		"turn_speed": 180,
+		"type": "air",
+		"dodge_multiplier": 0,
+		"dodge_radius": 0,
+		"wobble_factor": 0.05,
+		"wobble_speed": 0.1,
+		"acceleration": 180,
+		"move_speed": 90,
+		"brake": 45
+	}
 }
