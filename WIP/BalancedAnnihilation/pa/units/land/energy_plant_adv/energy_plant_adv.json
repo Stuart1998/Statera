@@ -4,11 +4,11 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 70.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 2700,
-  "description": "Advanced Energy: Produces energy",
+  "build_metal_cost": 3500,
+  "description": "Heavy Energy: Produces energy",
   "display_group": 80,
   "display_index": 65,
-  "display_name": "Advanced Energy Plant",
+  "display_name": "Heavy Energy Plant",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/energy"
@@ -240,7 +240,7 @@
       "radius": 4.0
     }
   ],
-  "max_health": 9000,
+  "max_health": 12500,
   "mesh_bounds": [
     20,
     20,

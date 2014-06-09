@@ -4,14 +4,14 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 100.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 2000,
+  "build_metal_cost": 750,
   "consumption": {
     "energy": 0
   },
-  "description": "Advanced Metal: Produces metal, can only be placed on metal deposits",
+  "description": "Armored Metal: Produces metal, can only be placed on metal deposits; Stacks with Metal Extractor",
   "display_group": 80,
   "display_index": 85,
-  "display_name": "Advanced Metal Extractor",
+  "display_name": "Armored Metal Extractor",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/metal"
@@ -71,7 +71,7 @@
     16
   ],
   "production": {
-    "metal": 24
+    "metal": 7
   },
   "recon": {
     "observer": {
