@@ -1,0 +1,1 @@
+{"damage":10,"damage_radius":0,"initial_velocity":35.0,"max_flight_time":2,"model":{"filename":"/pa/units/air/missile/missile.papa","arrows":3},"audio_loop":"/SE/Movement/missile/missile_fly_loop"}

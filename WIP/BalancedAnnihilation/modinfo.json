@@ -1,0 +1,10 @@
+{
+    "enabled" : true,
+    "context" : "server",
+    "identifier" : "com.uberent.pa.mods.stockmods.server.BalancedAnnihilation",
+    "display_name" : "Balanced Annihilation",
+    "description" : "Mod created to balance the game to have more niche units",
+    "author" : "Uber Entertainment",
+    "version" : "0.1",
+    "signature" : "(not yet implemented)"
+}
