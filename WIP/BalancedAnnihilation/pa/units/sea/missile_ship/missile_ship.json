@@ -74,16 +74,6 @@
         "socket_missile_muzzle006"
       ],
       "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "socket_missile_aim",
-      "muzzle_bone": [
-        "socket_missile_muzzle003",
-        "socket_missile_muzzle004",
-        "socket_missile_muzzle007",
-        "socket_missile_muzzle008"
-      ],
-      "spec_id": "/pa/units/sea/missile_ship/missile_ship_aa_tool_weapon.json"
     }
   ],
   "unit_types": [
