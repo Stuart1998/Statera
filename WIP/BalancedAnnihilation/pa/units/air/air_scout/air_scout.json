@@ -33,7 +33,7 @@
       "audio_cue": "/SE/Weapons/air/air_scout_fire"
     }
   },
-  "max_health": 20,
+  "max_health": 40,
   "model": {
     "arrows": 5,
     "filename": "/pa/units/air/air_scout/air_scout.papa"

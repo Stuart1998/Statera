@@ -45,7 +45,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 40,
-  "max_health": 1000,
+  "max_health": 2000,
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_armor.json",
     "arrows": 5,

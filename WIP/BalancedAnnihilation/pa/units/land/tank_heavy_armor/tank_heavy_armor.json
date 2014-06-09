@@ -45,7 +45,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 40,
-  "max_health": 5000,
+  "max_health": 10000,
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_armor.json",
     "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa"

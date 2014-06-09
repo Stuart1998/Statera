@@ -60,7 +60,7 @@
       "type": "build"
     }
   ],
-  "max_health": 12500,
+  "max_health": 25000,
   "navigation": {
     "acceleration": 60,
     "brake": 60,

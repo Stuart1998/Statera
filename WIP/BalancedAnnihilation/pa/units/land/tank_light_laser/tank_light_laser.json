@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "max_health": 250,
+  "max_health": 500,
   "mesh_bounds": [
     4.93769,
     7.57193,

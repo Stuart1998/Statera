@@ -41,7 +41,7 @@
   ],
   "guard_layer": "WL_Air",
   "guard_radius": 200,
-  "max_health": 350,
+  "max_health": 700,
   "model": {
     "animations": {
       "landed": "/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa"

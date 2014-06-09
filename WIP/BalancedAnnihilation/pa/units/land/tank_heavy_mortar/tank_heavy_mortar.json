@@ -44,7 +44,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 180,
-  "max_health": 125,
+  "max_health": 250,
   "model": {
     "animtree": "/pa/anim/anim_trees/turret.json",
     "arrows": 5,

@@ -45,7 +45,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 125,
-  "max_health": 625,
+  "max_health": 1250,
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_laser_adv.json",
     "arrows": 5,
