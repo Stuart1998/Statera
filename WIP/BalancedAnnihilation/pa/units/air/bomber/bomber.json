@@ -53,7 +53,7 @@
     "brake": 20,
     "dodge_multiplier": 0.0,
     "dodge_radius": 0,
-    "move_speed": 75,
+    "move_speed": 68,
     "turn_speed": 55,
     "type": "air",
     "wobble_factor": 0.05,
