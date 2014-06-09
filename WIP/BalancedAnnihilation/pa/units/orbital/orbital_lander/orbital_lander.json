@@ -132,7 +132,7 @@
       "type": "moving"
     }
   ],
-  "max_health": 150,
+  "max_health": 300,
   "mesh_bounds": [
     30,
     20,

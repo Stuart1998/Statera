@@ -21,7 +21,7 @@
       "audio_cue": "/SE/Weapons/air/bomber_fire"
     }
   },
-  "max_health": 3750,
+  "max_health": 7500,
   "model": {
     "filename": "/pa/units/orbital/radar_satellite/radar_satellite.papa"
   },

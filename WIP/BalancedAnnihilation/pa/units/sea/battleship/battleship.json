@@ -29,7 +29,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 270,
-  "max_health": 3375,
+  "max_health": 6750,
   "mesh_bounds": [
     12,
     90,

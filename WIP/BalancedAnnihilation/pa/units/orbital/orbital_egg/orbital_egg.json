@@ -5,7 +5,7 @@
   ],
   "description": "The Egg: Initial Commander Transport",
   "display_name": "The Egg",
-  "max_health": 550,
+  "max_health": 1100,
   "model": {
     "filename": "/pa/units/orbital/orbital_lander/orbital_lander.papa"
   },

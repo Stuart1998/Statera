@@ -34,7 +34,7 @@
   "gravwell_velocity_multiplier": 6.0,
   "guard_layer": "WL_AnySurface",
   "guard_radius": 110,
-  "max_health": 1500,
+  "max_health": 3000,
   "mesh_bounds": [
     38,
     38,
