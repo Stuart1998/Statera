@@ -9,7 +9,7 @@
     "yaw_range": 180,
     "pitch_range": 89,
     "auto_attack": true,
-    "firing_standard_deviation": 4,
+    "firing_standard_deviation": 2,
     "target_layers": [
         "WL_LandHorizontal",
         "WL_Seafloor",
