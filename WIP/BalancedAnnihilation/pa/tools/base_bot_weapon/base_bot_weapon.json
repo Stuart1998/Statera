@@ -1,0 +1,20 @@
+{
+  "ammo_id": "/pa/ammo/base_bullet/base_bullet.json",
+  "auto_attack": true,
+  "max_range": 40,
+  "pitch_range": 40,
+  "pitch_rate": 50,
+  "rate_of_fire": 5.0,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface"
+  ],
+  "target_priorities": [
+    "Mobile - Air",
+    "Structure - Wall",
+    "Wall"
+  ],
+  "tool_type": "TOOL_Weapon",
+  "yaw_range": 180,
+  "yaw_rate": 120
+}

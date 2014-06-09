@@ -1,0 +1,17 @@
+{
+  "ammo_id": "/pa/ammo/base_ammo/base_ammo.json",
+  "auto_attack": true,
+  "max_range": 1000,
+  "pitch_range": 180,
+  "pitch_rate": 1000,
+  "range_height": 45,
+  "rate_of_fire": 1.0,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface",
+    "WL_Air"
+  ],
+  "tool_type": "TOOL_Weapon",
+  "yaw_range": 180,
+  "yaw_rate": 1000
+}

@@ -1,0 +1,27 @@
+{
+  "ammo_capacity": 1500000,
+  "ammo_demand": 2,
+  "ammo_id": "/pa/ammo/base_artillery/base_artillery.json",
+  "ammo_per_shot": 1500000,
+  "ammo_source": "energy",
+  "arc_type": "ARC_High",
+  "auto_attack": true,
+  "firing_standard_deviation": 2,
+  "max_range": 10000,
+  "pitch_range": 90,
+  "pitch_rate": 10000,
+  "rate_of_fire": 10,
+  "spread_fire": false,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface"
+  ],
+  "target_priorities": [
+    "Structure - Wall",
+    "Mobile - Air",
+    "Wall"
+  ],
+  "tool_type": "TOOL_Weapon",
+  "yaw_range": 180,
+  "yaw_rate": 10000
+}

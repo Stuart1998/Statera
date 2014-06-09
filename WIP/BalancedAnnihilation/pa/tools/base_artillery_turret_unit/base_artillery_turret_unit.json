@@ -1,0 +1,21 @@
+{
+  "ammo_id": "/pa/ammo/base_artillery/base_artillery.json",
+  "arc_type": "High",
+  "auto_attack": true,
+  "max_range": 90,
+  "pitch_range": 70,
+  "pitch_rate": 30,
+  "rate_of_fire": 0.35,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface"
+  ],
+  "target_priorities": [
+    "Structure - Wall",
+    "Mobile - Air",
+    "Wall"
+  ],
+  "tool_type": "TOOL_Weapon",
+  "yaw_range": 180,
+  "yaw_rate": 30
+}

@@ -1,0 +1,7 @@
+{
+  "ammo_type": "PBAOE",
+  "crater_radius": 260,
+  "splash_damage": 25000,
+  "splash_damages_allies": true,
+  "splash_radius": 70000
+}
