@@ -29,7 +29,7 @@
   "description": "Tank: Anti-land and anti-ship guns",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Bolo",
+  "display_name": "Yolo",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -83,7 +83,7 @@
   "navigation": {
     "acceleration": 100,
     "brake": 100,
-    "move_speed": 7,
+    "move_speed": 8,
     "turn_speed": 90,
     "type": "land-small"
   },
