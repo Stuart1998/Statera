@@ -96,10 +96,10 @@
     "filename": "/pa/units/air/transport/transport.papa"
   },
   "navigation": {
-    "acceleration": 90,
-    "brake": 90,
+    "acceleration": 30,
+    "brake": 30,
     "hover_time": -1.0,
-    "move_speed": 90,
+    "move_speed": 60,
     "turn_speed": 180,
     "type": "air",
     "vertical_speed": 150
