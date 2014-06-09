@@ -11,7 +11,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 160,
+  "build_metal_cost": 220,
   "description": "Hover Tank: Anti-land and anti-ship guns, hovers.",
   "display_group": 40,
   "display_index": 80,
