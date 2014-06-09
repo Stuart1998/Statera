@@ -1,1 +1,42 @@
-{"ammo_type":"Projectile","damage":1,"splash_damage":50,"splash_radius":10,"initial_velocity":75.0,"max_velocity":75.0,"turn_rate":180,"lifetime":0,"build_metal_cost":100,"cruise_height":150,"splash_damages_allies":"true","flight_type":"Ballistic","spawn_layers":"WL_Air","attachable":{"offsets":{"root":[0,0,0]}},"model":{"filename":"/pa/units/air/missile_orbital_booster/missile_orbital_booster.papa"},"physics":{"layer":"air","radius":10,"push_class":1,"gravity_scalar":3,"ignore_gravity":false,"add_to_spatial_db":false,"allow_underground":true},"events":{"died":{"audio_cue":"/SE/Impacts/missile_nuke","effect_spec":"/pa/effects/specs/default_explosion.pfx"}}}
+{
+  "ammo_type": "Projectile",
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "build_metal_cost": 100,
+  "cruise_height": 150,
+  "damage": 1,
+  "events": {
+    "died": {
+      "audio_cue": "/SE/Impacts/missile_nuke",
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    }
+  },
+  "flight_type": "Ballistic",
+  "initial_velocity": 75.0,
+  "lifetime": 0,
+  "max_velocity": 75.0,
+  "model": {
+    "filename": "/pa/units/air/missile_orbital_booster/missile_orbital_booster.papa"
+  },
+  "physics": {
+    "add_to_spatial_db": false,
+    "allow_underground": true,
+    "gravity_scalar": 3,
+    "ignore_gravity": false,
+    "layer": "air",
+    "push_class": 1,
+    "radius": 10
+  },
+  "spawn_layers": "WL_Air",
+  "splash_damage": 50,
+  "splash_damages_allies": "true",
+  "splash_radius": 10,
+  "turn_rate": 180
+}

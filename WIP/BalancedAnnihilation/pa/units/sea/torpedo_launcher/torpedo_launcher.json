@@ -1,1 +1,67 @@
-{"base_spec":"/pa/units/land/base_structure/base_structure.json","display_name":"Torpedo Launcher","description":"Defense: Anti-sub and anti-ship defense","display_group":50,"display_index":70,"max_health":1750,"build_metal_cost":375,"spawn_layers":"WL_WaterSurface","area_build_separation":18,"unit_types":["UNITTYPE_Structure","UNITTYPE_Basic","UNITTYPE_Naval","UNITTYPE_Defense","UNITTYPE_CmdBuild","UNITTYPE_FabBuild"],"guard_radius":250,"guard_layer":"WL_WaterSurface","command_caps":["ORDER_Attack"],"events":{"build_complete":{"audio_cue":"/SE/Build_Complete/sea"},"firing":{"audio_cue":"/SE/Weapons/sea/torpedo_fire"},"died":{"audio_cue":"/SE/Death/Sea"}},"model":{"filename":"/pa/units/sea/torpedo_launcher/torpedo_launcher.papa","animations":{"idle":"/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"},"animtree":"/pa/anim/anim_trees/torpedo_launcher.json"},"tools":[{"spec_id":"/pa/units/sea/torpedo_launcher/torpedo_launcher_tool_weapon.json","aim_bone":"bone_turret","muzzle_bone":"socket_rightMuzzle"}],"recon":{"observer":{"items":[{"layer":"surface_and_air","channel":"sight","shape":"capsule","radius":150}]}},"mesh_bounds":[10.413,8.25399,9.09458],"TEMP_texelinfo":10.4007}
+{
+  "TEMP_texelinfo": 10.4007,
+  "area_build_separation": 18,
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 375,
+  "command_caps": [
+    "ORDER_Attack"
+  ],
+  "description": "Defense: Anti-sub and anti-ship defense",
+  "display_group": 50,
+  "display_index": 70,
+  "display_name": "Torpedo Launcher",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/sea"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Sea"
+    },
+    "firing": {
+      "audio_cue": "/SE/Weapons/sea/torpedo_fire"
+    }
+  },
+  "guard_layer": "WL_WaterSurface",
+  "guard_radius": 250,
+  "max_health": 1750,
+  "mesh_bounds": [
+    10.413,
+    8.25399,
+    9.09458
+  ],
+  "model": {
+    "animations": {
+      "idle": "/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/torpedo_launcher.json",
+    "filename": "/pa/units/sea/torpedo_launcher/torpedo_launcher.papa"
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 150,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "spawn_layers": "WL_WaterSurface",
+  "tools": [
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "spec_id": "/pa/units/sea/torpedo_launcher/torpedo_launcher_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Naval",
+    "UNITTYPE_Defense",
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_FabBuild"
+  ]
+}

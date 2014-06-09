@@ -1,1 +1,136 @@
-{"base_spec":"/pa/units/sea/base_ship/base_ship.json","display_name":"Advanced Fabrication Ship","description":"Advanced Fabricator: Builds naval structures","display_group":100,"display_index":100,"max_health":150,"build_metal_cost":3200,"spawn_layers":"WL_WaterSurface","attachable":{"offsets":{"root":[0,0,0],"head":[0,0,4]}},"unit_types":["UNITTYPE_Fabber","UNITTYPE_Construction","UNITTYPE_Naval","UNITTYPE_Mobile","UNITTYPE_Advanced","UNITTYPE_FactoryBuild"],"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Build","ORDER_Reclaim","ORDER_Repair","ORDER_Assist"],"transportable":{"size":1},"buildable_types":"Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild","physics":{"radius":6,"shape":"box","push_class":2,"allow_pushing":true},"navigation":{"type":"water","acceleration":3,"brake":7,"move_speed":10,"turn_speed":40},"recon":{"observer":{"items":[{"layer":"surface_and_air","channel":"sight","shape":"capsule","radius":100}]}},"model":{"filename":"/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.papa","animtree":"/pa/anim/anim_trees/fabrication_turret.json"},"tools":[{"spec_id":"/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv_build_arm.json","aim_bone":"bone_pitch"}],"events":{"build_complete":{"audio_cue":"/SE/Build_Complete/fab"},"died":{"audio_cue":"/SE/Death/Sea"}},"audio":{"loops":{"build":{"cue":"/SE/Construction/Fab_contruction_beam_loop","flag":"build_target_changed","should_start_func":"has_build_target","should_stop_func":"no_build_target"},"move":{"cue":"/SE/Movement/sea/Fab_ship_loop","flag":"vel_changed","should_start_func":"is_moving","should_stop_func":"is_not_moving"}}},"fx_offsets":[{"type":"build","filename":"/pa/effects/specs/fab_spray.pfx","bone":"socket_rightMuzzle","offset":[0.0,0.0,0.0],"orientation":[0,0,0]},{"type":"build","filename":"/pa/effects/specs/fab_spray.pfx","bone":"socket_leftMuzzle","offset":[0.0,0.0,0.0],"orientation":[0,0,0]}],"TEMP_texelinfo":11.3243}
+{
+  "TEMP_texelinfo": 11.3243,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        4
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "build": {
+        "cue": "/SE/Construction/Fab_contruction_beam_loop",
+        "flag": "build_target_changed",
+        "should_start_func": "has_build_target",
+        "should_stop_func": "no_build_target"
+      },
+      "move": {
+        "cue": "/SE/Movement/sea/Fab_ship_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
+  "build_metal_cost": 3200,
+  "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild",
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist"
+  ],
+  "description": "Advanced Fabricator: Builds naval structures",
+  "display_group": 100,
+  "display_index": 100,
+  "display_name": "Advanced Fabrication Ship",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/fab"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Sea"
+    }
+  },
+  "fx_offsets": [
+    {
+      "bone": "socket_rightMuzzle",
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    },
+    {
+      "bone": "socket_leftMuzzle",
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    }
+  ],
+  "max_health": 150,
+  "model": {
+    "animtree": "/pa/anim/anim_trees/fabrication_turret.json",
+    "filename": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.papa"
+  },
+  "navigation": {
+    "acceleration": 3,
+    "brake": 7,
+    "move_speed": 10,
+    "turn_speed": 40,
+    "type": "water"
+  },
+  "physics": {
+    "allow_pushing": true,
+    "push_class": 2,
+    "radius": 6,
+    "shape": "box"
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "spawn_layers": "WL_WaterSurface",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch",
+      "spec_id": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv_build_arm.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Fabber",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Naval",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ]
+}

@@ -1,1 +1,77 @@
-{"ammo_type":"Projectile","build_metal_cost":12000,"flight_type":"Staged","damage":2500,"splash_damage":2500,"splash_radius":10,"full_damage_splash_radius":10,"splash_damages_allies":false,"cruise_height":100,"initial_velocity":40.0,"max_velocity":125.0,"turn_rate":180,"lifetime":0,"show_strategic_icon":true,"spawn_layers":"WL_Air","model":{"filename":"/pa/units/air/missile_tactical/missile_tactical.papa"},"unit_types":["UNITTYPE_Mobile"],"collision_check":"ground","physics":{"radius":10,"push_class":1,"gravity_scalar":3,"ignore_gravity":true,"add_to_spatial_db":true,"allow_underground":true},"fx_trail":{"filename":"/pa/units/air/missile_tactical/missile_tactical_trail.pfx","offset":[0.0,12.0,0.0]},"events":{"collided":{"audio_cue":"/SE/Impacts/missile_tactical","effect_spec":"/pa/effects/specs/default_proj_area_explosion.pfx"}},"stages":[{"ignores_gravity":true,"ignores_LOS":true,"stage_duration":600,"stage_turn_rate":0,"rotates_to_velocity":true},{"ignores_gravity":true,"ignores_LOS":true,"stage_duration":0,"stage_turn_rate":90,"stage_change_range":75,"rotates_to_velocity":true},{"ignores_gravity":false,"ignores_LOS":false,"stage_duration":5000,"stage_turn_rate":360,"rotates_to_velocity":true},{"ignores_gravity":false,"ignores_LOS":false,"stage_duration":5000,"stage_turn_rate":1080,"rotates_to_velocity":true}]}
+{
+  "ammo_type": "Projectile",
+  "build_metal_cost": 12000,
+  "collision_check": "ground",
+  "cruise_height": 100,
+  "damage": 2500,
+  "events": {
+    "collided": {
+      "audio_cue": "/SE/Impacts/missile_tactical",
+      "effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
+    }
+  },
+  "flight_type": "Staged",
+  "full_damage_splash_radius": 10,
+  "fx_trail": {
+    "filename": "/pa/units/air/missile_tactical/missile_tactical_trail.pfx",
+    "offset": [
+      0.0,
+      12.0,
+      0.0
+    ]
+  },
+  "initial_velocity": 40.0,
+  "lifetime": 0,
+  "max_velocity": 125.0,
+  "model": {
+    "filename": "/pa/units/air/missile_tactical/missile_tactical.papa"
+  },
+  "physics": {
+    "add_to_spatial_db": true,
+    "allow_underground": true,
+    "gravity_scalar": 3,
+    "ignore_gravity": true,
+    "push_class": 1,
+    "radius": 10
+  },
+  "show_strategic_icon": true,
+  "spawn_layers": "WL_Air",
+  "splash_damage": 2500,
+  "splash_damages_allies": false,
+  "splash_radius": 10,
+  "stages": [
+    {
+      "ignores_LOS": true,
+      "ignores_gravity": true,
+      "rotates_to_velocity": true,
+      "stage_duration": 600,
+      "stage_turn_rate": 0
+    },
+    {
+      "ignores_LOS": true,
+      "ignores_gravity": true,
+      "rotates_to_velocity": true,
+      "stage_change_range": 75,
+      "stage_duration": 0,
+      "stage_turn_rate": 90
+    },
+    {
+      "ignores_LOS": false,
+      "ignores_gravity": false,
+      "rotates_to_velocity": true,
+      "stage_duration": 5000,
+      "stage_turn_rate": 360
+    },
+    {
+      "ignores_LOS": false,
+      "ignores_gravity": false,
+      "rotates_to_velocity": true,
+      "stage_duration": 5000,
+      "stage_turn_rate": 1080
+    }
+  ],
+  "turn_rate": 180,
+  "unit_types": [
+    "UNITTYPE_Mobile"
+  ]
+}

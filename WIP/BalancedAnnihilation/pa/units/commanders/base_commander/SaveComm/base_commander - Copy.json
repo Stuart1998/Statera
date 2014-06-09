@@ -1,1 +1,136 @@
-{"base_spec":"/pa/units/air/fabrication_aircraft/fabrication_aircraft.json","display_name":"Base Commander","description":"Base Commander Description - If you're seeing this, something is wrong in your commander.","si_name":"commander","display_group":99,"display_index":99,"max_health":12500,"build_metal_cost":25000,"buildable_types":"CmdBuild","show_in_orbital_layer":true,"armor_type":"AT_Commander","attachable":{"offsets":{"root":[0,0,0],"head":[0,0,10]}},"production":{"energy":1000,"metal":10},"storage":{"energy":20000,"metal":1000},"unit_types":["UNITTYPE_Commander","UNITTYPE_Construction","UNITTYPE_Mobile","UNITTYPE_Air","UNITTYPE_NoBuild"],"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Build","ORDER_Attack","ORDER_Reclaim","ORDER_Repair","ORDER_Assist","ORDER_Use","ORDER_FireSecondaryWeapon"],"transportable":{"size":1},"navigation":{"type":"air","acceleration":60,"brake":60,"move_speed":14,"turn_speed":90,"hover_time":20,"turn_in_place":false},"physics":{"radius":9,"push_class":100},"recon":{"observer":{"items":[{"layer":"surface_and_air","channel":"sight","shape":"capsule","radius":150}]}},"teleportable":{},"tools":[{"spec_id":"/pa/tools/commander_build_arm/commander_build_arm.json","aim_bone":"bone_turret","build_arm":true},{"spec_id":"/pa/units/commanders/base_commander/base_commander_tool_weapon.json","aim_bone":"bone_turret","muzzle_bone":"socket_rightMuzzle","primary_weapon":true,"aim_weapon":true},{"spec_id":"/pa/tools/uber_cannon/uber_cannon.json","aim_bone":"bone_turret","muzzle_bone":"socket_rightMuzzle","secondary_weapon":true,"ammo_weapon":true},{"spec_id":"/pa/tools/commander_death/commander_death.json","death_weapon":true}],"events":{"firing":{"audio_cue":"/SE/Weapons/commander/Commander_uber_what","effect_spec":"/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"}},"fx_offsets":[{"type":"build","filename":"/pa/effects/specs/fab_spray.pfx","bone":"socket_leftMuzzle"}],"audio":{"loops":{"build":{"cue":"/SE/Construction/Commander_contruction_beam_loop","flag":"build_target_changed","should_start_func":"has_build_target","should_stop_func":"no_build_target"},"move":{"cue":"/SE/Movement/commander/Commander_move_loop","flag":"vel_changed","should_start_func":"is_moving","should_stop_func":"is_not_moving"}}}}
+{
+  "armor_type": "AT_Commander",
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        10
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "build": {
+        "cue": "/SE/Construction/Commander_contruction_beam_loop",
+        "flag": "build_target_changed",
+        "should_start_func": "has_build_target",
+        "should_stop_func": "no_build_target"
+      },
+      "move": {
+        "cue": "/SE/Movement/commander/Commander_move_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/air/fabrication_aircraft/fabrication_aircraft.json",
+  "build_metal_cost": 25000,
+  "buildable_types": "CmdBuild",
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Attack",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use",
+    "ORDER_FireSecondaryWeapon"
+  ],
+  "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",
+  "display_group": 99,
+  "display_index": 99,
+  "display_name": "Base Commander",
+  "events": {
+    "firing": {
+      "audio_cue": "/SE/Weapons/commander/Commander_uber_what",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
+    }
+  },
+  "fx_offsets": [
+    {
+      "bone": "socket_leftMuzzle",
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "type": "build"
+    }
+  ],
+  "max_health": 12500,
+  "navigation": {
+    "acceleration": 60,
+    "brake": 60,
+    "hover_time": 20,
+    "move_speed": 14,
+    "turn_in_place": false,
+    "turn_speed": 90,
+    "type": "air"
+  },
+  "physics": {
+    "push_class": 100,
+    "radius": 9
+  },
+  "production": {
+    "energy": 1000,
+    "metal": 10
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 150,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "show_in_orbital_layer": true,
+  "si_name": "commander",
+  "storage": {
+    "energy": 20000,
+    "metal": 1000
+  },
+  "teleportable": {},
+  "tools": [
+    {
+      "aim_bone": "bone_turret",
+      "build_arm": true,
+      "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "aim_weapon": true,
+      "muzzle_bone": "socket_rightMuzzle",
+      "primary_weapon": true,
+      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "ammo_weapon": true,
+      "muzzle_bone": "socket_rightMuzzle",
+      "secondary_weapon": true,
+      "spec_id": "/pa/tools/uber_cannon/uber_cannon.json"
+    },
+    {
+      "death_weapon": true,
+      "spec_id": "/pa/tools/commander_death/commander_death.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Commander",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Air",
+    "UNITTYPE_NoBuild"
+  ]
+}

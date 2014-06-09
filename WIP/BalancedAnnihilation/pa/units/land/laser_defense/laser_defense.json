@@ -1,1 +1,80 @@
-{"base_spec":"/pa/units/land/base_structure/base_structure.json","display_name":"Laser Defense Tower","description":"Defense: Direct fire anti-land, and anti-ship defense","display_group":20,"display_index":95,"max_health":1500,"build_metal_cost":450,"atrophy_rate":25.0,"atrophy_cool_down":15.0,"spawn_layers":"WL_AnyHorizontalGroundOrWaterSurface","unit_types":["UNITTYPE_Structure","UNITTYPE_Basic","UNITTYPE_Land","UNITTYPE_SurfaceDefense","UNITTYPE_Defense","UNITTYPE_FabBuild"],"command_caps":["ORDER_Attack"],"guard_radius":120,"guard_layer":"WL_AnySurface","recon":{"observer":{"items":[{"layer":"surface_and_air","channel":"sight","shape":"capsule","radius":130}]}},"model":[{"layer":"WL_LandHorizontal","filename":"/pa/units/land/laser_defense/laser_defense.papa","animtree":"/pa/anim/anim_trees/defense_turret.json","skirt_decal":"/pa/effects/specs/skirt_defense.json"},{"layer":"WL_WaterSurface","filename":"/pa/units/sea/floating_laser/floating_laser.papa","animtree":"/pa/anim/anim_trees/defense_turret.json"}],"tools":[{"spec_id":"/pa/units/land/laser_defense/laser_defense_tool_weapon.json","aim_bone":"bone_pitch","muzzle_bone":["socket_rightMuzzle","socket_leftMuzzle"]}],"events":{"build_complete":{"audio_cue":"/SE/Build_Complete/structure_small"},"firing":{"audio_cue":"/SE/Weapons/structure/laser_defence_fire","effect_spec":"/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"},"died":{"audio_cue":"/SE/Death/structure_small","effect_scale":0.3}},"mesh_bounds":[5,5.76558,16.0541],"TEMP_texelinfo":10.2184,"area_build_separation":18}
+{
+  "TEMP_texelinfo": 10.2184,
+  "area_build_separation": 18,
+  "atrophy_cool_down": 15.0,
+  "atrophy_rate": 25.0,
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 450,
+  "command_caps": [
+    "ORDER_Attack"
+  ],
+  "description": "Defense: Direct fire anti-land, and anti-ship defense",
+  "display_group": 20,
+  "display_index": 95,
+  "display_name": "Laser Defense Tower",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/structure_small"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/structure_small",
+      "effect_scale": 0.3
+    },
+    "firing": {
+      "audio_cue": "/SE/Weapons/structure/laser_defence_fire",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
+    }
+  },
+  "guard_layer": "WL_AnySurface",
+  "guard_radius": 120,
+  "max_health": 1500,
+  "mesh_bounds": [
+    5,
+    5.76558,
+    16.0541
+  ],
+  "model": [
+    {
+      "animtree": "/pa/anim/anim_trees/defense_turret.json",
+      "filename": "/pa/units/land/laser_defense/laser_defense.papa",
+      "layer": "WL_LandHorizontal",
+      "skirt_decal": "/pa/effects/specs/skirt_defense.json"
+    },
+    {
+      "animtree": "/pa/anim/anim_trees/defense_turret.json",
+      "filename": "/pa/units/sea/floating_laser/floating_laser.papa",
+      "layer": "WL_WaterSurface"
+    }
+  ],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 130,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ],
+      "spec_id": "/pa/units/land/laser_defense/laser_defense_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Land",
+    "UNITTYPE_SurfaceDefense",
+    "UNITTYPE_Defense",
+    "UNITTYPE_FabBuild"
+  ]
+}

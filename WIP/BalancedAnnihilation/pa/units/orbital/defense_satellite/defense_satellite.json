@@ -1,1 +1,111 @@
-{"base_spec":"/pa/units/land/base_structure/base_structure.json","display_name":"Anchor","description":"Orbital Laser Platform: Heavy orbital offensive and defensive platform","max_health":2000,"build_metal_cost":4000,"spawn_layers":"WL_Orbital","system_velocity_multiplier":6.0,"gravwell_velocity_multiplier":6.0,"wreckage_health_frac":0.0,"area_build_type":"Sphere","area_build_separation":75,"attachable":{"offsets":{"root":[0,0,0]}},"unit_types":["UNITTYPE_Structure","UNITTYPE_Orbital","UNITTYPE_Defense","UNITTYPE_OrbitalDefense","UNITTYPE_Advanced","UNITTYPE_FabOrbBuild"],"command_caps":["ORDER_Attack","ORDER_Assist"],"guard_radius":280,"guard_layer":"WL_Orbital","navigation":{"type":"orbital","acceleration":0,"brake":0,"move_speed":0,"turn_speed":0,"hover_time":-1.0,"bank_factor":0},"physics":{"radius":15,"push_class":50,"gravity_scalar":0.001,"collision_layers":"WL_Orbital"},"recon":{"observer":{"items":[{"layer":"orbital","channel":"sight","shape":"sphere","radius":280}]}},"tools":[{"spec_id":"/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json","aim_bone":"bone_turret01","muzzle_bone":"bone_turret01"},{"spec_id":"/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json","aim_bone":"bone_turret02","muzzle_bone":"bone_turret02"},{"spec_id":"/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json","aim_bone":"bone_turret03","muzzle_bone":"bone_turret03"},{"spec_id":"/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json","aim_bone":"bone_turret04","muzzle_bone":"bone_turret04"}],"model":{"filename":"/pa/units/orbital/defense_satellite/defense_satellite.papa","animtree":"/pa/anim/anim_trees/defense_satellite.json"},"events":{"build_complete":{"audio_cue":"/SE/Build_Complete/orbital"},"firing":{"audio_cue":"/SE/Weapons/orb/defense_satellite_fire"},"died":{"audio_cue":"/SE/Death/orbital","effect_spec":"/pa/effects/specs/default_explosion.pfx"}},"mesh_bounds":[25,25,15],"placement_size":[30,30],"TEMP_texelinfo":26.4194}
+{
+  "TEMP_texelinfo": 26.4194,
+  "area_build_separation": 75,
+  "area_build_type": "Sphere",
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 4000,
+  "command_caps": [
+    "ORDER_Attack",
+    "ORDER_Assist"
+  ],
+  "description": "Orbital Laser Platform: Heavy orbital offensive and defensive platform",
+  "display_name": "Anchor",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/orbital",
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    },
+    "firing": {
+      "audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
+    }
+  },
+  "gravwell_velocity_multiplier": 6.0,
+  "guard_layer": "WL_Orbital",
+  "guard_radius": 280,
+  "max_health": 2000,
+  "mesh_bounds": [
+    25,
+    25,
+    15
+  ],
+  "model": {
+    "animtree": "/pa/anim/anim_trees/defense_satellite.json",
+    "filename": "/pa/units/orbital/defense_satellite/defense_satellite.papa"
+  },
+  "navigation": {
+    "acceleration": 0,
+    "bank_factor": 0,
+    "brake": 0,
+    "hover_time": -1.0,
+    "move_speed": 0,
+    "turn_speed": 0,
+    "type": "orbital"
+  },
+  "physics": {
+    "collision_layers": "WL_Orbital",
+    "gravity_scalar": 0.001,
+    "push_class": 50,
+    "radius": 15
+  },
+  "placement_size": [
+    30,
+    30
+  ],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "orbital",
+          "radius": 280,
+          "shape": "sphere"
+        }
+      ]
+    }
+  },
+  "spawn_layers": "WL_Orbital",
+  "system_velocity_multiplier": 6.0,
+  "tools": [
+    {
+      "aim_bone": "bone_turret01",
+      "muzzle_bone": "bone_turret01",
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret02",
+      "muzzle_bone": "bone_turret02",
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret03",
+      "muzzle_bone": "bone_turret03",
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret04",
+      "muzzle_bone": "bone_turret04",
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Defense",
+    "UNITTYPE_OrbitalDefense",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FabOrbBuild"
+  ],
+  "wreckage_health_frac": 0.0
+}
