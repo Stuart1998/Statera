@@ -86,6 +86,11 @@
       "aim_bone": "bone_pitch02",
       "muzzle_bone": "socket_leftMuzzle02",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_root",
+      "spec_id": "/pa/units/sea/destroyer/destroyer_tool_torpedo.json"
     }
   ],
   "unit_types": [

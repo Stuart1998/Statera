@@ -12,7 +12,7 @@
     "aggressive_distance": 25.0,
     "brake": 60,
     "hover_time": 10000.0,
-    "move_speed": 30,
+    "move_speed": 60,
     "turn_speed": 720,
     "type": "air",
     "vertical_speed": 50,
