@@ -74,7 +74,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 60,
-  "max_health": 50,
+  "max_health": 100,
   "model": {
     "animtree": "/pa/anim/anim_trees/fabrication_turret.json",
     "arrows": 5,

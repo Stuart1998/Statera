@@ -65,7 +65,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 110,
-  "max_health": 400,
+  "max_health": 800,
   "model": {
     "animations": {
       "aim_down": "/pa/units/land/bot_spider_adv/bot_spider_adv_anim_aimDown.papa",

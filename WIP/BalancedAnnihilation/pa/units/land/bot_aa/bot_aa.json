@@ -45,7 +45,7 @@
   },
   "guard_layer": "WL_Air",
   "guard_radius": 120,
-  "max_health": 80,
+  "max_health": 160,
   "model": {
     "animations": {
       "aim_down": "/pa/units/land/bot_aa/bot_aa_anim_aimDown.papa",

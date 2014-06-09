@@ -74,7 +74,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 60,
-  "max_health": 150,
+  "max_health": 300,
   "model": {
     "animations": {
       "death01": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_death01.papa",
