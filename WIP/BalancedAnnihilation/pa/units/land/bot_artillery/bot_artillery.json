@@ -1,0 +1,111 @@
+{
+  "TEMP_texelinfo": 4.07719,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        3.5
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/bot/assault_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "build_metal_cost": 90,
+  "description": "Stomper: Anti structure lobbing assault bot",
+  "display_group": 40,
+  "display_index": 80,
+  "display_name": "Stomper",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/bot"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Bot",
+      "effect_scale": 0.5,
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    },
+    "firing": {
+      "audio_cue": "/SE/Weapons/bot/assault_fire",
+      "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
+    }
+  },
+  "guard_layer": "WL_AnySurface",
+  "guard_radius": 90,
+  "max_health": 80,
+  "mesh_bounds": [
+    4,
+    3,
+    4
+  ],
+  "model": {
+    "animations": {
+      "aim_down": "/pa/units/land/bot_artillery/bot_artillery_anim_aimDown.papa",
+      "aim_up": "/pa/units/land/bot_artillery/bot_artillery_anim_aimUp.papa",
+      "death01": "/pa/units/land/bot_artillery/bot_artillery_anim_death01.papa",
+      "walk": "/pa/units/land/bot_artillery/bot_artillery_anim_run.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/bipedal_mech.json",
+    "filename": "/pa/units/land/bot_artillery/bot_artillery.papa",
+    "walk_speed": 8.4545
+  },
+  "navigation": {
+    "acceleration": 120,
+    "brake": 120,
+    "move_speed": 12,
+    "turn_speed": 720,
+    "type": "land-small"
+  },
+  "physics": {
+    "push_class": 2,
+    "radius": 2.0
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 85,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "tools": [
+    {
+      "aim_bone": "bone_leftRecoil",
+      "muzzle_bone": "socket_leftMuzzle",
+      "spec_id": "/pa/units/land/bot_artillery/bot_artillery_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_rightRecoil",
+      "muzzle_bone": "socket_rightMuzzle",
+      "spec_id": "/pa/units/land/bot_artillery/bot_artillery_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild"
+  ]
+}
