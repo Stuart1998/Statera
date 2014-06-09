@@ -80,11 +80,6 @@
         "socket_leftMuzzle02"
       ],
       "spec_id": "/pa/units/sea/frigate/frigate_tool_weapon_aa.json"
-    },
-    {
-      "aim_bone": "bone_root",
-      "muzzle_bone": "bone_root",
-      "spec_id": "/pa/units/sea/destroyer/destroyer_tool_torpedo.json"
     }
   ],
   "unit_types": [
