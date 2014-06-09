@@ -28,7 +28,7 @@
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
   },
-  "guard_layer": "WL_LandHorizontal",
+  "guard_layer": "WL_AnySurface",
   "guard_radius": 120,
   "headlights": [
     {
