@@ -47,7 +47,7 @@
 		}
 	},
 	"display_name": "Skitter",
-	"description": "Scout: Multi-Purpose, fast speed",
+	"description": "Scout: Light attack laser, fast speed",
 	"model": {
 		"filename": "/pa/units/land/land_scout/land_scout.papa",
 		"arrows": 5,

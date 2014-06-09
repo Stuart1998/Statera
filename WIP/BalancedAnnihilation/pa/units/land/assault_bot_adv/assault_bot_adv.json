@@ -25,8 +25,8 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 933,
-  "description": "Advanced Assault: Strong anti-land and anti-ship lasers",
+  "build_metal_cost": 300,
+  "description": "Shotgun Bot: Close range anti-land and anit-ship lasers.",
   "display_group": 40,
   "display_index": 100,
   "display_name": "Slammer",
@@ -81,7 +81,23 @@
       ]
     }
   },
-  "tools": [
+  "tools": [    
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ],
+      "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ],
+      "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
+    },
     {
       "aim_bone": "bone_turret",
       "muzzle_bone": [
