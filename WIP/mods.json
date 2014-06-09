@@ -1,0 +1,9 @@
+{
+    "mount_order": [
+        "com.squishypon3.balancedannihilation",
+        "com.uberent.pa.mods.stockmods.server.cheat.allow_change_control",
+        "com.uberent.pa.mods.stockmods.server.cheat.allow_change_vision",
+        "com.uberent.pa.mods.stockmods.server.cheat.allow_create_unit",
+        "com.uberent.pa.mods.stockmods.server.cheat.allow_mod_data_updates"
+    ]
+}
