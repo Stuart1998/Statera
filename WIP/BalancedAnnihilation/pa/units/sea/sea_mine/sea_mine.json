@@ -14,7 +14,7 @@
       "audio_cue": "/SE/Death/Sea"
     }
   },
-  "max_health": 50,
+  "max_health": 100,
   "model": {
     "filename": "/pa/units/sea/sea_mine/sea_mine.papa"
   },

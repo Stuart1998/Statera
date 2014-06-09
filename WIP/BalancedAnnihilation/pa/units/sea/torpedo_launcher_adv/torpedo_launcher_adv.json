@@ -23,7 +23,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 320,
-  "max_health": 4600,
+  "max_health": 9200,
   "model": {
     "animations": {
       "idle": "/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
