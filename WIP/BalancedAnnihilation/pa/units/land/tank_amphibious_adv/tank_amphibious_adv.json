@@ -71,12 +71,13 @@
       "spec_id": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv_tool_weapon.json"
     }
   ],
+  },
   "unit_types": [
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
-	"UNITTYPE_Advanced"
-	
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
   ],
   "wreckage_health_frac": 1.0
 }
