@@ -54,9 +54,9 @@
   ],
   "model": {
     "animations": {
-      "aim_up": "/pa/units/land/amphibious_bot/amphibious_bot_anim_aimUp.papa",
-      "death01": "/pa/units/land/amphibious_bot/amphibious_bot_anim_death01.papa",
-      "walk": "/pa/units/land/amphibious_bot/amphibious_bot_anim_run.papa"
+      "aim_up": "/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_aimUp.papa",
+      "death01": "/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_death01.papa",
+      "walk": "/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/bot_artillery_adv.json",
     "arrows": 5,
