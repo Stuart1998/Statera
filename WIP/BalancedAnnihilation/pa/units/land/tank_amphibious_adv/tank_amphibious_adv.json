@@ -12,10 +12,10 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 225,
-  "description": "Advanced Tank: Anti-land and anti-ship guns, amphibious",
+  "description": "Advanced Tank: Anti-land and anti-ship guns",
   "display_group": 40,
   "display_index": 100,
-  "display_name": "Croc",
+  "display_name": "Flux",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -38,12 +38,12 @@
     "filename": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.papa"
   },
   "navigation": {
-    "acceleration": 500,
-    "brake": 500,
+    "acceleration": 2,
+    "brake": 70,
     "dodge_multiplier": 1.0,
     "dodge_radius": 15,
     "move_speed": 6,
-    "turn_speed": 40,
+    "turn_speed": 60,
     "type": "amphibious",
     "wobble_factor": 0.1,
     "wobble_speed": 0.2
@@ -74,9 +74,7 @@
   "unit_types": [
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Land",
-	"UNITTYPE_Advanced"
-	
+    "UNITTYPE_Land"
   ],
   "wreckage_health_frac": 1.0
 }

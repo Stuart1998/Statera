@@ -1,7 +1,6 @@
 {
   "units": [
     "/pa/units/land/precision_launcher/precision_launcher.json",
-	"/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json",
     "/pa/units/air/transport_large/transport_large.json",
     "/pa/units/air/gunship_basic/gunship.json",
     "/pa/units/land/megabot/megabot.json",
