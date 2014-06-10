@@ -7,9 +7,6 @@
   "max_range": 100,
   "rate_of_fire": 0.33,
   "target_layers": [
-    "WL_Air",
-    "WL_LandHorizontal",
-    "WL_Seafloor",
-    "WL_WaterSurface"
+    "WL_Air"
   ]
 }

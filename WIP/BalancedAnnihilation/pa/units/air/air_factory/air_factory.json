@@ -14,7 +14,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 720,
+  "build_metal_cost": 1000,
   "buildable_types": "(Air & Mobile & Basic | Air & Fabber & Basic & Mobile) & FactoryBuild",
   "command_caps": [
     "ORDER_Move",
@@ -327,6 +327,7 @@
     "UNITTYPE_Air",
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
+    "UNITTYPE_CmdBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild"
   ],

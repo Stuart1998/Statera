@@ -1,9 +1,23 @@
 {
-  "TEMP_texelinfo": 4.07719,
+  "TEMP_texelinfo": 5.32966,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        4.2
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
   "audio": {
     "loops": {
       "move": {
-        "cue": "/SE/Movement/bot/assault_loop",
+        "cue": "/SE/Movement/bot/T2_artillery_loop",
         "flag": "vel_changed",
         "should_start_func": "is_moving",
         "should_stop_func": "is_not_moving"
@@ -11,57 +25,53 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 180,
-  "description": "Assault: Anti-land and anti-ship lasers",
-  "display_group": 40,
-  "display_index": 80,
-  "display_name": "Goose",
+  "build_metal_cost": 540,
+  "description": "Sniper Bot: Long range, anti-land, and anti-ship bot",
+  "display_group": 60,
+  "display_index": 100,
+  "display_name": "Gil-E",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
     },
     "died": {
       "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 0.5,
+      "effect_scale": 0.8,
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
     "firing": {
-      "audio_cue": "/SE/Weapons/bot/assault_fire",
-      "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
+      "audio_cue": "/SE/Weapons/bot/artillery_fire",
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_AnySurface",
-  "guard_radius": 90,
-  "max_health": 200,
+  "guard_radius": 140,
+  "max_health": 400,
   "mesh_bounds": [
-    3.59127,
-    2.45547,
-    3.58814
+    3.92307,
+    4.92093,
+    4.44499
   ],
   "model": {
     "animations": {
-      "aim_down": "/pa/units/land/amphibious_bot/amphibious_bot_anim_aim_dwn.papa",
-      "aim_up": "/pa/units/land/amphibious_bot/amphibious_bot_anim_aim_up.papa",
+      "aim_up": "/pa/units/land/amphibious_bot/amphibious_bot_anim_aimUp.papa",
       "death01": "/pa/units/land/amphibious_bot/amphibious_bot_anim_death01.papa",
       "walk": "/pa/units/land/amphibious_bot/amphibious_bot_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bipedal_mech.json",
+    "animtree": "/pa/anim/anim_trees/amphibious_bot.json",
+    "arrows": 5,
     "filename": "/pa/units/land/amphibious_bot/amphibious_bot.papa",
-    "walk_speed": 8.4545
+    "walk_speed": 11.5636
   },
   "navigation": {
-    "acceleration": 150,
-    "brake": 150,
-    "dodge_multiplier": 1.0,
-    "dodge_radius": 15,
+    "acceleration": 120,
+    "brake": 120,
     "move_speed": 12,
     "turn_speed": 720,
-    "type": "land-small",
-    "wobble_factor": 0.1,
-    "wobble_speed": 0.2
+    "type": "amphibious"
   },
+  "nearby_target_tick_update_interval": 15,
   "physics": {
-    "air_friction": 0.5,
     "push_class": 2,
     "radius": 2.0
   },
@@ -71,7 +81,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 85,
+          "radius": 100,
           "shape": "capsule"
         }
       ]
@@ -79,20 +89,20 @@
   },
   "tools": [
     {
-      "aim_bone": "socket_aim",
-      "muzzle_bone": "socket_rightMuzzle",
-      "spec_id": "/pa/units/land/amphibious_bot/amphibious_bot_tool_weapon.json"
-    },
-    {
-      "aim_bone": "socket_aim",
-      "muzzle_bone": "socket_leftMuzzle",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_muzzle",
       "spec_id": "/pa/units/land/amphibious_bot/amphibious_bot_tool_weapon.json"
     }
   ],
+  "transportable": {
+    "size": 1
+  },
   "unit_types": [
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
-    "UNITTYPE_Basic"
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
   ]
 }

@@ -29,14 +29,6 @@
 	"guard_layer": "WL_AnySurface",
 	"tools": [{
 		"aim_bone": "bone_root",
-		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon_fake.json",
-		"muzzle_bone": "bone_root",
-		"primary_weapon": true,
-		"aim_weapon": true
-
-	},
-	{
-		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
 		"muzzle_bone": "bone_root",
 		"primary_weapon": false
