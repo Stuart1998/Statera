@@ -3,7 +3,7 @@
   "build_metal_cost": 12000,
   "collision_check": "ground",
   "cruise_height": 100,
-  "damage": 2500,
+  "damage": 5000,
   "events": {
     "collided": {
       "audio_cue": "/SE/Impacts/missile_tactical",
