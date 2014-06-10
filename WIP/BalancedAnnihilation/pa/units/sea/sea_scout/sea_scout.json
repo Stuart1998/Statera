@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 225,
-  "description": "Scout Class: Light weaponry, fast speed",
+  "description": "Scout Class: Light anti-everything missile, fast speed",
   "display_group": 80,
   "display_index": 80,
   "display_name": "Sun Fish",
