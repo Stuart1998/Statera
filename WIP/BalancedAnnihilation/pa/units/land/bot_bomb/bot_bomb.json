@@ -1,98 +1,92 @@
 {
-  "TEMP_texelinfo": 6.38702,
-  "attachable": {
-    "offsets": {
-      "head": [
-        0,
-        0,
-        1.8
-      ],
-      "root": [
-        0,
-        0,
-        0
-      ]
-    }
-  },
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/bot/T2_bot_bomb_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 60,
-  "description": "Self Destruction Bot",
-  "display_group": 40,
-  "display_index": 60,
-  "display_name": "Boom",
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
-    },
-    "died": {
-      "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 0.8
-    }
-  },
-  "guard_layer": "WL_LandHorizontal",
-  "guard_radius": 110,
-  "max_health": 200,
-  "model": {
-    "animations": {
-      "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
-      "walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/bot_bomb.json",
-    "arrows": 5,
-    "filename": "/pa/units/land/bot_bomb/bot_bomb.papa",
-    "walk_speed": 20
-  },
-  "navigation": {
-    "acceleration": 200,
-    "brake": 200,
-    "move_speed": 20,
-    "turn_speed": 720,
-    "type": "land-small"
-  },
-  "physics": {
-    "allow_pushing": true,
-    "push_class": 2,
-    "radius": 2.25
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "surface_and_air",
-          "radius": 100,
-          "shape": "capsule"
-        }
-      ]
-    }
-  },
-  "spawn_layers": "WL_LandHorizontal",
-  "tools": [
-    {
-      "aim_bone": "bone_root",
-      "muzzle_bone": "bone_root",
-      "spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_weapon.json"
-    }
-  ],
-  "transportable": {
-    "size": 1
-  },
-  "unit_types": [
-    "UNITTYPE_Bot",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Land",
-    "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
-  ],
-  "wreckage_health_frac": 0.0
+	"recon": {
+		"observer": {
+			"items": [{
+				"channel": "sight",
+				"layer": "surface_and_air",
+				"radius": 100,
+				"shape": "capsule"
+			}]
+		}
+	},
+	"transportable": {
+		"size": 1
+	},
+	"physics": {
+		"allow_pushing": true,
+		"push_class": 2,
+		"radius": 2.25
+	},
+	"spawn_layers": "WL_LandHorizontal",
+	"base_spec": "/pa/units/land/base_bot/base_bot.json",
+	"guard_layer": "WL_LandHorizontal",
+	"display_index": 60,
+	"audio": {
+		"loops": {
+			"move": {
+				"should_start_func": "is_moving",
+				"cue": "/SE/Movement/bot/T2_fab_loop",
+				"should_stop_func": "is_not_moving",
+				"flag": "vel_changed"
+			}
+		}
+	},
+	"wreckage_health_frac": 0,
+	"model": {
+		"animations": {
+			"walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa",
+			"death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa"
+		},
+		"filename": "/pa/units/land/bot_bomb/bot_bomb.papa",
+		"arrows": 5,
+		"walk_speed": 20,
+		"animtree": "/pa/anim/anim_trees/bot_bomb.json"
+	},
+	"max_health": 20,
+	"display_group": 40,
+	"events": {
+		"died": {
+			"effect_scale": 2.5,
+			"audio_cue": "/SE/Death/Bot"
+		},
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/bot"
+		}
+	},
+	"attachable": {
+		"offsets": {
+			"head": [0,
+			0,
+			1.8],
+			"root": [0,
+			0,
+			0]
+		}
+	},
+	"display_name": "Boom",
+	"description": "Self Destruction Bot",
+	"build_metal_cost": 50,
+	"TEMP_texelinfo": 6.38702,
+	"guard_radius": 110,
+	"tools": [{
+		"spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_weapon.json",
+		"muzzle_bone": "bone_root",
+		"aim_bone": "bone_root"
+	},
+	{
+		"death_weapon": true,
+		"spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_deathweapon.json"
+	}],
+	"unit_types": ["UNITTYPE_Bot",
+	"UNITTYPE_Mobile",
+	"UNITTYPE_Land",
+	"UNITTYPE_Basic",
+	"UNITTYPE_FactoryBuild"],
+	"navigation": {
+		"move_speed": 25,
+		"type": "land-small",
+		"turn_speed": 720,
+		"brake": 200,
+		"acceleration": 200
+	}
 }
