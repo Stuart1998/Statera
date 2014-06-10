@@ -53,7 +53,7 @@
 		"arrows": 5,
 		"filename": "/pa/units/air/fighter/fighter.papa"
 	},
-	"description": "Fighter: Armed with a multi-purpose missile launcher.",
+	"description": "Fighter: Anti-air missiles.",
 	"recon": {
 		"observer": {
 			"items": [{

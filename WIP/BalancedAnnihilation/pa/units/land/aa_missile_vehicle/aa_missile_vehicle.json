@@ -26,10 +26,10 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 150,
-  "description": "AA: Anti-air missiles",
+  "description": "AA: Anti everything missiles.",
   "display_group": 60,
   "display_index": 80,
-  "display_name": "Spinner",
+  "display_name": "Slasher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
