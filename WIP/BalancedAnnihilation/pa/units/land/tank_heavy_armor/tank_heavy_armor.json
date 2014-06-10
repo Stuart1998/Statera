@@ -25,11 +25,11 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 1800,
-  "description": "Vanguard: Short range, heavily armored vehicle.",
+  "build_metal_cost": 1800000,
+  "description": "Vanguard: Incomplete, OP as heck tank that needs a rework.",
   "display_group": 60,
   "display_index": 115,
-  "display_name": "Vanguard",
+  "display_name": "Don't build me I need a rework. :)",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
