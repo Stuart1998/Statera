@@ -1,1 +1,5 @@
-{"tool_type": "TOOL_Weapon","ammo_id": "/pa/units/land/bot_bomb/bot_bomb_ammo.json","manual_fire":true}
+{
+  "ammo_id": "/pa/units/land/bot_bomb/bot_bomb_ammo.json",
+  "manual_fire": true,
+  "tool_type": "TOOL_Weapon"
+}
