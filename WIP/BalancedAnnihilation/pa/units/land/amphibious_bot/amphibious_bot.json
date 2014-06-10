@@ -46,7 +46,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 140,
-  "max_health": 400,
+  "max_health": 140,
   "mesh_bounds": [
     3.92307,
     4.92093,
@@ -58,10 +58,10 @@
       "death01": "/pa/units/land/amphibious_bot/amphibious_bot_anim_death01.papa",
       "walk": "/pa/units/land/amphibious_bot/amphibious_bot_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/amphibious_bot.json",
+    "animtree": "/pa/anim/anim_trees/bot_artillery_adv.json",
     "arrows": 5,
-    "filename": "/pa/units/land/amphibious_bot/amphibious_bot.papa",
-    "walk_speed": 11.5636
+    "filename": "/pa/units/land/bot_artillery_adv/bot_artillery_adv.papa",
+    "walk_speed": 16
   },
   "navigation": {
     "acceleration": 120,
