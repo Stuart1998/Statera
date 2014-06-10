@@ -10,7 +10,7 @@
     }
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 1440,
+  "build_metal_cost": 400,
   "description": "Gunship: Strong anti-ground. No anti-air capabilities.",
   "display_group": 60,
   "display_index": 105,
@@ -77,7 +77,7 @@
   ],
   "guard_layer": "WL_Anysurface",
   "guard_radius": 100,
-  "max_health": 480,
+  "max_health": 160,
   "model": {
     "animations": {
       "aim_down": "/pa/units/air/gunship/gunship_anim_aimDown.papa",

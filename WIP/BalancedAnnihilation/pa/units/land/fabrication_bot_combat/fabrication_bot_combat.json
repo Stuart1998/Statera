@@ -75,7 +75,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 50,
-  "max_health": 50,
+  "max_health": 200,
   "model": {
     "animations": {
       "death01": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_death01.papa",
