@@ -4,14 +4,14 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 10.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 250,
+  "build_metal_cost": 900,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Direct fire anti-land, and anti-ship defense",
+  "description": "Sniper Tower: Long range anti-land and anti-ship lasers.",
   "display_group": 20,
   "display_index": 95,
-  "display_name": "Light Defense Tower",
+  "display_name": "Long Range Defense Tower",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"
@@ -27,7 +27,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 120,
-  "max_health": 1000,
+  "max_health": 1500,
   "mesh_bounds": [
     5,
     5.76558,
@@ -36,13 +36,13 @@
   "model": [
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single.json",
-      "filename": "/pa/units/land/laser_defense_single/laser_defense_single.papa",
+      "filename": "/pa/units/land/laser_defense_sniper/laser_defense_single.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     },
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_single.json",
-      "filename": "/pa/units/sea/floating_laser_single/floating_laser_single.papa",
+      "filename": "/pa/units/sea/floating_laser_sniper/floating_laser_sniper.papa",
       "layer": "WL_WaterSurface"
     }
   ],
@@ -65,7 +65,7 @@
       "muzzle_bone": [
         "socket_muzzle"
       ],
-      "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single_tool_weapon.json"
+      "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_tool_weapon.json"
     }
   ],
   "unit_types": [
@@ -75,6 +75,5 @@
     "UNITTYPE_SurfaceDefense",
     "UNITTYPE_Defense",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_CmdBuild"
   ]
 }

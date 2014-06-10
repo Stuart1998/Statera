@@ -1,11 +1,11 @@
 {
-  "ammo_id": "/pa/units/land/laser_defense_single/laser_defense_single_ammo.json",
+  "ammo_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_ammo.json",
   "auto_attack": true,
   "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
-  "max_range": 105,
+  "max_range": 190,
   "pitch_range": 90,
   "pitch_rate": 13,
-  "rate_of_fire": 4,
+  "rate_of_fire": 0.1,
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Seafloor",
