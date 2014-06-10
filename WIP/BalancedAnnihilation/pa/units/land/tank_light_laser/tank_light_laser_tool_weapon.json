@@ -7,6 +7,7 @@
   "pitch_range": 40,
   "pitch_rate": 40,
   "rate_of_fire": 0.5,
+  "firing_standard_deviation": 1,
   "spread_fire": true,
   "target_layers": [
     "WL_LandHorizontal",
@@ -14,5 +15,5 @@
     "WL_WaterSurface"
   ],
   "yaw_range": 180,
-  "yaw_rate": 40
+  "yaw_rate": 30
 }
