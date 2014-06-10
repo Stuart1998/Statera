@@ -48,12 +48,17 @@ function BuildHotkeyModel() {
             "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json": ["vehicle", 7],
 			"/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json",: ["vehicle", 8],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 9],
             "/pa/units/land/fabrication_vehicle/.json": ["vehicle", 10],            "/pa/units/land/tank_light_laser/tank_light_laser.json": ["vehicle", 11],
 =======
             "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 10],                        
             "/pa/units/land/tank_light_laser/tank_light_laser.json": ["vehicle", 11],
 >>>>>>> parent of bf63dff... Fixed the derpery.
+=======
+            "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 10],
+            "/pa/units/land/tank_hover/tank_hover.json": ["vehicle", 9],            "/pa/units/land/tank_light_laser/tank_light_laser.json": ["vehicle", 11],
+>>>>>>> parent of b62eefa... Fixed more derpery.
             "/pa/units/land/tank_armor/tank_armor.json": ["vehicle", 12],
             "/pa/units/land/land_scout/land_scout.json": ["vehicle", 13],
             "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 14],
