@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 90,
+  "build_metal_cost": 130,
   "description": "Assault: Anti-land and anti-ship lasers",
   "display_group": 40,
   "display_index": 80,
@@ -46,7 +46,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 90,
-  "max_health": 160,
+  "max_health": 120,
   "mesh_bounds": [
     4,
     3,
@@ -66,7 +66,7 @@
   "navigation": {
     "acceleration": 120,
     "brake": 120,
-    "move_speed": 12,
+    "move_speed": 13,
     "turn_speed": 720,
     "type": "land-small"
   },
