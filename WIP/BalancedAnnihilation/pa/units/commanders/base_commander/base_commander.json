@@ -75,7 +75,7 @@
   },
   "production": {
     "energy": 1000,
-    "metal": 10
+    "metal": 30
   },
   "recon": {
     "observer": {
