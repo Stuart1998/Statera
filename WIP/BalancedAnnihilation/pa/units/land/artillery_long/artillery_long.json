@@ -10,7 +10,7 @@
   "description": "Advanced Defense: long range, anti-land, and anti-ship gun",
   "display_group": 50,
   "display_index": 55,
-  "display_name": "Holkins",
+  "display_name": "Lobber",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"
