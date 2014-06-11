@@ -29,7 +29,7 @@
   "description": "Assault: Anti-land and anti-ship lasers",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Dox",
+  "display_name": "Scamper",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

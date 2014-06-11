@@ -1,6 +1,6 @@
 {
   "ammo_type": "Projectile",
-  "build_metal_cost": 12000,
+  "build_metal_cost": 8000,
   "collision_check": "ground",
   "cruise_height": 100,
   "damage": 5000,
