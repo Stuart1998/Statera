@@ -67,7 +67,7 @@
     "type": "land-small"
   },
   "physics": {
-    "push_class": 2,
+    "push_class": 75,
     "radius": 3.5
   },
   "recon": {
