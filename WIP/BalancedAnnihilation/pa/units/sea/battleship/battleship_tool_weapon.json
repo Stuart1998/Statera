@@ -5,11 +5,10 @@
   "firing_standard_deviation": 1,
   "max_firing_velocity": 800,
   "max_range": 400,
-  "min_range": 80,
   "min_firing_velocity": 100,
   "pitch_range": 80,
   "pitch_rate": 45,
-  "rate_of_fire": 0.1,
+  "rate_of_fire": 1.2,
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Seafloor",

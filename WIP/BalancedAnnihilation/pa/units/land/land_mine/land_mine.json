@@ -1,12 +1,11 @@
 {
   "TEMP_texelinfo": 2.37699,
   "area_build_separation": 1.0,
-  "area_build_type": "Rect",
   "build_metal_cost": 20,
-  "description": "Land Mine: Detonates when enemy combat units get too close",
+  "description": "Mine: Detonates when enemy combat units get too close",
   "display_group": 50,
   "display_index": 40,
-  "display_name": "Land Mine",
+  "display_name": "Mine",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/barrier"
@@ -17,7 +16,7 @@
       "effect_scale": 2.5
     }
   },
-  "max_health": 100,
+  "max_health": 5,
   "mesh_bounds": [
     4.0,
     4.0,
@@ -26,7 +25,7 @@
   "model": [
     {
       "filename": "/pa/units/land/land_mine/land_mine.papa",
-      "layer": "WL_LandHorizontal"
+      "layer": "WL_AnyHorizontalGroundOrWaterSurface"
     }
   ],
   "physics": {
@@ -53,7 +52,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_LandHorizontal",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "bone_root",
@@ -63,7 +62,6 @@
   ],
   "unit_types": [
     "UNITTYPE_Basic",
-    "UNITTYPE_Land",
     "UNITTYPE_Defense",
     "UNITTYPE_CombatFabBuild",
     "UNITTYPE_CombatFabAdvBuild"

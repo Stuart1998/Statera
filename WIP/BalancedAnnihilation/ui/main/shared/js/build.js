@@ -93,12 +93,14 @@ function BuildHotkeyModel() {
             "/pa/units/air/air_scout/air_scout.json": ["air", 14],
 
             "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.json": ["sea",5],
-            "/pa/units/sea/battleship/battleship.json": ["sea", 6],
+            "/pa/units/sea/battleship/battleship.json": ["sea", 8],
             "/pa/units/sea/missile_ship/missile_ship.json": ["sea", 7],
             "/pa/units/sea/fabrication_ship/fabrication_ship.json": ["sea", 10],
-            "/pa/units/sea/frigate/frigate.json": ["sea", 11],
-            "/pa/units/sea/destroyer/destroyer.json": ["sea", 12],
-            "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 13],
+            "/pa/units/sea/frigate/frigate.json": ["sea", 6],
+            "/pa/units/sea/destroyer/destroyer.json": ["sea", 13],
+            "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 11],
+            "/pa/units/sea/attack_sub/attack_sub.json": ["sea", 12],
+            "/pa/units/sea/fabrication_sub/fabrication_sub.json": ["sea", 14],
 
             "/pa/units/land/land_mine/land_mine.json": ["ammo", 11],
             "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 12],

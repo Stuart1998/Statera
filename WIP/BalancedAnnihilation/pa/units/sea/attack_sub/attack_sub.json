@@ -11,11 +11,11 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 900,
-  "description": "Submarine Class: Anti-sub and anti-ship torpedoes",
+  "build_metal_cost": 220,
+  "description": "Torpedo Boat, fast, cheap, naval only.",
   "display_group": 40,
   "display_index": 60,
-  "display_name": "Dolphin",
+  "display_name": "SeaBass",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
@@ -27,23 +27,19 @@
       "audio_cue": "/SE/Weapons/sea/attack_sub_fire"
     }
   },
-  "guard_layer": "WL_Underwater",
-  "guard_radius": 200,
-  "max_health": 280,
+  "guard_layer": "WL_WaterSurface",
+  "guard_radius": 160,
+  "max_health": 410,
   "model": {
     "arrows": 5,
     "filename": "/pa/units/sea/attack_sub/attack_sub.papa"
   },
   "navigation": {
-    "acceleration": 1,
-    "brake": 1,
-    "dodge_multiplier": 1.0,
-    "dodge_radius": 15,
+    "acceleration": 8,
+    "brake": 10,
     "move_speed": 10,
-    "turn_speed": 30,
-    "type": "underwater",
-    "wobble_factor": 0.1,
-    "wobble_speed": 0.2
+    "turn_speed": 60,
+    "type": "water"
   },
   "physics": {
     "push_class": 2,
@@ -61,7 +57,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_Underwater",
+  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_root",
@@ -73,6 +69,7 @@
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
-    "UNITTYPE_Sub"
-  ]
+    "UNITTYPE_FactoryBuild"
+  ],
+  "wreckage_health_frac": 0.0
 }

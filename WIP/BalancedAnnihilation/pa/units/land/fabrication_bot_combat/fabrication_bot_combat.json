@@ -46,7 +46,7 @@
   "description": "Fabrication: Builds Mines and repairs units. Can only build units for which it has a blueprint.",
   "display_group": 100,
   "display_index": 80,
-  "display_name": "Fabrication Bot Combat",
+  "display_name": "Combat Fabrication Bot",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

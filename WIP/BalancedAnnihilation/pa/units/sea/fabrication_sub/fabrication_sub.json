@@ -17,8 +17,9 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 450,
-  "buildable_types": "Naval & Structure & Basic | Naval & Factory & Advanced",
+  "build_metal_cost": 720,
+  "buildable_types": "CombatFabBuild",
+  "can_only_assist_with_buildable_items": true,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -27,10 +28,10 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Fabricator: Builds naval structures",
+  "description": "Repairs, Reclaims, Lays Mines, Can Not Build Structures.",
   "display_group": 100,
   "display_index": 20,
-  "display_name": "Fabrication Sub",
+  "display_name": "Combat Fabrication Boat",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -42,7 +43,7 @@
   "fx_offsets": [
     {
       "bone": "socket_muzzle",
-      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "filename": "/pa/effects/specs/fab_combat_spray.pfx",
       "offset": [
         0,
         0,
@@ -56,7 +57,7 @@
       "type": "build"
     }
   ],
-  "max_health": 300,
+  "max_health": 150,
   "model": {
     "animtree": "/pa/anim/anim_trees/fabrication_turret.json",
     "filename": "/pa/units/sea/fabrication_sub/fabrication_sub.papa"
@@ -64,13 +65,9 @@
   "navigation": {
     "acceleration": 50,
     "brake": 50,
-    "dodge_multiplier": 1.0,
-    "dodge_radius": 15,
-    "move_speed": 10,
+    "move_speed": 12,
     "turn_speed": 90,
-    "type": "water",
-    "wobble_factor": 0.1,
-    "wobble_speed": 0.2
+    "type": "water"
   },
   "physics": {
     "allow_pushing": true,
@@ -96,6 +93,9 @@
       "spec_id": "/pa/units/sea/fabrication_sub/fabrication_sub_build_arm.json"
     }
   ],
+  "transportable": {
+    "size": 1
+  },
   "unit_types": [
     "UNITTYPE_Fabber",
     "UNITTYPE_Naval",

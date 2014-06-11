@@ -11,8 +11,8 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 8640,
-  "description": "Artillery Class: Long range guided missiles",
+  "build_metal_cost": 8800,
+  "description": "Long Range Powerful Strike Missiles",
   "display_group": 20,
   "display_index": 80,
   "display_name": "Stingray",
@@ -27,8 +27,8 @@
       "audio_cue": "/SE/Weapons/sea/T2_missile_ship_fire"
     }
   },
-  "guard_layer": "WL_AnySurface",
-  "guard_radius": 460,
+  "guard_layer": "WL_HorizontalSurface",
+  "guard_radius": 420,
   "max_health": 2000,
   "mesh_bounds": [
     10,
@@ -40,8 +40,8 @@
     "filename": "/pa/units/sea/missile_ship/missile_ship.papa"
   },
   "navigation": {
-    "acceleration": 1,
-    "brake": 0.25,
+    "acceleration": 3,
+    "brake": 1,
     "move_speed": 5,
     "turn_speed": 15,
     "type": "water"
@@ -57,7 +57,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
+          "radius": 180,
           "shape": "capsule"
         }
       ]
@@ -82,5 +82,6 @@
     "UNITTYPE_Advanced",
     "UNITTYPE_Tactical",
     "UNITTYPE_FactoryBuild"
-  ]
+  ],
+  "wreckage_health_frac": 0
 }

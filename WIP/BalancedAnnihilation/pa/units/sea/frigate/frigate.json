@@ -11,8 +11,8 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 360,
-  "description": "Frigate Class: Anti-air missiles, anti-ship guns",
+  "build_metal_cost": 4400,
+  "description": "Large AOE Rapidfire Flak Cannon, Moderate Multipurpose Machinegun.",
   "display_group": 60,
   "display_index": 100,
   "display_name": "Narwhal",
@@ -28,8 +28,8 @@
     }
   },
   "guard_layer": "WL_AnySurface",
-  "guard_radius": 220,
-  "max_health": 1120,
+  "guard_radius": 200,
+  "max_health": 800,
   "mesh_bounds": [
     5,
     20,
@@ -41,9 +41,9 @@
     "filename": "/pa/units/sea/frigate/frigate.papa"
   },
   "navigation": {
-    "acceleration": 3,
+    "acceleration": 5,
     "brake": 3,
-    "move_speed": 7,
+    "move_speed": 8,
     "turn_speed": 20,
     "type": "water"
   },
@@ -58,7 +58,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 150,
+          "radius": 180,
           "shape": "capsule"
         }
       ]
@@ -82,11 +82,15 @@
       "spec_id": "/pa/units/sea/frigate/frigate_tool_weapon_aa.json"
     }
   ],
+  "transportable": {
+    "size": 1
+  },
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Advanced",
     "UNITTYPE_AirDefense",
     "UNITTYPE_FactoryBuild"
-  ]
+  ],
+  "wreckage_health_frac": 0.0
 }

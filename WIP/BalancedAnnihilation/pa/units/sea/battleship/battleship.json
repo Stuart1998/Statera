@@ -11,8 +11,8 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 8640,
-  "description": "Battleship Class: Long range, anti-ship, and anti-land guns",
+  "build_metal_cost": 8800,
+  "description": "Massive ship, Huge Range, Rapidfire Artillery",
   "display_group": 20,
   "display_index": 100,
   "display_name": "Leviathan",
@@ -29,7 +29,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 270,
-  "max_health": 6750,
+  "max_health": 3600,
   "mesh_bounds": [
     12,
     90,
@@ -41,7 +41,7 @@
     "filename": "/pa/units/sea/battleship/battleship.papa"
   },
   "navigation": {
-    "acceleration": 1,
+    "acceleration": 3,
     "brake": 1,
     "move_speed": 5,
     "turn_speed": 15,
@@ -59,7 +59,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 200,
+          "radius": 180,
           "shape": "capsule"
         }
       ]
@@ -70,20 +70,8 @@
     {
       "aim_bone": "bone_pitch01",
       "muzzle_bone": [
-        "socket_muzzle01"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch01",
-      "muzzle_bone": [
-        "socket_muzzle02"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch01",
-      "muzzle_bone": [
+        "socket_muzzle01",
+        "socket_muzzle02",
         "socket_muzzle03"
       ],
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
@@ -91,20 +79,8 @@
     {
       "aim_bone": "bone_pitch02",
       "muzzle_bone": [
-        "socket_muzzle04"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch02",
-      "muzzle_bone": [
-        "socket_muzzle05"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch02",
-      "muzzle_bone": [
+        "socket_muzzle04",
+        "socket_muzzle05",
         "socket_muzzle06"
       ],
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
@@ -112,20 +88,8 @@
     {
       "aim_bone": "bone_pitch03",
       "muzzle_bone": [
-        "socket_muzzle07"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch03",
-      "muzzle_bone": [
-        "socket_muzzle08"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch03",
-      "muzzle_bone": [
+        "socket_muzzle07",
+        "socket_muzzle08",
         "socket_muzzle09"
       ],
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
@@ -133,20 +97,8 @@
     {
       "aim_bone": "bone_pitch04",
       "muzzle_bone": [
-        "socket_muzzle10"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch04",
-      "muzzle_bone": [
-        "socket_muzzle11"
-      ],
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
-    },
-    {
-      "aim_bone": "bone_pitch04",
-      "muzzle_bone": [
+        "socket_muzzle10",
+        "socket_muzzle11",
         "socket_muzzle12"
       ],
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
@@ -157,5 +109,6 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild"
-  ]
+  ],
+  "wreckage_health_frac": 0.0
 }

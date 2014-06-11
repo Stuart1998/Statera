@@ -11,11 +11,11 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 225,
-  "description": "Scout Class: Light anti-everything missile, fast speed",
+  "build_metal_cost": 160,
+  "description": "Cheap, fast, air/surface missiles.",
   "display_group": 80,
   "display_index": 80,
-  "display_name": "Sun Fish",
+  "display_name": "SunFish",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Weapons/sea/sea_scout_fire"
     }
   },
-  "max_health": 400,
+  "max_health": 160,
   "model": {
     "animations": {
       "idle": "/pa/units/sea/sea_scout/sea_scout_anim_idle.papa"
@@ -39,7 +39,7 @@
   "navigation": {
     "acceleration": 8,
     "brake": 10,
-    "move_speed": 16,
+    "move_speed": 10,
     "turn_speed": 60,
     "type": "water"
   },
@@ -53,7 +53,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 250,
+          "radius": 120,
           "shape": "capsule"
         }
       ]
@@ -69,9 +69,9 @@
   ],
   "unit_types": [
     "UNITTYPE_Naval",
-    "UNITTYPE_Scout",
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
-  ]
+  ],
+  "wreckage_health_frac": 0.0
 }
