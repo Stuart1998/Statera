@@ -13,7 +13,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 78000,
+  "build_metal_cost": 48000,
   "description": "Delta V Engine - Used to move small to medium celestial bodies.",
   "display_group": 70,
   "display_index": 20,

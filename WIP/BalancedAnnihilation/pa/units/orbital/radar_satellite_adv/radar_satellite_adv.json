@@ -10,7 +10,7 @@
     }
   },
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 5300,
+  "build_metal_cost": 1200,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -51,10 +51,10 @@
     "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa"
   },
   "navigation": {
-    "acceleration": 10,
-    "brake": 10,
+    "acceleration": 8,
+    "brake": 0,
     "hover_time": -1.0,
-    "move_speed": 10,
+    "move_speed": 30,
     "turn_speed": 90,
     "type": "orbital"
   },
