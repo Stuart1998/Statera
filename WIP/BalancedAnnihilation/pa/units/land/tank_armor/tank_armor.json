@@ -55,7 +55,7 @@
     "acceleration": 100,
     "brake": 100,
     "group_preference": "front",
-    "move_speed": 10,
+    "move_speed": 8,
     "turn_speed": 180,
     "type": "land-small"
   },
