@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 500,
+  "build_metal_cost": 250,
   "description": "Vanguard: Unarmed, heavily armored tank.",
   "display_group": 60,
   "display_index": 115,
@@ -45,7 +45,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 40,
-  "max_health": 2000,
+  "max_health": 2500,
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_armor.json",
     "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa"
