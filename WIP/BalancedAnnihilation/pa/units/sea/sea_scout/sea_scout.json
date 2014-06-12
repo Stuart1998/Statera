@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Weapons/sea/sea_scout_fire"
     }
   },
-  "max_health": 160,
+  "max_health": 320,
   "model": {
     "animations": {
       "idle": "/pa/units/sea/sea_scout/sea_scout_anim_idle.papa"
