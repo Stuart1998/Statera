@@ -11,7 +11,7 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 4400,
+  "build_metal_cost": 900,
   "description": "Large AOE Rapidfire Flak Cannon, Moderate Multipurpose Machinegun.",
   "display_group": 60,
   "display_index": 100,
