@@ -4,7 +4,7 @@
   "build_metal_cost": 32400,
   "collision_check": "ground",
   "cruise_height": 100,
-  "damage": 11000,
+  "damage": 4000,
   "flight_type": "Staged",
   "full_damage_splash_radius": 30,
   "fx_trail": {
@@ -35,7 +35,7 @@
   "show_strategic_icon": true,
   "sim_impact_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
   "spawn_layers": "WL_Air",
-  "splash_damage": 11000,
+  "splash_damage": 4000,
   "splash_damages_allies": true,
   "splash_radius": 150,
   "stages": [

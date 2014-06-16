@@ -6,7 +6,7 @@
   "burn_radius": 137,
   "collision_check": "ground",
   "cruise_height": 100,
-  "damage": 11000,
+  "damage": 4000,
   "damage_volume": {
     "burnable_remove_radius": 100.0,
     "delay": 1.0,
