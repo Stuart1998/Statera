@@ -56,13 +56,13 @@
     },
     "animtree": "/pa/anim/anim_trees/bipedal_mech.json",
     "filename": "/pa/units/land/assault_bot_adv/assault_bot_adv.papa",
-    "walk_speed": 12
+    "walk_speed": 10
   },
   "navigation": {
     "acceleration": 120,
     "brake": 120,
     "group_preference": "front",
-    "move_speed": 12,
+    "move_speed": 10,
     "turn_speed": 720,
     "type": "land-small"
   },

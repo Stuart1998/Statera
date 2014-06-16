@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_shell/base_shell.json",
-  "damage": 400,
+  "damage": 1200,
   "fx_trail": {
     "filename": "/pa/effects/specs/rocket_proj_trail.pfx",
     "offset": [

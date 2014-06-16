@@ -1,7 +1,7 @@
 {
   "TEMP_texelinfo": 2.37699,
   "area_build_separation": 1.0,
-  "build_metal_cost": 20,
+  "build_metal_cost": 40,
   "description": "Mine: Detonates when enemy combat units get too close",
   "display_group": 50,
   "display_index": 40,
@@ -16,7 +16,7 @@
       "effect_scale": 2.5
     }
   },
-  "max_health": 5,
+  "max_health": 100,
   "mesh_bounds": [
     4.0,
     4.0,

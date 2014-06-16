@@ -6,13 +6,13 @@
   "max_range": 140,
   "pitch_range": 80,
   "pitch_rate": 90,
-  "rate_of_fire": 0.25,
+  "rate_of_fire": 0.15,
   "spread_fire": true,
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Seafloor",
     "WL_WaterSurface"
   ],
-  "yaw_range": 180,
-  "yaw_rate": 90
+  "yaw_range": 160,
+  "yaw_rate": 40
 }

@@ -12,7 +12,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 400,
+  "build_metal_cost": 2000,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -158,7 +158,7 @@
   },
   "spawn_layers": "WL_LandHorizontal",
   "teleporter": {
-    "energy_demand": 1000
+    "energy_demand": 10000
   },
   "unit_name": "Teleporter",
   "unit_types": [

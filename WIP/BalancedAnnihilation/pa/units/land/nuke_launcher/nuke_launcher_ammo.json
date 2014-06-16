@@ -1,7 +1,7 @@
 {
   "ammo_type": "Projectile",
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
-  "build_metal_cost": 86400,
+  "build_metal_cost": 8000,
   "burn_damage": 200,
   "burn_radius": 137,
   "collision_check": "ground",
@@ -55,7 +55,7 @@
   "show_strategic_icon": true,
   "sim_impact_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
   "spawn_layers": "WL_Air",
-  "splash_damage": 11000,
+  "splash_damage": 4000,
   "splash_damages_allies": true,
   "splash_radius": 150,
   "stages": [
