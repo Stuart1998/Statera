@@ -99,7 +99,7 @@
     },
     "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech.json",
     "filename": "/pa/units/land/fabrication_bot/fabrication_bot.papa",
-    "walk_speed": 12
+    "walk_speed": 15
   },
   "navigation": {
     "acceleration": 120,
