@@ -82,7 +82,7 @@
         {
           "channel": "radar",
           "layer": "surface_and_air",
-          "radius": 400,
+          "radius": 450,
           "shape": "capsule",
           "uses_energy": true
         },
