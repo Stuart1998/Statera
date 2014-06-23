@@ -25,7 +25,7 @@
       "effect_scale": 1.6
     },
     "firing": {
-      "audio_cue": "/SE/Weapons/veh/tank_heavy_mortar_fire",
+      "audio_cue": "/SE/Weapons/sea/T2_battleship_fire"
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle"
     }
   },
