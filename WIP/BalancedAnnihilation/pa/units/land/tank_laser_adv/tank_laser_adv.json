@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 1200,
+  "build_metal_cost": 800,
   "description": "Advanced Tank: Anti-land and anti-ship guns",
   "display_group": 40,
   "display_index": 100,
@@ -45,7 +45,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 125,
-  "max_health": 1250,
+  "max_health": 900,
   "model": {
     "animtree": "/pa/anim/anim_trees/tank_laser_adv.json",
     "arrows": 5,
