@@ -46,5 +46,6 @@
     "UNITTYPE_Factory",
     "UNITTYPE_Construction",
     "UNITTYPE_Land"
-  ]
+  ],
+  "wait_to_rolloff_time": 0
 }
