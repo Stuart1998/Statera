@@ -25,11 +25,11 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 250,
+  "build_metal_cost": 200,
   "description": "Skirmish: Fast speed, high damage attack, long reload time. Amphibious.",
   "display_group": 60,
   "display_index": 100,
-  "display_name": "Swindler",
+  "display_name": "Crasher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
@@ -106,7 +106,7 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
-    "UNITTYPE_Advanced",
+    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
   ]
 }
