@@ -43,8 +43,9 @@ function BuildHotkeyModel() {
             "/pa/units/sea/torpedo_launcher/torpedo_launcher.json": ["combat", 13],
             "/pa/units/orbital/ion_defense/ion_defense.json": ["combat", 14],
             
-            "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 5],
-            "/pa/units/land/tank_laser_adv/tank_laser_adv.json": ["vehicle", 6],
+            "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 4],
+            "/pa/units/land/tank_laser_adv/tank_laser_adv.json": ["vehicle", 5],
+            "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json": ["vehicle", 6],
             "/pa/units/land/tank_heavy_armor/tank_heavy_armor.json": ["vehicle", 7],
             "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json": ["vehicle", 8],
             "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 9],
