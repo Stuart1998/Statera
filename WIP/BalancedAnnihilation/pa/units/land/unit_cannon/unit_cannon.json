@@ -1,6 +1,16 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 2500,
+  "build_metal_cost": 5000,
+  "buildable_types": "Mobile & Land & FactoryBuild",
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_FactoryBuild",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Attack",
+    "ORDER_Assist"
+    ],
   "description": "Unit Cannon: Long range unit dispersal",
   "display_name": "Unit Cannon",
   "events": {
@@ -14,12 +24,27 @@
       "audio_cue": "/SE/Weapons/structure/unit_cannon_fire"
     }
   },
-  "max_health": 1000,
+  "factory": {
+    "deploy_projectile": "/pa/units/air/missile_orbital/missile_orbital.json",
+    "spawn_points": [
+      "bone_missile01"
+    ]
+  },
+  "max_health": 20000,
   "model": {
     "filename": "/pa/units/land/unit_cannon/unit_cannon.papa"
   },
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/land/unit_cannon/unit_cannon_build_arm.json"
+    }
+  ],
   "unit_types": [
     "UNITTYPE_Structure",
-    "UNITTYPE_Advanced"
+    "UNITTYPE_Advanced",
+    "UNITTYPE_Factory",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Land"
   ]
 }
