@@ -1,5 +1,5 @@
 {
-	"build_metal_cost": 120,
+	"build_metal_cost": 100,
 	"TEMP_texelinfo": 4.03457,
 	"unit_types": ["UNITTYPE_Tank",
 	"UNITTYPE_Scout",
