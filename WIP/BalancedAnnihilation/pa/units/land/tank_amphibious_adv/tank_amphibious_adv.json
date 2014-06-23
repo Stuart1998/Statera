@@ -11,11 +11,11 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 225,
-  "description": "Advanced Tank: Anti-land and anti-ship guns",
+  "build_metal_cost": 1500,
+  "description": "Advanced Tank: Anti-land and anti-ship guns, amphibious",
   "display_group": 40,
   "display_index": 100,
-  "display_name": "Flux",
+  "display_name": "Obliterator",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -31,7 +31,7 @@
   },
   "guard_layer": "WL_AnySurface",
   "guard_radius": 125,
-  "max_health": 1250,
+  "max_health": 2000,
   "model": {
     "animtree": "/pa/anim/anim_trees/turret.json",
     "arrows": 5,
@@ -42,7 +42,7 @@
     "brake": 70,
     "dodge_multiplier": 1.0,
     "dodge_radius": 15,
-    "move_speed": 6,
+    "move_speed": 5,
     "turn_speed": 60,
     "type": "amphibious",
     "wobble_factor": 0.1,
@@ -69,12 +69,19 @@
       "aim_bone": "socket_aim",
       "muzzle_bone": "socket_leftMuzzle",
       "spec_id": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv_tool_weapon.json"
+    },
+    {
+      "aim_bone": "socket_aim",
+      "muzzle_bone": "socket_rightMuzzle",
+      "spec_id": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv_tool_weapon.json"
     }
   ],
   "unit_types": [
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Land"
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
   ],
   "wreckage_health_frac": 1.0
 }
