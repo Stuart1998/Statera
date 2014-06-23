@@ -7,7 +7,7 @@
   "pitch_range": 40,
   "pitch_rate": 40,
   "rate_of_fire": 0.33,
-  "firing_standard_deviation": 0.5,
+  "firing_standard_deviation": 0.75,
   "spread_fire": true,
   "target_layers": [
     "WL_LandHorizontal",
