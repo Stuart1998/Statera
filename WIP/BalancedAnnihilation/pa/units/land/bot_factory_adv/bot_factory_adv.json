@@ -26,10 +26,10 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Advanced Factory: Builds advanced bots",
+  "description": "Factory: Builds specialized bots",
   "display_group": 75,
   "display_index": 85,
-  "display_name": "Advanced Bot Factory",
+  "display_name": "Specialist Bot Factory",
   "events": {
     "died": {
       "effect_scale": 1.5
