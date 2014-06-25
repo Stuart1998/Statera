@@ -28,8 +28,8 @@
     "ORDER_Load",
     "ORDER_Unload"
   ],
-  "description": "Air Transport: Load ten units for rapid long distance travel.",
-  "display_name": "Pigeon",
+  "description": "Advanced Air Transport: Load ten units for rapid long distance travel.",
+  "display_name": "Osprey",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"
