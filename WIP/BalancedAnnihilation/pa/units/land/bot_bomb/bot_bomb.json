@@ -36,7 +36,7 @@
     },
     "died": {
       "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 2.5
+      "effect_scale": 2.0
     }
   },
   "guard_layer": "WL_LandHorizontal",
