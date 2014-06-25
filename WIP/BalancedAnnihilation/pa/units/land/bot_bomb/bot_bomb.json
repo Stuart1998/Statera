@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 50,
-  "description": "Self Destruction Bot",
+  "description": "Self Destruction Bot. Very effective vs structures. Moderately effective vs units.",
   "display_group": 40,
   "display_index": 60,
   "display_name": "Boom",
@@ -41,7 +41,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 110,
-  "max_health": 20,
+  "max_health": 100,
   "model": {
     "animations": {
       "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
