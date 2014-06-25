@@ -7,7 +7,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Advanced Defense: long range, anti-land, and anti-ship gun",
+  "description": "Advanced Artillery: long range, very inaccurate, anti-land and anti-ship cannon",
   "display_group": 50,
   "display_index": 55,
   "display_name": "Lobber",
