@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "build_metal_cost": 500,
-  "description": "Advanced Bomber: Strong anti-land and anti-naval bombs",
+  "description": "Advanced Bomber: Anti-land and anti-naval bombs; Effective vs units, moderately effective vs structures.",
   "display_group": 40,
   "display_index": 100,
   "display_name": "Hornet",
