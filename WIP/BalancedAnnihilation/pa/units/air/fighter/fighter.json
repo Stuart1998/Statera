@@ -53,7 +53,7 @@
 		"arrows": 5,
 		"filename": "/pa/units/air/fighter/fighter.papa"
 	},
-	"description": "Fighter: Anti-air missiles.",
+	"description": "Fighter: Strong anti-air missiles.",
 	"recon": {
 		"observer": {
 			"items": [{
