@@ -7,7 +7,7 @@
   "consumption": {
     "energy": 675
   },
-  "description": "Radar: Detects nearby enemy land, sea, and air units",
+  "description": "Radar: Detects nearby enemy land, sea, and air units in a medium radius.",
   "display_group": 50,
   "display_index": 95,
   "display_name": "Radar",
