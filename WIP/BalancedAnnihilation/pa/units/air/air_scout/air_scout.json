@@ -17,7 +17,7 @@
     "ORDER_Patrol",
     "ORDER_Assist"
   ],
-  "description": "Scout: Weak anti-land laser, fast speed",
+  "description": "Scout: Fast, unarmed craft with a high vision radius.",
   "display_group": 80,
   "display_index": 80,
   "display_name": "Firefly",
