@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 200,
-  "description": "Skirmish: Fast speed. Slow, high damage attack, long reload time. Amphibious.",
+  "description": "Skirmish: Fast speed. Slow, high damage attack, long reload time. Amphibious. Effective vs structures, naval. Weak vs land.",
   "display_group": 60,
   "display_index": 100,
   "display_name": "Crasher",
