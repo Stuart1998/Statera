@@ -34,7 +34,7 @@
   "description": "Factory: Builds bots",
   "display_group": 70,
   "display_index": 80,
-  "display_name": "Bot Factory",
+  "display_name": "Generalist Bot Factory",
   "events": {
     "died": {
       "effect_scale": 1.0
