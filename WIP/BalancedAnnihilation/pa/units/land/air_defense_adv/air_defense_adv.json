@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Flak Cannon: Powers anti-air defense turret.",
+  "description": "Flak Cannon: AoE anti-air defense turret.",
   "display_group": 50,
   "display_index": 85,
   "display_name": "Flak Cannon",
