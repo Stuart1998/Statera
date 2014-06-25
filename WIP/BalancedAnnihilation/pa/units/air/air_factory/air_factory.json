@@ -33,7 +33,7 @@
   "description": "Factory: Builds air units",
   "display_group": 70,
   "display_index": 60,
-  "display_name": "Air Factory",
+  "display_name": "Generalist Air Factory",
   "events": {
     "died": {
       "effect_scale": 1.0
