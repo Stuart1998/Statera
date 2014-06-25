@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Direct fire anti-land, and anti-ship defense",
+  "description": "Defense: Direct fire anti-land, and anti-ship defense. Uses energy.",
   "display_group": 20,
   "display_index": 95,
   "display_name": "Laser Defense Tower",
