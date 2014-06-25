@@ -5,7 +5,7 @@
   "atrophy_rate": 70.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 3500,
-  "description": "Heavy Energy: Produces energy",
+  "description": "Heavy Energy: Produces energy inefficiently. Heavy armor.",
   "display_group": 80,
   "display_index": 65,
   "display_name": "Heavy Energy Plant",
