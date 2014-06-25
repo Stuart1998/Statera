@@ -42,7 +42,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Fabrication: Builds structures",
+  "description": "Fabrication: Builds structures. Fast.",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Fabrication Bot",
