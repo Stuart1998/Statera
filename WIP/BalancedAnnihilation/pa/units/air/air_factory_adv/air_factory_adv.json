@@ -25,10 +25,10 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Advanced Factory: Builds air units",
+  "description": "Factory: Builds air units",
   "display_group": 75,
   "display_index": 65,
-  "display_name": "Advanced Air Factory",
+  "display_name": "Specialist Air Factory",
   "events": {
     "died": {
       "effect_scale": 1.5
