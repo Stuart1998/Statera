@@ -47,7 +47,7 @@
 		}
 	},
 	"display_name": "Skitter",
-	"description": "Scout: Light attack laser, fast speed",
+	"description": "Scout: Light attack laser, fast speed. Weak armor.",
 	"model": {
 		"filename": "/pa/units/land/land_scout/land_scout.papa",
 		"arrows": 5,
