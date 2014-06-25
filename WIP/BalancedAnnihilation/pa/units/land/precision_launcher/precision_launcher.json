@@ -21,7 +21,7 @@
     "ORDER_FactoryBuild",
     "ORDER_Attack"
   ],
-  "description": "Precision Missile: Long range, high damage, pinpoint strike",
+  "description": "Precision Missile: Long range, high damage, pinpoint strike. Very low AoE.",
   "display_group": 20,
   "display_index": 10,
   "display_name": "Precision Missile Launcher",
