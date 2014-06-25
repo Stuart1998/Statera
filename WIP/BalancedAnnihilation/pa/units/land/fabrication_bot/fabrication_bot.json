@@ -42,7 +42,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Fabrication: Weak nanolathe. Fast.",
+  "description": "Fabrication: Weak nanolathe. Fast speed.",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Fabrication Bot",
