@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 550,
-  "description": "Destroyer: Medium range anti-land and anti-ship heavy cannons.",
+  "description": "Destroyer: Medium range anti-land and anti-ship heavy cannons, medium anti-ship torpedos.",
   "display_group": 60,
   "display_index": 80,
   "display_name": "Bluebottle",
@@ -86,6 +86,11 @@
       "aim_bone": "bone_pitch02",
       "muzzle_bone": "socket_leftMuzzle02",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_root",
+      "spec_id": "/pa/units/sea/destroyer/destroyer_tool_torpedo.json"
     }
   ],
   "unit_types": [
