@@ -6,7 +6,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Anti-sub and anti-ship defense",
+  "description": "Defense: Anti-sub and anti-ship torpedos.",
   "display_group": 50,
   "display_index": 70,
   "display_name": "Torpedo Launcher",
