@@ -41,7 +41,7 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Advanced Fabricator: Builds naval structures",
+  "description": "Advanced Fabricator: Strong nanolathe, medium speed.",
   "display_group": 100,
   "display_index": 100,
   "display_name": "Advanced Fabrication Ship",
