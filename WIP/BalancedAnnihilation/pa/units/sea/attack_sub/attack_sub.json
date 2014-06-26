@@ -36,7 +36,7 @@
   },
   "navigation": {
     "acceleration": 8,
-    "brake": 10,
+    "brake": 12,
     "move_speed": 10,
     "turn_speed": 60,
     "type": "water"
