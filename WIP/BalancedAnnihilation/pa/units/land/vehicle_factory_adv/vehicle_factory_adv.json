@@ -26,10 +26,10 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Advanced Factory: Builds land vehicles",
+  "description": "Factory: Builds specialized land vehicles",
   "display_group": 75,
   "display_index": 100,
-  "display_name": "Advanced Vehicle Factory",
+  "display_name": "Specialist Vehicle Factory",
   "events": {
     "died": {
       "effect_scale": 1.5
