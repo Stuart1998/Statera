@@ -11,8 +11,8 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 500,
-  "description": "High Health, Longerange Surface Cannons",
+  "build_metal_cost": 550,
+  "description": "Destroyer: Medium range anti-land and anti-ship heavy cannons.",
   "display_group": 60,
   "display_index": 80,
   "display_name": "Bluebottle",
