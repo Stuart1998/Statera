@@ -46,20 +46,26 @@
     "filename": "/pa/units/orbital/solar_array/solar_array.papa"
   },
   "navigation": {
-    "acceleration": 10,
-    "brake": 10,
+    "acceleration": 0,
+    "bank_factor": 0,
+    "brake": 0,
     "hover_time": -1.0,
-    "move_speed": 10,
-    "turn_speed": 45,
+    "move_speed": 0,
+    "turn_speed": 0,
     "type": "orbital"
   },
   "physics": {
+    "collision_layers": "WL_Orbital",
     "gravity_scalar": 0.001,
     "push_class": 25,
-    "radius": 8
+    "radius": 15
   },
+  "placement_size": [
+    30,
+    30
+  ],
   "production": {
-    "energy": 4000
+    "energy": 5500
   },
   "recon": {
     "observer": {
@@ -74,12 +80,13 @@
     }
   },
   "spawn_layers": "WL_Orbital",
+  "system_velocity_multiplier": 6.0,
   "unit_types": [
-    "UNITTYPE_Mobile",
+    "UNITTYPE_Structure",
     "UNITTYPE_Orbital",
     "UNITTYPE_EnergyProduction",
     "UNITTYPE_Economy",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FabOrbBuild"
   ]
 }
