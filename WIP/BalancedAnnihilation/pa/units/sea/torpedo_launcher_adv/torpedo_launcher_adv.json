@@ -2,11 +2,11 @@
   "TEMP_texelinfo": 14.1009,
   "area_build_separation": 18,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 6000,
+  "build_metal_cost": 1000,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Advanced anti-sub and anti-ship defense",
+  "description": "Defense: Long range anti-sub and anti-ship torpedos.",
   "display_group": 50,
   "display_index": 75,
   "display_name": "Advanced Torpedo Launcher",
