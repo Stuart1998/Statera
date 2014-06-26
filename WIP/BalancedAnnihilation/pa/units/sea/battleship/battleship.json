@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 1500,
-  "description": "Massive ship, Huge Range, Rapidfire Artillery",
+  "description": "Battleship: Huge size, anti-land and anti-ship rapidfire bombardment cannons.",
   "display_group": 20,
   "display_index": 100,
   "display_name": "Leviathan",
