@@ -1,8 +1,8 @@
 {
   "ammo_type": "Projectile",
   "armor_damage_map": {
-    "AT_Commander": 0.25,
-    "AT_Structure": 0.25
+    "AT_Commander": 0.5,
+    "AT_Structure": 0.5
   },
   "audio_loop": "/SE/Weapons/commander/Commander_uber_cannon_fire",
   "burn_damage": 500,
