@@ -28,7 +28,7 @@
   "description": "Factory: Builds naval units",
   "display_group": 70,
   "display_index": 10,
-  "display_name": "Naval Factory",
+  "display_name": "Generalist Naval Factory",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
