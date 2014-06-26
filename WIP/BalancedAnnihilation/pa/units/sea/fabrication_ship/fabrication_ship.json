@@ -41,7 +41,7 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Fabricator: Builds naval structures",
+  "description": "Fabricator: Medium nanolathe, medium speed.",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Fabrication Ship",
