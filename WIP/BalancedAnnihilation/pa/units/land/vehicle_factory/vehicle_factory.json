@@ -34,7 +34,7 @@
   "description": "Factory: Builds land vehicles",
   "display_group": 70,
   "display_index": 95,
-  "display_name": "Vehicle Factory",
+  "display_name": "Generalist Vehicle Factory",
   "events": {
     "died": {
       "effect_scale": 1.0
