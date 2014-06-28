@@ -1,6 +1,16 @@
 {
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 20.0,
+  "audio": {
+    "loops": {
+      "build": {
+        "cue": "/SE/Weapons/structure/unit_cannon_fire",
+        "flag": "build_target_changed",
+        "should_start_func": "no_build_target",
+        "should_stop_func": "has_build_target"
+      }
+    }
+  },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 5000,
   "buildable_types": "Mobile & Land & FactoryBuild",
