@@ -19,6 +19,7 @@
     "/pa/units/air/missile_orbital/missile_orbital.json",
     "/pa/units/air/missile_orbital_booster/missile_orbital_booster.json",
     "/pa/units/air/transport/transport.json",
+    "/pa/units/air/unit_cannon_box/unit_cannon_box.json",
     "/pa/units/commanders/avatar/avatar.json",
     "/pa/units/commanders/base_commander/base_commander.json",
     "/pa/units/commanders/imperial_alpha/imperial_alpha.json",
