@@ -1,4 +1,6 @@
 {
+  "atrophy_cool_down": 30.0,
+  "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 5000,
   "buildable_types": "Mobile & Land & FactoryBuild",
@@ -12,6 +14,8 @@
     "ORDER_Assist"
     ],
   "description": "Unit Cannon: Long range unit dispersal",
+  "display_group": 70,
+  "display_index": 10,
   "display_name": "Unit Cannon",
   "events": {
     "build_complete": {
@@ -27,7 +31,7 @@
   "factory": {
     "deploy_projectile": "/pa/units/air/missile_orbital/missile_orbital.json",
     "spawn_points": [
-      "bone_missile01"
+      "bone_root"
     ]
   },
   "max_health": 20000,
