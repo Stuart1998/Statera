@@ -29,7 +29,7 @@
     }
   },
   "factory": {
-    "deploy_projectile": "/pa/units/air/missile_orbital/missile_orbital.json",
+    "deploy_projectile": "/pa/units/air/unit_cannon_box/unit_cannon_box.json",
     "spawn_points": [
       "bone_root"
     ]
