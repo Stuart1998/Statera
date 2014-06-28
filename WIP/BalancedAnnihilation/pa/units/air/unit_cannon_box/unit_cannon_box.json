@@ -47,6 +47,7 @@
         "push_class": 1,
         "radius": 10
     },
+    "si_name": "icon_si_blip",
     "splash_damage": 0,
     "splash_damages_allies": "false",
     "splash_radius": 0,
