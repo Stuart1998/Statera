@@ -9,7 +9,7 @@
   "firing_arc_pitch": 5,
   "firing_arc_yaw": 5,
   "firing_standard_deviation": 0.25,
-  "max_range": 300,
+  "max_range": 280,
   "physics": {
     "add_to_spatial_db": false,
     "gravity_scalar": 2,
