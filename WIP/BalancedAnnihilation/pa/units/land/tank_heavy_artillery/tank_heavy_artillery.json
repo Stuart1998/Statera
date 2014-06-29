@@ -1,0 +1,96 @@
+{
+  "TEMP_texelinfo": 9.31488,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        3.1
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_heavy_mortar_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 1200,
+  "description": "Mobile Artillery: Mobile Heavy Artillery, shells large areas in hopes of hitting a target",
+  "display_group": 60,
+  "display_index": 100,
+  "display_name": "Thumper",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Veh",
+      "effect_scale": 1.4
+    },
+    "firing": {
+      "audio_cue": "/SE/Weapons/veh/tank_heavy_mortar_fire"
+    }
+  },
+  "guard_layer": "WL_AnySurface",
+  "guard_radius": 180,
+  "max_health": 400,
+  "model": {
+    "animtree": "/pa/anim/anim_trees/turret.json",
+    "arrows": 5,
+    "filename": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.papa"
+  },
+  "navigation": {
+    "acceleration": 100,
+    "brake": 100,
+    "group_preference": "back",
+    "move_speed": 7,
+    "turn_speed": 40,
+    "type": "land-small"
+  },
+  "nearby_target_tick_update_interval": 15,
+  "physics": {
+    "push_class": 60,
+    "radius": 6
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "tools": [
+    {
+      "aim_bone": "socket_aim",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ]
+}
