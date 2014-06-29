@@ -1,6 +1,5 @@
 {
   "ammo_id": "/pa/ammo/base_artillery/base_artillery.json",
-  "arc_type": "High",
   "auto_attack": true,
   "max_range": 90,
   "pitch_range": 70,

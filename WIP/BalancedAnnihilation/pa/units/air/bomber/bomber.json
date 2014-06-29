@@ -11,7 +11,7 @@
     }
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 180,
+  "build_metal_cost": 300,
   "description": "Bomber: Anti-land and anti-naval bombs. Very effective vs Structures, effective vs units.",
   "display_group": 40,
   "display_index": 80,
