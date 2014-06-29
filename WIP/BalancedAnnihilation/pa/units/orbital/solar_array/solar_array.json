@@ -9,7 +9,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 3000,
   "command_caps": [
     "ORDER_Move",
@@ -30,7 +30,7 @@
       "audio_cue": "/SE/Weapons/air/bomber_fire"
     }
   },
-  "max_health": 5000,
+  "max_health": 2500,
   "mesh_bounds": [
     45,
     15,
@@ -45,25 +45,11 @@
     "animtree": "/pa/anim/anim_trees/satellite_launched.json",
     "filename": "/pa/units/orbital/solar_array/solar_array.papa"
   },
-  "navigation": {
-    "acceleration": 0,
-    "bank_factor": 0,
-    "brake": 0,
-    "hover_time": -1.0,
-    "move_speed": 0,
-    "turn_speed": 0,
-    "type": "orbital"
-  },
   "physics": {
-    "collision_layers": "WL_Orbital",
     "gravity_scalar": 0.001,
     "push_class": 25,
-    "radius": 15
+    "radius": 8
   },
-  "placement_size": [
-    30,
-    30
-  ],
   "production": {
     "energy": 5500
   },
@@ -80,7 +66,6 @@
     }
   },
   "spawn_layers": "WL_Orbital",
-  "system_velocity_multiplier": 6.0,
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_Orbital",
