@@ -5,7 +5,7 @@
     "splash_radius": 3,
     "full_damage_splash_radius": 1,
     "splash_damages_allies": false,
-    "initial_velocity": 100,
-    "max_velocity": 100,
+    "initial_velocity": 140,
+    "max_velocity": 140,
     "lifetime": 6
 }
