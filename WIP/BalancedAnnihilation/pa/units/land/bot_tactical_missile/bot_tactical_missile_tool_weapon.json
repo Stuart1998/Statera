@@ -1,6 +1,6 @@
 {
   "ammo_capacity": 8000,
-  "ammo_demand": 800,
+  "ammo_demand": 1600,
   "ammo_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
   "ammo_per_shot": 800,
   "ammo_source": "energy",
