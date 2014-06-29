@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/tools/base_artillery_turret_unit/base_artillery_turret_unit.json",
     "ammo_id": "/pa/units/land/bot_artillery/bot_artillery_ammo.json",
-    "arc_type": "Medium",
+    "arc_type": "Low",
     "rate_of_fire": 0.25,
     "idle_aim_delay": 5,
     "max_range": 140,
