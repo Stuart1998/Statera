@@ -180,7 +180,7 @@
     }
   },
   "transporter": {
-    "capacity": 10,
+    "capacity": 5,
     "transportable_attach_offset": "head",
     "transporter_attach_bone": "bone_payload"
   },

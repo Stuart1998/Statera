@@ -122,7 +122,7 @@
     }
   ],
   "transportable": {
-    "size": 10
+    "size": 5
   },
   "unit_types": [
     "UNITTYPE_Commander",
