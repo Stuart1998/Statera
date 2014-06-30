@@ -9,6 +9,9 @@
     "AdvancedAirFactory": {
       "spec_id": "/pa/units/air/air_factory_adv/air_factory_adv.json"
     },
+    "AdvancedAABot": {
+      "spec_id": "/pa/units/land/bot_aa/bot_aa.json"
+    },
     "AdvancedArmorTank": {
       "spec_id": "/pa/units/land/tank_armor/tank_armor.json"
     },
@@ -135,6 +138,9 @@
     "BasicFighter": {
       "spec_id": "/pa/units/air/fighter/fighter.json"
     },
+    "BasicGunship": {
+      "spec_id": "/pa/units/air/gunship_basic/gunship.json"
+    },
     "BasicLandDefense": {
       "spec_id": "/pa/units/land/laser_defense/laser_defense.json"
     },
@@ -168,6 +174,9 @@
     "Battleship": {
       "spec_id": "/pa/units/sea/battleship/battleship.json"
     },
+    "BombBot": {
+      "spec_id": "/pa/units/land/bot_bomb/bot_bomb.json"
+    },
     "Commander": {
       "unit_types": "Commander"
     },
@@ -185,6 +194,9 @@
     },
     "Frigate": {
       "spec_id": "/pa/units/sea/frigate/frigate.json"
+    },
+    "HeavyTank": {
+      "spec_id": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json"
     },
     "LandScout": {
       "spec_id": "/pa/units/land/land_scout/land_scout.json"
@@ -227,6 +239,12 @@
     },
     "PlanetEngine": {
       "spec_id": "/pa/units/orbital/delta_v_engine/delta_v_engine.json"
+    },
+    "RaiderTank": {
+      "spec_id": "/pa/units/land/tank_hover/tank_hover.json"
+    },
+    "SkirmishBot": {
+      "spec_id": "/pa/units/land/amphibious_bot/amphibious_bot.json"
     },
     "SolarArray": {
       "spec_id": "/pa/units/orbital/solar_array/solar_array.json"
