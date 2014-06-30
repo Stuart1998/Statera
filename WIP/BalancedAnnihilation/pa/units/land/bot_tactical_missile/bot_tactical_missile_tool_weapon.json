@@ -1,8 +1,8 @@
 {
   "ammo_capacity": 8000,
-  "ammo_demand": 800,
+  "ammo_demand": 8000,
   "ammo_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
-  "ammo_per_shot": 1600,
+  "ammo_per_shot": 8000,
   "ammo_source": "energy",
   "auto_attack": true,
   "base_spec": "/pa/tools/base_missile_turret/base_missile_turret.json",
