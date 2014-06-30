@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
+  "base_spec": "/pa/units/commanders/quad_base_missile/quad_base.json",
   "description": "Quadruped Shadowdaemon Commander.",
   "display_name": "Shadowdaemon Commander",
   "headlights": [

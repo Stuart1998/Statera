@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
+  "base_spec": "/pa/units/commanders/quad_base_uber/quad_base.json",
   "description": "Quadruped Osiris Commander.",
   "display_name": "Osiris Commander",
   "headlights": [

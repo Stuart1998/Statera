@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/imperial_base/imperial_base.json",
+  "base_spec": "/pa/units/commanders/imperial_base_laser/imperial_base.json",
   "description": "Imperial Aryst0krat Commander.",
   "display_name": "Aryst0krat Commander",
   "headlights": [

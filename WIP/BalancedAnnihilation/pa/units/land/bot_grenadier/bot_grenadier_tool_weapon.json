@@ -13,6 +13,7 @@
   "pitch_rate": 360,
   "rate_of_fire": 10,
   "target_layers": [
+    "WL_Air",
     "WL_LandHorizontal",
     "WL_Seafloor",
     "WL_WaterSurface"

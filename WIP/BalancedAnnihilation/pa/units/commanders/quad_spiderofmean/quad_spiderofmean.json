@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
+  "base_spec": "/pa/units/commanders/quad_base_uber/quad_base.json",
   "description": "Quadruped SpiderOfMean Commander.",
   "display_name": "SpiderOfMean Commander",
   "headlights": [

@@ -13,7 +13,7 @@
       ]
     }
   },
-  "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
+  "base_spec": "/pa/units/commanders/quad_base_laser/quad_base.json",
   "description": "Quadruped SacrificialLamb Commander.",
   "display_name": "SacrificialLamb Commander",
   "headlights": [

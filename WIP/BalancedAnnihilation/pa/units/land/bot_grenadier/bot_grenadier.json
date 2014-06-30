@@ -105,7 +105,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Artillery",
     "UNITTYPE_Land",
-    "UNITTYPE_Advanced",
+    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
   ]
 }
