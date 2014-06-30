@@ -42,11 +42,6 @@
     "died": {
       "audio_cue": "/SE/Death/Veh",
       "effect_scale": 1.4
-    },
-    "firing": {
-      "audio_cue": "/SE/Weapons/veh/tank_flame",
-      "effect_spec": "/pa/units/land/tank_armor/tank_armor_muzzle_flame.pfx socket_muzzle"
-    }
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 40,
@@ -89,13 +84,6 @@
     "scroll_rate": 0.58,
     "uv_split": 0.855
   },
-  "tools": [
-    {
-      "aim_bone": "bone_root",
-      "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/land/tank_heavy_armor/tank_heavy_armor_tool_weapon.json"
-    }
-  ],
   "transportable": {
     "size": 1
   },

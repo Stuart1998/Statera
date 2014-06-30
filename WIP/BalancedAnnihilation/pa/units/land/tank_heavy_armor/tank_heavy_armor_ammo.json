@@ -1,7 +1,7 @@
 {
   "ammo_type": "AMMO_Beam",
-  "damage": 1000,
-  "splash_damage": 1000,
+  "damage": 0,
+  "splash_damage": 0,
   "splash_damages_allies": false,
-  "splash_radius": 2
+  "splash_radius": 0
 }
