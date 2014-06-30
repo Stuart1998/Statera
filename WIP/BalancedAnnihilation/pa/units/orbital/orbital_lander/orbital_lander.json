@@ -20,7 +20,7 @@
     }
   },
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 1500,
+  "build_metal_cost": 1000,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -188,7 +188,7 @@
     "UNITTYPE_Orbital",
     "UNITTYPE_Mobile",
     "UNITTYPE_Transport",
-    "UNITTYPE_Basic",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild"
   ],
   "usable": true,
