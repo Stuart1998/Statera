@@ -10,7 +10,7 @@
     }
   },
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 26400,
+  "build_metal_cost": 1500,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -50,11 +50,11 @@
     "filename": "/pa/units/orbital/orbital_laser/orbital_laser.papa"
   },
   "navigation": {
-    "acceleration": 10,
-    "brake": 10,
+    "acceleration": 5,
+    "brake": 5,
     "hover_time": -1.0,
     "move_speed": 25,
-    "turn_speed": 90,
+    "turn_speed": 30,
     "type": "orbital"
   },
   "physics": {
