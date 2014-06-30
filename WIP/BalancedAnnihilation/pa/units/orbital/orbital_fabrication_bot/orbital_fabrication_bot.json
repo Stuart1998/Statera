@@ -91,7 +91,7 @@
     "bank_factor": 10,
     "brake": 10,
     "hover_time": -1.0,
-    "move_speed": 20,
+    "move_speed": 15,
     "turn_speed": 75,
     "type": "orbital"
   },
