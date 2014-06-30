@@ -148,8 +148,8 @@
     "filename": "/pa/units/orbital/orbital_lander/orbital_lander.papa"
   },
   "navigation": {
-    "acceleration": 25,
-    "brake": 25,
+    "acceleration": 3,
+    "brake": 3,
     "hover_time": -1.0,
     "move_speed": 25,
     "turn_speed": 360,
