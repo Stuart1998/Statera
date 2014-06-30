@@ -1,13 +1,16 @@
 {
   "TEMP_texelinfo": 5.39039,
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 19500,
+  "build_metal_cost": 500,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Assist"
   ],
-  "description": "Mining Platform: Extract metal from asteroid fields, metal planets.",
+  "consumption": {
+    "energy": 1250
+  },
+  "description": "Mining Platform: Extracts metal.",
   "display_name": "Mining Platform",
   "events": {
     "build_complete": {
@@ -21,9 +24,12 @@
       "audio_cue": "/SE/Weapons/air/bomber_fire"
     }
   },
+  "feature_requirements": [
+    "metal_spot"
+  ],
   "max_health": 7500,
   "model": {
-    "filename": "/pa/units/orbital/radar_satellite/radar_satellite.papa"
+    "filename": "/pa/units/orbital/laser_satellite/laser_satellite.papa"
   },
   "navigation": {
     "acceleration": 1,
@@ -43,7 +49,7 @@
     "radius": 10
   },
   "production": {
-    "metal": 75
+    "metal": 5
   },
   "recon": {
     "observer": {
@@ -60,7 +66,7 @@
   "unit_types": [
     "UNITTYPE_Mobile",
     "UNITTYPE_Orbital",
-    "UNITTYPE_EnergyProduction",
+    "UNITTYPE_MetalProduction",
     "UNITTYPE_Economy",
     "UNITTYPE_Advanced"
   ]
