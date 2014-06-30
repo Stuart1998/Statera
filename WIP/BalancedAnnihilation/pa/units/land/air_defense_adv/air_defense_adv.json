@@ -4,11 +4,11 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 650,
+  "build_metal_cost": 400,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Flak Cannon: AoE anti-air defense turret.",
+  "description": "Flak Cannon: Large AoE anti-air defense turret.",
   "display_group": 50,
   "display_index": 85,
   "display_name": "Flak Cannon",
@@ -26,7 +26,7 @@
     }
   },
   "guard_layer": "WL_Air",
-  "guard_radius": 150,
+  "guard_radius": 120,
   "max_health": 2000,
   "mesh_bounds": [
     5,
@@ -53,7 +53,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 155,
+          "radius": 120,
           "shape": "capsule"
         }
       ]

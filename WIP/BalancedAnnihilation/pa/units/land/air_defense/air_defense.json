@@ -4,14 +4,14 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 300,
+  "build_metal_cost": 800,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Missile Defense:Long range anti-air missiles",
+  "description": "Offensive Longrange Anti-Air AOE Missiles",
   "display_group": 50,
   "display_index": 80,
-  "display_name": "Missile Defense Tower",
+  "display_name": "Anti-Air Offensive Tower",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"
@@ -26,8 +26,8 @@
     }
   },
   "guard_layer": "WL_Air",
-  "guard_radius": 150,
-  "max_health": 1000,
+  "guard_radius": 220,
+  "max_health": 900,
   "mesh_bounds": [
     5,
     5,
@@ -53,7 +53,7 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 155,
+          "radius": 100,
           "shape": "capsule"
         }
       ]
@@ -76,7 +76,6 @@
     "UNITTYPE_Land",
     "UNITTYPE_AirDefense",
     "UNITTYPE_Defense",
-    "UNITTYPE_CmdBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild"
   ]

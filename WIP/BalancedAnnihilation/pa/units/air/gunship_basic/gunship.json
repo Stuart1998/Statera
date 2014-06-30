@@ -10,7 +10,7 @@
     }
   },
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "build_metal_cost": 240,
+  "build_metal_cost": 300,
   "description": "Gunship: Slow, heavily armored airship with anti-land and anti-ship lasers and an anti-everything missile.",
   "display_group": 100,
   "display_index": 80,
@@ -77,7 +77,7 @@
   ],
   "guard_layer": "WL_Anysurface",
   "guard_radius": 100,
-  "max_health": 300,
+  "max_health": 750,
   "model": {
     "animations": {
       "aim_down": "/pa/units/air/gunship/gunship_anim_aimDown.papa",
@@ -96,7 +96,7 @@
     "circle_max_time": 3.0,
     "circle_min_time": 2.0,
     "hover_time": -1.0,
-    "move_speed": 18,
+    "move_speed": 20,
     "turn_speed": 120,
     "type": "air",
     "vertical_speed": 30

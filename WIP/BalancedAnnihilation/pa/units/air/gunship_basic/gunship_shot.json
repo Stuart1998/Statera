@@ -8,6 +8,7 @@
   "initial_velocity": 150.0,
   "lifetime": 1,
   "max_velocity": 150.0,
+  "firing_standard_deviation": 1,
   "physics": {
     "add_to_spatial_db": false,
     "allow_underground": true,

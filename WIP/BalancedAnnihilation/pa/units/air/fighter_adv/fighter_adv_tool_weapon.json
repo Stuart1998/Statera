@@ -4,8 +4,12 @@
   "base_spec": "/pa/tools/base_fighter_turret/base_fighter_turret.json",
   "firing_arc_pitch": 45,
   "firing_arc_yaw": 45,
+  "ammo_source": "energy",
+  "ammo_capacity": 300,
+  "ammo_demand": 8,
+  "ammo_per_shot": 75,
   "max_range": 80,
-  "rate_of_fire": 0.5,
+  "rate_of_fire": 1.5,
   "spread_fire": true,
   "target_layers": [
     "WL_Air"
