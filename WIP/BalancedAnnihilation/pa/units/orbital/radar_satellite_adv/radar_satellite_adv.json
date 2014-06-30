@@ -17,10 +17,10 @@
     "ORDER_Assist"
   ],
   "consumption": {
-    "energy": 9000
+    "energy": 4000
   },
-  "description": "Advanced Radar Satellite: Detects a large area for enemy land, sea, and air units",
-  "display_name": "Advanced Radar Satellite",
+  "description": "Advanced Camera Satellite: Detects a large area for enemy land, sea, and air units",
+  "display_name": "TORZYDE",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
@@ -51,11 +51,11 @@
     "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa"
   },
   "navigation": {
-    "acceleration": 8,
-    "brake": 0,
+    "acceleration": 5,
+    "brake": 5,
     "hover_time": -1.0,
-    "move_speed": 30,
-    "turn_speed": 90,
+    "move_speed": 35,
+    "turn_speed": 40,
     "type": "orbital"
   },
   "physics": {
@@ -67,13 +67,6 @@
     "observer": {
       "items": [
         {
-          "channel": "radar",
-          "layer": "surface_and_air",
-          "radius": 1000,
-          "shape": "capsule",
-          "uses_energy": true
-        },
-        {
           "channel": "sight",
           "layer": "surface_and_air",
           "radius": 600,
@@ -87,13 +80,6 @@
           "shape": "capsule",
           "uses_energy": true
         },
-        {
-          "channel": "radar",
-          "layer": "orbital",
-          "radius": 1200,
-          "shape": "capsule",
-          "uses_energy": true
-        }
       ]
     }
   },
