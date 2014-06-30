@@ -17,7 +17,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Orbital Laser Platform: Heavy orbital offensive and defensive platform",
+  "description": "Orbital Defense Platform: Stationary anti-orbital and anti-air defense.",
   "display_name": "Anchor",
   "events": {
     "build_complete": {
