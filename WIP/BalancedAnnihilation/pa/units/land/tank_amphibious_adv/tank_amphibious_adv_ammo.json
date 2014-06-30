@@ -6,7 +6,7 @@
   "lifetime": 2,
   "max_velocity": 150.0,
   "model": {
-    "filename": "/pa/units/air/shell_large/shell_large.papa"
+    "filename": "/pa/units/air/shell/shell.papa"
   },
   "splash_damage": 150,
   "splash_radius": 8
