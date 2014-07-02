@@ -46,7 +46,7 @@
     "animations": {
       "landed": "/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fighter_adv.json",
+    "animtree": "/pa/anim/anim_trees/fighter_adv_anim_tree.json",
     "filename": "/pa/units/air/fighter_adv/fighter_adv.papa"
   },
   "navigation": {
