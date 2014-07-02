@@ -48,7 +48,7 @@
   "display_index": 99,
   "display_name": "Base Commander",
   "events": {
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/commander/Commander_uber_what",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
