@@ -14,7 +14,7 @@
 	},
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"events": {
-		"firing": {
+		"fired": {
 			"audio_cue": "/SE/Weapons/air/fighter_fire"
 		},
 		"died": {
