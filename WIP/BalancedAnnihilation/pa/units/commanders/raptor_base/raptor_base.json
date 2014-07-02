@@ -9,7 +9,7 @@
       "idle": "/pa/units/commanders/raptor_base/raptor_base_anim_idle01.papa",
       "walk": "/pa/units/commanders/raptor_base/raptor_base_anim_walk01.papa"
     },
-    "animtree": "/pa/anim/anim_trees/commander.json",
+    "animtree": "/pa/anim/anim_trees/commander_anim_tree.json",
     "filename": "/pa/units/commanders/raptor_base/raptor_base.papa",
     "walk_speed": 4.93
   }
