@@ -113,7 +113,7 @@
     "animations": {
       "fly": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv_anim_fly.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fabrication_aircraft_adv.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_aircraft_adv_anim_tree.json",
     "filename": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.papa"
   },
   "navigation": {
