@@ -25,7 +25,7 @@
       "idle": "/pa/units/commanders/tank_base/tank_base_anim_idle.papa",
       "walk": "/pa/units/commanders/tank_base/tank_base_anim_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/commander.json",
+    "animtree": "/pa/anim/anim_trees/commander_anim_tree.json",
     "filename": "/pa/units/commanders/tank_aeson/tank_aeson.papa"
   },
   "navigation": {
