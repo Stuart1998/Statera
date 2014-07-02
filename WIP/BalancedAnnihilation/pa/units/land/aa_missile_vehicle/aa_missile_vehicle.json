@@ -38,7 +38,7 @@
       "audio_cue": "/SE/Death/Veh",
       "effect_scale": 0.7
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/veh/aa_missile_vehicle_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
     }
@@ -50,7 +50,7 @@
     "animations": {
       "run": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/aa_missile_vehicle.json",
+    "animtree": "/pa/anim/anim_trees/aa_missile_vehicle_anim_tree.json",
     "filename": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.papa",
     "walk_speed": 7
   },
