@@ -257,7 +257,7 @@
         "build_loop": "/pa/units/air/air_factory/air_factory_anim_build.papa",
         "build_start": "/pa/units/air/air_factory/air_factory_anim_start.papa"
       },
-      "animtree": "/pa/anim/anim_trees/factory.json",
+      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
       "filename": "/pa/units/air/air_factory/air_factory.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_air.json"
