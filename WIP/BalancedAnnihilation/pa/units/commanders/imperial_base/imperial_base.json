@@ -9,7 +9,7 @@
       "idle": "/pa/units/commanders/imperial_base/imperial_base_anim_idle.papa",
       "walk": "/pa/units/commanders/imperial_base/imperial_base_anim_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/commander.json",
+    "animtree": "/pa/anim/anim_trees/commander_anim_tree.json",
     "filename": "/pa/units/commanders/imperial_delta/imperial_delta.papa",
     "walk_speed": 5.0
   }
