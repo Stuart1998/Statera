@@ -23,7 +23,7 @@
     "died": {
       "audio_cue": "/SE/Death/Sea_large"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire"
     }
   },
@@ -36,7 +36,7 @@
     12
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/battleship.json",
+    "animtree": "/pa/anim/anim_trees/battleship_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/sea/battleship/battleship.papa"
   },
