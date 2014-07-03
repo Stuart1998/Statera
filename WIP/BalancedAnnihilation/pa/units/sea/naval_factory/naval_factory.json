@@ -82,7 +82,7 @@
       "build_loop": "/pa/units/sea/naval_factory/naval_factory_anim_build.papa",
       "build_start": "/pa/units/sea/naval_factory/naval_factory_anim_start.papa"
     },
-    "animtree": "/pa/anim/anim_trees/factory.json",
+    "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
     "filename": "/pa/units/sea/naval_factory/naval_factory.papa"
   },
   "placement_size": [
