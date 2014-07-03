@@ -84,7 +84,7 @@
       "aim_up": "/pa/units/air/gunship/gunship_anim_aimUp.papa",
       "fly": "/pa/units/air/gunship/gunship_anim_fly.papa"
     },
-    "animtree": "/pa/anim/anim_trees/gunship_anim_tre.json",
+    "animtree": "/pa/anim/anim_trees/gunship_anim_tree.json",
     "filename": "/pa/units/air/gunship/gunship.papa"
   },
   "navigation": {
