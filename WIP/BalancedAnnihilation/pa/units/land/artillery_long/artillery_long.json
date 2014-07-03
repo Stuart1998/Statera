@@ -54,7 +54,7 @@
       "animations": {
         "aim_up": "/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa"
       },
-      "animtree": "/pa/anim/anim_trees/artillery_building_long.json",
+      "animtree": "/pa/anim/anim_trees/artillery_building_long_anim_tree.json",
       "filename": "/pa/units/land/artillery_long/artillery_long.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_artillery_long.json"
