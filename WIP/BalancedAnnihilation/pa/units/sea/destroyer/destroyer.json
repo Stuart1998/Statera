@@ -23,7 +23,7 @@
     "died": {
       "audio_cue": "/SE/Death/Sea_large"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire"
     }
   },
@@ -36,7 +36,7 @@
     5
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/destroyer.json",
+    "animtree": "/pa/anim/anim_trees/destroyer_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/sea/destroyer/destroyer.papa"
   },
