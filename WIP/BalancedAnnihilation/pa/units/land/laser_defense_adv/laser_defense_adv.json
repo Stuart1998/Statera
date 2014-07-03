@@ -20,7 +20,7 @@
       "audio_cue": "/SE/Death/structure_small",
       "effect_scale": 0.5
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/structure/laser_defense_adv_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_centerMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
     }
@@ -41,7 +41,7 @@
       "skirt_decal": "/pa/effects/specs/skirt_defense_adv.json"
     },
     {
-      "animtree": "/pa/anim/anim_trees/defense_turret_adv.json",
+      "animtree": "/pa/anim/anim_trees/defense_turret_adv_anim_tree.json",
       "filename": "/pa/units/sea/floating_laser_adv/floating_laser_adv.papa",
       "layer": "WL_WaterSurface"
     }
