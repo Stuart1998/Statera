@@ -47,7 +47,7 @@
       "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
       "walk": "/pa/units/land/bot_bomb/bot_bomb_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bot_bomb.json",
+    "animtree": "/pa/anim/anim_trees/bot_bomb_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/land/bot_bomb/bot_bomb.papa",
     "walk_speed": 20
