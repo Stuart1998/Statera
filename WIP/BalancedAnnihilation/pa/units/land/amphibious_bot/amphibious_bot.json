@@ -39,7 +39,7 @@
       "effect_scale": 0.8,
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/bot/artillery_fire",
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
@@ -58,7 +58,7 @@
       "death01": "/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_death01.papa",
       "walk": "/pa/units/land/bot_artillery_adv/bot_artillery_adv_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bot_artillery_adv.json",
+    "animtree": "/pa/anim/anim_trees/bot_artillery_adv_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/land/bot_artillery_adv/bot_artillery_adv.papa",
     "walk_speed": 16
