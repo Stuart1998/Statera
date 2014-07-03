@@ -37,6 +37,7 @@
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "build_metal_cost": 1600,
     "buildable_types": "CombatFabAdvBuild",
+    "can_only_assist_with_buildable_items": true,
     "command_caps": [
         "ORDER_Move",
         "ORDER_Patrol",
