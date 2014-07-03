@@ -76,7 +76,7 @@
   "guard_radius": 60,
   "max_health": 200,
   "model": {
-    "animtree": "/pa/anim/anim_trees/fabrication_turret.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/land/fabrication_vehicle/fabrication_vehicle.papa"
   },
