@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Death/orbital",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
     }
   },
@@ -41,7 +41,7 @@
     15
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/defense_satellite.json",
+    "animtree": "/pa/anim/anim_trees/defense_satellite_anim_tree.json",
     "filename": "/pa/units/orbital/defense_satellite/defense_satellite.papa"
   },
   "navigation": {
