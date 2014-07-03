@@ -24,7 +24,7 @@
     "died": {
       "audio_cue": "/SE/Death/Factory"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/structure/unit_cannon_fire"
     }
   },
