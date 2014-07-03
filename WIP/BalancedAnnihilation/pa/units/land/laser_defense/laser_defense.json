@@ -35,7 +35,7 @@
   ],
   "model": [
     {
-      "animtree": "/pa/anim/anim_trees/defense_turret.json",
+      "animtree": "/pa/anim/anim_trees/defense_turret_anim_tree.json",
       "filename": "/pa/units/land/laser_defense/laser_defense.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
