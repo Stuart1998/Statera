@@ -22,7 +22,7 @@
     "animations": {
       "idle": "/pa/units/sea/sonar_adv/sonar_adv_anim_work.papa"
     },
-    "animtree": "/pa/anim/anim_trees/constant_idle.json",
+    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
     "filename": "/pa/units/sea/sonar_adv/sonar_adv.papa"
   },
   "recon": {
