@@ -59,7 +59,7 @@
   ],
   "max_health": 300,
   "model": {
-    "animtree": "/pa/anim/anim_trees/fabrication_turret.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
     "filename": "/pa/units/sea/fabrication_sub/fabrication_sub.papa"
   },
   "navigation": {
