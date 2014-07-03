@@ -39,7 +39,7 @@
       "effect_scale": 0.8,
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
@@ -60,7 +60,7 @@
       "idle": "/pa/units/land/bot_sniper/bot_sniper_anim_idle.papa",
       "walk": "/pa/units/land/bot_sniper/bot_sniper_anim_walk.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bot_sniper.json",
+    "animtree": "/pa/anim/anim_trees/bot_sniper_anim_tree.json",
     "filename": "/pa/units/land/bot_sniper/bot_sniper.papa",
     "walk_speed": 10
   },
