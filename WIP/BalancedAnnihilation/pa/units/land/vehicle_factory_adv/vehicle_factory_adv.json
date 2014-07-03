@@ -282,7 +282,7 @@
       "build_start": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv_anim_start.papa",
       "idle": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv_anim_build.papa"
     },
-    "animtree": "/pa/anim/anim_trees/factory.json",
+    "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
     "filename": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.papa",
     "skirt_decal": "/pa/effects/specs/skirt_02.json"
   },
