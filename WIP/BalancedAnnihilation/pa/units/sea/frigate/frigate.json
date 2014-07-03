@@ -23,8 +23,8 @@
     "died": {
       "audio_cue": "/SE/Death/Sea_large"
     },
-    "firing": {
-      "audio_cue": "/SE/Weapons/sea/frigate_fire_1"
+    "fired": {
+      "audio_cue": "/SE/Weapons/bot/assault_fire"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -36,7 +36,7 @@
     5
   ],
   "model": {
-    "animtree": "/pa/anim/anim_trees/frigate.json",
+    "animtree": "/pa/anim/anim_trees/frigate_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/sea/frigate/frigate.papa"
   },
