@@ -260,7 +260,7 @@
       "animations": {
         "idle": "/pa/units/land/energy_plant_adv/energy_plant_adv_anim_work.papa"
       },
-      "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+      "animtree": "/pa/anim/anim_trees/constant_idle.json",
       "filename": "/pa/units/sea/sea_energy_plant_adv/sea_energy_plant_adv.papa",
       "layer": "WL_WaterSurface"
     }
