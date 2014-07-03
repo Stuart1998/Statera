@@ -19,7 +19,7 @@
       "audio_cue": "/SE/Death/structure_small",
       "effect_scale": 0.75
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/structure/artillery_long_fire",
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle /pa/effects/specs/artillery_muzzle_ground.pfx"
     }
@@ -63,7 +63,7 @@
       "animations": {
         "aim_up": "/pa/units/land/artillery_long/artillery_long_anim_aimUp.papa"
       },
-      "animtree": "/pa/anim/anim_trees/artillery_building_long.json",
+      "animtree": "/pa/anim/anim_trees/artillery_building_long_anim_tree.json",
       "filename": "/pa/units/sea/artillery_long/artillery_long.papa",
       "layer": "WL_WaterSurface"
     }
