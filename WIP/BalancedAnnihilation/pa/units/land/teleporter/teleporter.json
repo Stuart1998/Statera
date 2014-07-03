@@ -133,7 +133,7 @@
       "loop": "/pa/units/land/teleporter/teleporter_anim_loop.papa",
       "start": "/pa/units/land/teleporter/teleporter_anim_start.papa"
     },
-    "animtree": "/pa/anim/anim_trees/powered_loop.json",
+    "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
     "filename": "/pa/units/land/teleporter/teleporter.papa",
     "skirt_decal": "/pa/effects/specs/skirt_teleporter.json"
   },
