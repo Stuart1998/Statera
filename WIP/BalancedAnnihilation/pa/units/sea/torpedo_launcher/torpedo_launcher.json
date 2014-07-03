@@ -17,7 +17,7 @@
     "died": {
       "audio_cue": "/SE/Death/Sea"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/sea/torpedo_fire"
     }
   },
@@ -33,7 +33,7 @@
     "animations": {
       "idle": "/pa/units/sea/torpedo_launcher/torpedo_launcher_anim_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/torpedo_launcher.json",
+    "animtree": "/pa/anim/anim_trees/torpedo_launcher_anim_tree.json",
     "filename": "/pa/units/sea/torpedo_launcher/torpedo_launcher.papa"
   },
   "recon": {
