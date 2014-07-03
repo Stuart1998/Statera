@@ -1,5 +1,6 @@
 {
   "units": [    
+    "/pa/units/commanders/avatar/avatar.json",
     "/pa/units/commanders/base_commander/base_commander.json",
     "/pa/units/commanders/imperial_alpha/imperial_alpha.json",
     "/pa/units/commanders/imperial_aryst0krat/imperial_aryst0krat.json",
