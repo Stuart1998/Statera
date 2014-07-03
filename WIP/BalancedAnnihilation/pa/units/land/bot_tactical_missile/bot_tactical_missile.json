@@ -38,7 +38,7 @@
       "audio_cue": "/SE/Death/bot",
       "effect_scale": 0.6
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/bot/bot_tactical_missile_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
@@ -53,7 +53,7 @@
       "idle": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_idle.papa",
       "run": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bot_tactical_missile.json",
+    "animtree": "/pa/anim/anim_trees/bot_tactical_missile_anim_tree.json",
     "filename": "/pa/units/land/bot_tactical_missile/bot_tactical_missile.papa",
     "walk_speed": 12
   },
