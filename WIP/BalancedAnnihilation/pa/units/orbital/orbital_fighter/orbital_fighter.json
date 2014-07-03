@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Death/orbital",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/orb/orb_fighter_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
     }
@@ -63,7 +63,7 @@
       "closed": "/pa/units/orbital/orbital_fighter/orbital_fighter_anim_closed.papa",
       "deploy": "/pa/units/orbital/orbital_fighter/orbital_fighter_anim_deploy.papa"
     },
-    "animtree": "/pa/anim/anim_trees/orbital_fighter.json",
+    "animtree": "/pa/anim/anim_trees/orbital_fighter_anim_tree.json",
     "filename": "/pa/units/orbital/orbital_fighter/orbital_fighter.papa"
   },
   "navigation": {
