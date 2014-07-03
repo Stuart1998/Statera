@@ -73,7 +73,7 @@
       "death01": "/pa/units/land/bot_spider_adv/bot_spider_adv_anim_death01.papa",
       "walk": "/pa/units/land/bot_spider_adv/bot_spider_adv_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/land/bot_spider_adv/bot_spider_adv.papa",
     "walk_speed": 4.9
