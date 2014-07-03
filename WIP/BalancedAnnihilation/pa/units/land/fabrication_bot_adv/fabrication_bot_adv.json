@@ -97,7 +97,7 @@
       "death01": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_death01.papa",
       "walk": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech_anim_tree.json",
     "filename": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.papa",
     "walk_speed": 4.9
   },
