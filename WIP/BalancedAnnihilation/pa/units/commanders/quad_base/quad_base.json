@@ -26,7 +26,7 @@
       "walk": "/pa/units/commanders/quad_base/quad_base_anim_walk.papa"
     },
     "animtree": "/pa/anim/anim_trees/commander_anim_tree.json",
-    "filename": "/pa/units/commanders/quad_base/quad_base.papa",
+    "filename": "/pa/units/commanders/quad_osiris/quad_osiris.papa",
     "walk_speed": 5.0
   }
 }
