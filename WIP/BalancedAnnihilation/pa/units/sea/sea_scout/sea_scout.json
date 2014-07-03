@@ -23,7 +23,7 @@
     "died": {
       "audio_cue": "/SE/Death/Sea"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/sea/sea_scout_fire"
     }
   },
@@ -32,7 +32,7 @@
     "animations": {
       "idle": "/pa/units/sea/sea_scout/sea_scout_anim_idle.papa"
     },
-    "animtree": "/pa/anim/anim_trees/constant_idle.json",
+    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
     "arrows": 5,
     "filename": "/pa/units/sea/sea_scout/sea_scout.papa"
   },
