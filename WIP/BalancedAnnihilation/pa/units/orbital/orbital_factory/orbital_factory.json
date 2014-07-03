@@ -141,7 +141,7 @@
         "build_loop": "/pa/units/orbital/orbital_factory/orbital_factory_anim_build.papa",
         "build_start": "/pa/units/orbital/orbital_factory/orbital_factory_anim_start.papa"
       },
-      "animtree": "/pa/anim/anim_trees/factory.json",
+      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
       "filename": "/pa/units/orbital/orbital_factory/orbital_factory.papa",
       "layer": "WL_Orbital"
     }
