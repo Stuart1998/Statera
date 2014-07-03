@@ -82,7 +82,7 @@
       "idle": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_idle.papa",
       "walk": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fabrication_bot_combat.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_bot_combat_anim_tree.json",
     "filename": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.papa",
     "walk_speed": 12
   },
