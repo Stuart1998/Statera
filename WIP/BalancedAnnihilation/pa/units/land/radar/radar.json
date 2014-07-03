@@ -50,7 +50,7 @@
         "loop": "/pa/units/land/radar/radar_anim_loop.papa",
         "start": "/pa/units/land/radar/radar_anim_start.papa"
       },
-      "animtree": "/pa/anim/anim_trees/powered_loop.json",
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
       "filename": "/pa/units/land/radar/radar.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_radar.json"
@@ -61,7 +61,7 @@
         "loop": "/pa/units/land/radar/radar_anim_loop.papa",
         "start": "/pa/units/land/radar/radar_anim_start.papa"
       },
-      "animtree": "/pa/anim/anim_trees/powered_loop.json",
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
       "filename": "/pa/units/sea/radar/radar.papa",
       "layer": "WL_WaterSurface"
     }
