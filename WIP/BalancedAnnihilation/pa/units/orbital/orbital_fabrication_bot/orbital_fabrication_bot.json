@@ -81,7 +81,7 @@
       "deploy": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_deploy.papa",
       "open": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/orbital_fabrication_bot.json",
+    "animtree": "/pa/anim/anim_trees/orbital_fabrication_bot_anim_tree.json",
     "filename": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.papa"
   },
   "navigation": {
