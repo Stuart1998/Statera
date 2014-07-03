@@ -24,7 +24,7 @@
             "audio_cue": "/SE/Death/Veh",
             "effect_scale": 1.6
         },
-        "firing": {
+        "fired": {
             "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
             "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle"
         }
@@ -33,7 +33,7 @@
     "guard_radius": 125,
     "max_health": 2500,
     "model": {
-        "animtree": "/pa/anim/anim_trees/turret.json",
+        "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
         "arrows": 5,
         "filename": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.papa"
     },
