@@ -170,7 +170,7 @@
       "build_start": "/pa/units/land/bot_factory/bot_factory_anim_start.papa",
       "idle": "/pa/units/land/bot_factory/bot_factory_anim_build.papa"
     },
-    "animtree": "/pa/anim/anim_trees/factory.json",
+    "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
     "filename": "/pa/units/land/bot_factory/bot_factory.papa",
     "skirt_decal": "/pa/effects/specs/skirt_bot.json"
   },
