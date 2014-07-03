@@ -19,7 +19,7 @@
       "audio_cue": "/SE/Death/Factory",
       "effect_scale": 0.8
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/structure/tactical_missile_launcher_fire",
       "effect_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_launch.pfx"
     }
@@ -29,25 +29,25 @@
   "max_health": 3000,
   "model": [
     {
-      "animations": {
-        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
-        "loop": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_loop.papa",
-        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
-      },
-      "animtree": "/pa/anim/anim_trees/constant_idle_transition.json",
-      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
       "layer": "WL_LandHorizontal",
+      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
+      "animations": {
+        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa",
+        "loop": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_loop.papa",
+        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
       "skirt_decal": "/pa/effects/specs/skirt_08.json"
     },
     {
-      "animations": {
-        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
-        "loop": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_loop.papa",
-        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
-      },
-      "animtree": "/pa/anim/anim_trees/constant_idle_transition.json",
+      "layer": "WL_WaterSurface",
       "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
-      "layer": "WL_WaterSurface"
+      "animations": {
+        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa",
+        "loop": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_loop.papa",
+        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json"
     }
   ],
   "recon": {
