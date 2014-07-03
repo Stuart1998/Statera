@@ -315,25 +315,25 @@
   ],
   "model": [
     {
-      "animations": {
-        "build_end": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_end.papa",
-        "build_loop": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
-        "build_start": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_start.papa"
-      },
-      "animtree": "/pa/anim/anim_trees/factory.json",
-      "filename": "/pa/units/orbital/orbital_launcher/orbital_launcher.papa",
       "layer": "WL_LandHorizontal",
+      "filename": "/pa/units/orbital/orbital_launcher/orbital_launcher.papa",
+      "animations": {
+        "build_start": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_start.papa",
+        "build_loop": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
+        "build_end": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_end.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
       "skirt_decal": "/pa/effects/specs/skirt_orbital_launcher.json"
     },
     {
-      "animations": {
-        "build_end": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_end.papa",
-        "build_loop": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
-        "build_start": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_start.papa"
-      },
-      "animtree": "/pa/anim/anim_trees/factory.json",
+      "layer": "WL_WaterSurface",
       "filename": "/pa/units/orbital/orbital_launcher/orbital_launcher.papa",
-      "layer": "WL_WaterSurface"
+      "animations": {
+        "build_start": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_start.papa",
+        "build_loop": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_build.papa",
+        "build_end": "/pa/units/orbital/orbital_launcher/orbital_launcher_anim_end.papa"
+      },
+      "animtree": "/pa/anim/anim_trees/factory_anim_tree.json"
     }
   ],
   "physics": {
