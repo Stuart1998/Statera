@@ -17,7 +17,7 @@
 	"display_group": 80,
 	"max_health": 150,
 	"events": {
-		"firing": {
+		"fired": {
 			"effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle",
 			"audio_cue": "/SE/Weapons/veh/land_scout_fire"
 		},
@@ -51,7 +51,7 @@
 	"model": {
 		"filename": "/pa/units/land/land_scout/land_scout.papa",
 		"arrows": 5,
-		"animtree": "/pa/anim/anim_trees/land_scout.json",
+		"animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
 		"animations": {
 			"drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
 		}
