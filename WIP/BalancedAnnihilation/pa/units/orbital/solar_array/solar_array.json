@@ -26,7 +26,7 @@
       "audio_cue": "/SE/Death/orbital",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/air/bomber_fire"
     }
   },
