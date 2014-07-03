@@ -87,7 +87,7 @@
   ],
   "max_health": 400,
   "model": {
-    "animtree": "/pa/anim/anim_trees/fabrication_turret.json",
+    "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
     "filename": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.papa"
   },
   "navigation": {
