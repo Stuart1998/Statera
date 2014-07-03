@@ -30,7 +30,7 @@
       "audio_cue": "/SE/Death/radar",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/air/bomber_fire"
     }
   },
@@ -47,7 +47,7 @@
       "deploy": "/pa/units/orbital/radar_satellite/radar_satellite_anim_deploy.papa",
       "open": "/pa/units/orbital/radar_satellite/radar_satellite_anim_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/satellite_launched.json",
+    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
     "filename": "/pa/units/orbital/radar_satellite/radar_satellite.papa"
   },
   "navigation": {
