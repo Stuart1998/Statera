@@ -23,7 +23,7 @@
     "died": {
       "audio_cue": "/SE/Death/Sea_sub"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/sea/attack_sub_fire"
     }
   },
