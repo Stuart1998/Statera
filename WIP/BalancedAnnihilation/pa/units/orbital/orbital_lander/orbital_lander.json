@@ -144,7 +144,7 @@
       "deploy": "/pa/units/orbital/orbital_lander/orbital_lander_anim_deploy.papa",
       "open": "/pa/units/orbital/orbital_lander/orbital_lander_anim_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/satellite_launched.json",
+    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
     "filename": "/pa/units/orbital/orbital_lander/orbital_lander.papa"
   },
   "navigation": {
