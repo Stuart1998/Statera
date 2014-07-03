@@ -34,7 +34,7 @@
       "audio_cue": "/SE/Death/Factory",
       "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/structure/anti_nuke_launcher_fire"
     }
   },
@@ -133,7 +133,7 @@
         "build_start_3": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_buildStart03.papa",
         "idle": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_anim_idle.papa"
       },
-      "animtree": "/pa/anim/anim_trees/anti_nuke.json",
+      "animtree": "/pa/anim/anim_trees/anti_nuke_anim_tree.json",
       "filename": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_antinuke.json"
