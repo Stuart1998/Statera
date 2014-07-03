@@ -29,7 +29,7 @@
       "audio_cue": "/SE/Death/Air",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/base/base_fire_laser"
     }
   },
