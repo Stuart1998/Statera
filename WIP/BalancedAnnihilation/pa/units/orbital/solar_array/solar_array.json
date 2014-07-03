@@ -42,7 +42,7 @@
       "deploy": "/pa/units/orbital/solar_array/solar_array_anim_deploy.papa",
       "open": "/pa/units/orbital/solar_array/solar_array_anim_open.papa"
     },
-    "animtree": "/pa/anim/anim_trees/satellite_launched.json",
+    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
     "filename": "/pa/units/orbital/solar_array/solar_array.papa"
   },
   "physics": {
