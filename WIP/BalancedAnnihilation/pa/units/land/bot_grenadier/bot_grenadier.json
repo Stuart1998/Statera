@@ -39,7 +39,7 @@
       "effect_scale": 0.5,
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
-    "firing": {
+    "fired": {
       "audio_cue": "/SE/Weapons/bot/grenadier_fire",
       "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
     }
@@ -58,7 +58,7 @@
       "idle": "/pa/units/land/bot_grenadier/bot_grenadier_anim_idle.papa",
       "walk": "/pa/units/land/bot_grenadier/bot_grenadier_anim_run.papa"
     },
-    "animtree": "/pa/anim/anim_trees/bot_grenadier.json",
+    "animtree": "/pa/anim/anim_trees/bot_grenadier_anim_tree.json",
     "filename": "/pa/units/land/bot_grenadier/bot_grenadier.papa",
     "walk_speed": 12
   },
