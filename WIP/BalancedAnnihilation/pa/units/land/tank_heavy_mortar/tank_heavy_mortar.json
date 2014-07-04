@@ -56,7 +56,7 @@
     "group_preference": "back",
     "move_speed": 10,
     "turn_speed": 60,
-    "type": "amphibious"
+    "type": "land-small"
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
