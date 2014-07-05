@@ -9,7 +9,7 @@
   "carpet_fire": true,
   "firing_arc_pitch": 180,
   "firing_arc_yaw": 180,
-  "max_range": 450,
+  "max_range": 400,
   "pitch_range": 0,
   "pitch_rate": 180,
   "rate_of_fire": 6,
