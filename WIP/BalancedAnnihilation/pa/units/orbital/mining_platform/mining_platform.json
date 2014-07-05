@@ -1,62 +1,62 @@
 {
-  "TEMP_texelinfo": 5.39039,
-  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 500,
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Assist"
-  ],
-  "consumption": {
-    "energy": 1250
-  },
-  "description": "Mining Platform: Extracts metal.",
-  "display_name": "Mining Platform",
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/air"
+    "TEMP_texelinfo": 5.39039,
+    "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+    "build_metal_cost": 500,
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Patrol",
+        "ORDER_Assist"
+    ],
+    "consumption": {
+        "energy": 1250
     },
-    "died": {
-      "audio_cue": "/SE/Death/Air",
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
-    },
-    "fired": {
-      "audio_cue": "/SE/Weapons/air/bomber_fire"
-    }
-  },
-  "feature_requirements": [
-    "metal_spot"
-  ],
-  "max_health": 7500,
-  "model": {
-    "filename": "/pa/units/orbital/laser_satellite/laser_satellite.papa"
-  },
-  "physics": {
-    "gravity_scalar": 0.001,
-    "push_class": 15,
-    "radius": 10
-  },
-  "production": {
-    "metal": 5
-  },
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight",
-          "layer": "orbital",
-          "radius": 250,
-          "shape": "sphere"
+    "description": "Mining Platform: Extracts metal.",
+    "display_name": "Mining Platform",
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/air"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Air",
+            "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+        },
+        "fired": {
+            "audio_cue": "/SE/Weapons/air/bomber_fire"
         }
-      ]
-    }
-  },
-  "unit_types": [
-    "UNITTYPE_Structure",
-    "UNITTYPE_Orbital",
-    "UNITTYPE_MetalProduction",
-    "UNITTYPE_Economy",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FabOrbBuild",
-  ]
+    },
+    "feature_requirements": [
+        "metal_spot"
+    ],
+    "max_health": 7500,
+    "model": {
+        "filename": "/pa/units/orbital/laser_satellite/laser_satellite.papa"
+    },
+    "physics": {
+        "gravity_scalar": 0.001,
+        "push_class": 15,
+        "radius": 10
+    },
+    "production": {
+        "metal": 5
+    },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "channel": "sight",
+                    "layer": "orbital",
+                    "radius": 250,
+                    "shape": "sphere"
+                }
+            ]
+        }
+    },
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Orbital",
+        "UNITTYPE_MetalProduction",
+        "UNITTYPE_Economy",
+        "UNITTYPE_Advanced",
+        "UNITTYPE_FabOrbBuild"
+    ]
 }
