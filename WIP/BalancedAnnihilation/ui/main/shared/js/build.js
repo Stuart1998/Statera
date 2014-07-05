@@ -5,6 +5,8 @@ function BuildHotkeyModel() {
     self.SpecIdToGridMap = ko.observable(
         {
             "/pa/units/land/radar_adv/radar_adv.json": ["utility", 0],
+            "/pa/units/orbital/solar_array/solar_array.json": ["utility", 1],
+            "/pa/units/orbital/mining_platform/mining_platform.json": ["utility", 2],
             "/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 3],
             "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],
             "/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 5],
@@ -74,7 +76,6 @@ function BuildHotkeyModel() {
             
             "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 6],
             "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json": ["orbital", 7],
-            "/pa/units/orbital/solar_array/solar_array.json": ["orbital", 8],
             "/pa/units/orbital/defense_satellite/defense_satellite.json": ["orbital", 9],
             "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json": ["orbital", 10],
             "/pa/units/orbital/orbital_fighter/orbital_fighter.json": ["orbital", 11],
