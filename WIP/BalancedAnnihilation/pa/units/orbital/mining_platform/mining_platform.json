@@ -57,6 +57,5 @@
         "UNITTYPE_MetalProduction",
         "UNITTYPE_Economy",
         "UNITTYPE_Advanced",
-        "UNITTYPE_FabOrbBuild"
     ]
 }
