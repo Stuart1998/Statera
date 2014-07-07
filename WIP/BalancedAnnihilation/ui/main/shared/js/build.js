@@ -6,7 +6,6 @@ function BuildHotkeyModel() {
         {
             "/pa/units/land/radar_adv/radar_adv.json": ["utility", 0],
             "/pa/units/orbital/solar_array/solar_array.json": ["utility", 1],
-            "/pa/units/orbital/mining_platform/mining_platform.json": ["utility", 2],
             "/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 3],
             "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],
             "/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 5],
