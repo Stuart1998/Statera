@@ -29,7 +29,7 @@
   "description": "Tactical Missile Bot: Medium range artillery bot. Intercepts certain types of missiles.",
   "display_group": 40,
   "display_index": 60,
-  "display_name": "Bluehawk",
+  "display_name": "Clobberer",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
