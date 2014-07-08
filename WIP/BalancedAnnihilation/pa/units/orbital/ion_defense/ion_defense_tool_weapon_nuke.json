@@ -8,6 +8,7 @@
     "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
   ],
   "auto_attack": true,
+  "auto_task_type": "anti_entity",
   "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
   "max_range": 200,
   "pitch_range": 180,
