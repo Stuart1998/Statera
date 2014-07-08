@@ -5,7 +5,7 @@
   "burn_damage": 200,
   "burn_radius": 137,
   "collision_check": "ground",
-  "cruise_height": 150,
+  "cruise_height": 100,
   "damage": 4000,
   "damage_volume": {
     "burnable_remove_radius": 100.0,
@@ -39,7 +39,7 @@
   "initial_velocity": 40.0,
   "interplanetary_type": "INTER_System",
   "lifetime": 0,
-  "max_health": 100,
+  "max_health": 150,
   "max_velocity": 75.0,
   "model": {
     "filename": "/pa/units/air/missile_nuke/missile_nuke.papa"
