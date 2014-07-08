@@ -29,7 +29,7 @@
   "description": "Sniper Bot: Long range, anti-land, and anti-ship bot. Slow reload speed. Slow.",
   "display_group": 60,
   "display_index": 100,
-  "display_name": "Gil-E",
+  "display_name": "Hunter",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
