@@ -28,7 +28,7 @@
     "/pa/units/commanders/tank_base/tank_base.json",            
     "/pa/units/land/precision_launcher/precision_launcher.json",
     "/pa/units/air/transport_large/transport_large.json",
-    "/pa/units/air/gunship_basic/gunship.json",
+    "/pa/units/air/gunship_basic/gunship_basic.json",
     "/pa/units/land/megabot/megabot.json",
     "/pa/units/air/air_factory/air_factory.json",
     "/pa/units/air/air_factory_adv/air_factory_adv.json",
