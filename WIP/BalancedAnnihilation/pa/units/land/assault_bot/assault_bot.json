@@ -29,8 +29,8 @@
   "description": "Light Assault: Anti-land and anti-ship lasers. Light armor.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Scamper",
-  "events": {
+  "display_name": "Scamperer",
+  "events": { 
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
     },
