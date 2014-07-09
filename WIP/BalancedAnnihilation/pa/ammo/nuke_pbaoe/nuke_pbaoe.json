@@ -1,7 +1,7 @@
 {
   "ammo_type": "PBAOE",
   "full_damage_splash_radius": 20,
-  "sim_fire_effect": "/pa/effects/specs/default_commander_landing_ent.json",
+  "sim_fire_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
   "splash_damage": 25000,
   "splash_damages_allies": true,
   "splash_radius": 110
