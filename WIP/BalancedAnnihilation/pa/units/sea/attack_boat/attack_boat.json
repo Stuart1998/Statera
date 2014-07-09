@@ -62,7 +62,7 @@
     {
       "aim_bone": "bone_root",
       "muzzle_bone": "bone_root",
-      "spec_id": "/pa/units/sea/attack_sub/attack_sub_tool_weapon.json"
+      "spec_id": "/pa/units/sea/attack_boat/attack_sub_tool_weapon.json"
     }
   ],
   "unit_types": [

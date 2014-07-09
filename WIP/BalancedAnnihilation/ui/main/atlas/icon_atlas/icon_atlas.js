@@ -62,7 +62,7 @@ $(document).ready(function () {
             'fabrication_ship_adv',
             'fabrication_ship',
             'sea_scout',
-            'attack_sub',
+            'attack_boat',
             'fabrication_sub',
             'nuclear_sub',
             'sea_mine',

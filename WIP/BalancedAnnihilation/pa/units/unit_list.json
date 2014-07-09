@@ -119,7 +119,7 @@
     "/pa/units/orbital/radar_satellite/radar_satellite.json",
     "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json",
     "/pa/units/orbital/solar_array/solar_array.json",
-    "/pa/units/sea/attack_sub/attack_sub.json",
+    "/pa/units/sea/attack_boat/attack_boat.json",
     "/pa/units/sea/base_ship/base_ship.json",
     "/pa/units/sea/battleship/battleship.json",
     "/pa/units/sea/destroyer/destroyer.json",
