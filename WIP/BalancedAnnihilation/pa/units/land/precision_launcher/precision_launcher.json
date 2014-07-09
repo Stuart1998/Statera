@@ -38,7 +38,7 @@
   },
   "factory": {
     "default_build_stance": "Continuous",
-    "initial_build_spec": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json",
+    "initial_build_spec": "/pa/units/land/precision_launcher/precision_launcher_ammo.json",
     "spawn_points": [
       "socket_missile01",
       "socket_missile02",
