@@ -1,84 +1,94 @@
 {
-	"display_group": 60,
-	"fx_offsets": [{
-		"offset": [0,
-		2.9,
-		0.836],
-		"type": "moving_forward",
-		"filename": "/pa/units/air/fighter/fighter_jets.pfx"
-	}],
-	"physics": {
-		"gravity_scalar": 1,
-		"radius": 6,
-		"push_class": 2
-	},
-	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-	"events": {
-		"fired": {
-			"audio_cue": "/SE/Weapons/air/fighter_fire"
-		},
-		"died": {
-			"effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx"
-			"audio_cue": "/SE/Death/Air"
-		},
-		"build_complete": {
-			"audio_cue": "/SE/Build_Complete/air"
-		}
-	},
-	"display_name": "Hummingbird",
-	"guard_layer": "WL_AnySurface",
-	"tools": [{
-		"aim_bone": "bone_root",
-		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
-		"muzzle_bone": "bone_root",
-		"primary_weapon": false
-	}],
-	"audio": {
-		"loops": {
-			"move": {
-				"should_start_func": "is_moving",
-				"flag": "vel_changed",
-				"should_stop_func": "is_not_moving",
-				"cue": "/SE/Movement/air/air_fighter_loop"
-			}
-		}
-	},
-	"unit_types": ["UNITTYPE_Fighter",
-	"UNITTYPE_Air",
-	"UNITTYPE_Mobile",
-	"UNITTYPE_Basic",
-	"UNITTYPE_FactoryBuild"],
-	"TEMP_texelinfo": 6.1803,
-	"model": {
-		"arrows": 5,
-		"filename": "/pa/units/air/fighter/fighter.papa"
-	},
-	"description": "Hummingbird: Analysis: Fighter: Strong anti-air missiles.",
-	"recon": {
-		"observer": {
-			"items": [{
-				"layer": "surface_and_air",
-				"radius": 150,
-				"channel": "sight",
-				"shape": "capsule"
-			}]
-		}
-	},
-	"build_metal_cost": 130,
-	"display_index": 80,
-	"max_health": 200,
-	"guard_radius": 100,
-	"navigation": {
-		"aggressive_height": 100,
-		"aggressive_distance": 250,
-		"turn_speed": 180,
-		"type": "air",
-		"dodge_multiplier": 0,
-		"dodge_radius": 0,
-		"wobble_factor": 0.05,
-		"wobble_speed": 0.1,
-		"acceleration": 180,
-		"move_speed": 90,
-		"brake": 45
-	}
+    "display_group": 60,
+    "fx_offsets": [
+        {
+            "offset": [
+                0,
+                2.9,
+                0.836
+            ],
+            "type": "moving_forward",
+            "filename": "/pa/units/air/fighter/fighter_jets.pfx"
+        }
+    ],
+    "physics": {
+        "gravity_scalar": 1,
+        "radius": 6,
+        "push_class": 2
+    },
+    "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+    "events": {
+        "fired": {
+            "audio_cue": "/SE/Weapons/air/fighter_fire"
+        },
+        "died": {
+            "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
+            "audio_cue": "/SE/Death/Air"
+        },
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/air"
+        }
+    },
+    "display_name": "Hummingbird",
+    "guard_layer": "WL_AnySurface",
+    "tools": [
+        {
+            "aim_bone": "bone_root",
+            "spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
+            "muzzle_bone": "bone_root",
+            "primary_weapon": false
+        }
+    ],
+    "audio": {
+        "loops": {
+            "move": {
+                "should_start_func": "is_moving",
+                "flag": "vel_changed",
+                "should_stop_func": "is_not_moving",
+                "cue": "/SE/Movement/air/air_fighter_loop"
+            }
+        }
+    },
+    "unit_types": [
+        "UNITTYPE_Fighter",
+        "UNITTYPE_Air",
+        "UNITTYPE_Mobile",
+        "UNITTYPE_Basic",
+        "UNITTYPE_FactoryBuild"
+    ],
+    "TEMP_texelinfo": 6.1803,
+    "model": {
+        "arrows": 5,
+        "filename": "/pa/units/air/fighter/fighter.papa"
+    },
+    "description": "Hummingbird: Analysis: Fighter: Strong anti-air missiles.",
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "radius": 150,
+                    "channel": "sight",
+                    "shape": "capsule"
+                }
+            ]
+        }
+    },
+    "build_metal_cost": 130,
+    "display_index": 80,
+    "max_health": 200,
+    "guard_radius": 100,
+    "navigation": {
+        "aggressive_height": 100,
+        "aggressive_distance": 250,
+        "turn_speed": 180,
+        "type": "air",
+        "dodge_multiplier": 0,
+        "dodge_radius": 0,
+        "wobble_factor": 0.05,
+        "wobble_speed": 0.1,
+        "acceleration": 180,
+        "move_speed": 90,
+        "brake": 45
+    }
 }
