@@ -8,7 +8,7 @@
   "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
   "firing_standard_deviation": 1.5,
   "idle_aim_delay": 1.0,
-  "max_range": 95,
+  "max_range": 90,
   "pitch_range": 40,
   "pitch_rate": 360,
   "rate_of_fire": 10,
