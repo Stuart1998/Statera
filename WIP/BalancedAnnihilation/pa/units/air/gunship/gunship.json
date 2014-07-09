@@ -77,7 +77,7 @@
   ],
   "guard_layer": "WL_Anysurface",
   "guard_radius": 100,
-  "max_health": 160,
+  "max_health": 150,
   "model": {
     "animations": {
       "aim_down": "/pa/units/air/gunship/gunship_anim_aimDown.papa",
