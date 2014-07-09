@@ -1,8 +1,8 @@
 {
-  "ammo_capacity": 1000,
-  "ammo_demand": 4000,
+  "ammo_capacity": 10000,
+  "ammo_demand": 250,
   "ammo_id": "/pa/units/orbital/ion_defense/ion_defense_ammo_nuke.json",
-  "ammo_per_shot": 250,
+  "ammo_per_shot": 10000,
   "ammo_source": "energy",
   "anti_entity_targets": [
     "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
@@ -16,7 +16,7 @@
   "pitch_range": 89,
   "pitch_rate": 3600,
   "rate_of_fire": 1.0,
-  "spread_fire": true,
+  "spread_fire": false,
   "target_layers": [
     "WL_Air"
   ],
