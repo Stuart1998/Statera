@@ -21,7 +21,7 @@
     "ORDER_FactoryBuild",
     "ORDER_Attack"
   ],
-  "description": "Nuke: Long range, large area damage, nuclear missile",
+  "description": "Nuclear Missile Launcher: Analysis: Nuke: Long range, large area damage, nuclear missile",
   "display_group": 20,
   "display_index": 10,
   "display_name": "Nuclear Missile Launcher",

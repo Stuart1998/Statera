@@ -26,7 +26,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Factory: Builds specialized bots",
+  "description": "Specialist Bot Factory: Analysis: Factory: Builds specialized bots",
   "display_group": 75,
   "display_index": 85,
   "display_name": "Specialist Bot Factory",

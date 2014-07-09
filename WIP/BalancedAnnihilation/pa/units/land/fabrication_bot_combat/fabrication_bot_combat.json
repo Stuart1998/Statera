@@ -43,7 +43,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Fabrication: Builds Mines and repairs units. Can only build units for which it has a blueprint.",
+  "description": "Combat Fabrication Bot: Analysis: Fabrication: Builds Mines and repairs units. Can only build units for which it has a blueprint.",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Combat Fabrication Bot",

@@ -7,10 +7,10 @@
   "consumption": {
     "energy": 675
   },
-  "description": "Radar: Detects nearby enemy land, sea, and air units in a medium radius.",
+  "description": "Radar Tower: Analysis: Radar: Detects nearby enemy land, sea, and air units in a medium radius.",
   "display_group": 50,
   "display_index": 95,
-  "display_name": "Radar",
+  "display_name": "Radar Tower",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {

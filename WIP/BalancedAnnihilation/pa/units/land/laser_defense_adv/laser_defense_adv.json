@@ -8,10 +8,10 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Riot Defense: Direct fire anti-land, and anti-ship defense. Effective vs light units.",
+  "description": "Riot Laser Tower: Analysis: Riot Defense: Direct fire anti-land, and anti-ship defense. Effective vs light units.",
   "display_group": 20,
   "display_index": 100,
-  "display_name": "Riot Laser Defense Tower",
+  "display_name": "Riot Laser Tower",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

@@ -8,10 +8,10 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Direct fire anti-land, and anti-ship defense. Uses energy.",
+  "description": "Heavy Laser Tower: Analysis: Defense: Direct fire anti-land, and anti-ship defense. Uses energy.",
   "display_group": 20,
   "display_index": 95,
-  "display_name": "Laser Defense Tower",
+  "display_name": "Heavy Laser Tower",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

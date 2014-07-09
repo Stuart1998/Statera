@@ -47,7 +47,7 @@
         "ORDER_Assist",
         "ORDER_Use"
     ],
-    "description": "Advanced Combat Fabrication: Repairs units and builds battlefield structures",
+    "description": "Advanced Combat Fabrcation Bot: Analysis: Advanced Combat Fabrication: Repairs units and builds battlefield structures",
     "display_group": 100,
     "display_index": 50,
     "display_name": "Advanced Combat Fabrication Bot",

@@ -7,7 +7,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Artillery Defense: Medium range, anti-land, and anti-ship gun",
+  "description": "Pelter: Analysis: Artillery Defense: Medium range, anti-land, and anti-ship cannon",
   "display_group": 20,
   "display_index": 50,
   "display_name": "Pelter",

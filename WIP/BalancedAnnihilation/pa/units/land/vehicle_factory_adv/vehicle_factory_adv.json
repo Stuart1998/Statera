@@ -26,7 +26,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Factory: Builds specialized land vehicles",
+  "description": "Specialist Vehicle Factory: Analysis: Factory: Builds specialized land vehicles",
   "display_group": 75,
   "display_index": 100,
   "display_name": "Specialist Vehicle Factory",

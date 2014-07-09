@@ -16,7 +16,7 @@
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
-  "description": "Orbital Laser Platform: Death from above",
+  "description": "SXX-1304 Laser Platform: Analysis: Orbital Bombardment Platform: Bombards grounded units and structures.",
   "display_name": "SXX-1304 Laser Platform",
   "events": {
     "build_complete": {

@@ -8,7 +8,7 @@
   "consumption": {
     "energy": 0
   },
-  "description": "Metal: Produces metal, can only be placed on metal deposits. Light armor.",
+  "description": "Metal Extractor: Analysis: Metal: Produces metal, can only be placed on metal deposits. Light armor.",
   "display_group": 80,
   "display_index": 80,
   "display_name": "Metal Extractor",

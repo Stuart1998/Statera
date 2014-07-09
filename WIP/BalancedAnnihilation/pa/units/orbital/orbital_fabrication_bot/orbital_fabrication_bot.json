@@ -37,7 +37,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Orbital Fabrication Bot: Builds Orbital satellites and ships",
+  "description": "Orbital Fabrication Bot: Analysis: Fabrication: Medium Nanolathe. Builds Orbital satellites and ships",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Orbital Fabrication Bot",

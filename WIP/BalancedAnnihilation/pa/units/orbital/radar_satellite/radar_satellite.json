@@ -19,7 +19,7 @@
   "consumption": {
     "energy": 1250
   },
-  "description": "Radar Satellite: Detects a large area for enemy land, sea, and air units",
+  "description": "ARKYD: Analysis: Radar Satellite: Detects enemy units in a large area.",
   "display_name": "ARKYD",
   "energy_efficiency_requirement": 0.9,
   "events": {

@@ -5,7 +5,7 @@
   "consumption": {
     "energy": 300
   },
-  "description": "Sonar: Detects underwater units",
+  "description": "Sonar: Analysis: Sonar: Detects underwater units",
   "display_group": 50,
   "display_index": 105,
   "display_name": "Sonar",

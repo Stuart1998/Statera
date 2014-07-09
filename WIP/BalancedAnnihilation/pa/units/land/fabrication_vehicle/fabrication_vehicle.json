@@ -42,7 +42,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Fabrication: Medium nanolathe, medium speed.",
+  "description": "Fabrication Vehicle: Analysis: Fabrication: Medium nanolathe, medium speed.",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Fabrication Vehicle",

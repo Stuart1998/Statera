@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Direct fire anti-land, anti-sea, and anti-air. Cheap but only eliminates small light threats.",
+  "description": "Light Defense Tower: Analysis: Weak Defense: Direct fire anti-land, anti-sea, and anti-air. Cheap but only eliminates small light threats.",
   "display_group": 20,
   "display_index": 95,
   "display_name": "Light Defense Tower",

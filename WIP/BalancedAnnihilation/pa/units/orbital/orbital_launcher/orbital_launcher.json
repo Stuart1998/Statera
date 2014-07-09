@@ -22,7 +22,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Orbital factory - build and launch satellites and other units.",
+  "description": "Orbital Launcher: Analysis: Factory: Builds and launches orbital units.",
   "display_group": 70,
   "display_index": 20,
   "display_name": "Orbital Launcher",

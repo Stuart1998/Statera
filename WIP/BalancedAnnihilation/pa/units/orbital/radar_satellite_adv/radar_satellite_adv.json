@@ -19,7 +19,7 @@
   "consumption": {
     "energy": 4000
   },
-  "description": "Advanced Camera Satellite: Detects a large area for enemy land, sea, and air units",
+  "description": "TORZYDE: Analysis: Advanced Camera Satellite: Detects enemy units in a large area.",
   "display_name": "TORZYDE",
   "energy_efficiency_requirement": 0.9,
   "events": {

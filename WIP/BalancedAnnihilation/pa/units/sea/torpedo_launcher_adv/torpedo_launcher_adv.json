@@ -6,7 +6,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Defense: Long range anti-sub and anti-ship torpedos.",
+  "description": "Advanced Torpedo Launcher: Analysis: Defense: Long range anti-sub and anti-ship torpedos.",
   "display_group": 50,
   "display_index": 75,
   "display_name": "Advanced Torpedo Launcher",

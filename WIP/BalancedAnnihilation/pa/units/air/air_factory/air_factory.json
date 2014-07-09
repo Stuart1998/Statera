@@ -30,7 +30,7 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
-  "description": "Factory: Builds air units",
+  "description": "Generalist Air Factory: Analysis: Factory: Builds air units",
   "display_group": 70,
   "display_index": 60,
   "display_name": "Generalist Air Factory",

@@ -12,10 +12,10 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 220,
-  "description": "Torpedo Boat: Anti-naval torpedos, fast..",
+  "description": "Seabass: Analysis: Torpedo Boat: Anti-naval torpedos, fast..",
   "display_group": 40,
   "display_index": 60,
-  "display_name": "SeaBass",
+  "display_name": "Seabass",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

@@ -29,7 +29,7 @@
     "ORDER_Unload",
     "ORDER_SpecialMove"
   ],
-  "description": "Orbital Lander: Load it up, get units to other planets.",
+  "description": "Astraeus: Analysis: Orbital Lander: Transports units to neighbouring celestial bodies.",
   "display_name": "Astraeus",
   "events": {
     "build_complete": {

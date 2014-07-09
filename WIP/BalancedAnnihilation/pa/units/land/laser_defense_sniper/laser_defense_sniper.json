@@ -8,10 +8,10 @@
     "command_caps": [
         "ORDER_Attack"
     ],
-    "description": "Sniper Tower: Medium range anti-land and anti-ship lasers. Long reload time.",
+    "description": "Long-range Laser Tower: Analysis: Sniper Tower: Medium range anti-land and anti-ship lasers. Long reload time.",
     "display_group": 20,
     "display_index": 95,
-    "display_name": "Long Range Defense Tower",
+    "display_name": "Long-range Laser Tower",
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/structure_small"

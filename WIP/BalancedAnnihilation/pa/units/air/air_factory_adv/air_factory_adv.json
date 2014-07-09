@@ -25,7 +25,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Factory: Builds specialized air units",
+  "description": "Specialist Air Factory: Analysis: Factory: Builds specialized air units",
   "display_group": 75,
   "display_index": 65,
   "display_name": "Specialist Air Factory",

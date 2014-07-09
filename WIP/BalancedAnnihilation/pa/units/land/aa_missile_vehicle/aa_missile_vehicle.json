@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 150,
-  "description": "AA: Anti-Anything missiles. Effective vs air, moderately effective vs land.",
+  "description": "Slasher: Analysis: AA: Anti-Anything missiles. Effective vs air, moderately effective vs land.",
   "display_group": 60,
   "display_index": 80,
   "display_name": "Slasher",

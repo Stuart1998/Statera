@@ -17,7 +17,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Orbital Defense Platform: Stationary anti-orbital and anti-air defense.",
+  "description": "Anchor: Analysis: Orbital Defense Platform: Stationary anti-orbital and anti-air defense.",
   "display_name": "Anchor",
   "events": {
     "build_complete": {

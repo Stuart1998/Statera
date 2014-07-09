@@ -7,7 +7,7 @@
   "consumption": {
     "energy": 1350
   },
-  "description": "Orbital and Deepspace Radar: Orbital and Celestial radar telemetry",
+  "description": "Orbital and Deepspace Radar: Analysis: Radar: Orbital and Celestial radar telemetry",
   "display_group": 50,
   "display_index": 80,
   "display_name": "Orbital and Deepspace Radar",

@@ -7,10 +7,10 @@
   "consumption": {
     "energy": 8000
   },
-  "description": "Advanced Radar: Inefficiently detects nearby enemy land, sea, and air units in a large radius.",
+  "description": "Advanced Radar Tower: Analysis: Radar: Inefficiently detects nearby enemy land, sea, and air units in a large radius.",
   "display_group": 50,
   "display_index": 100,
-  "display_name": "Advanced Radar",
+  "display_name": "Advanced Radar Tower",
   "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {

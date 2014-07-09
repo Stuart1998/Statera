@@ -25,7 +25,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Orbital: Builds orbital satellites",
+  "description": "Orbital Factory: Analysis: Factory: Builds orbital satellites",
   "display_group": 75,
   "display_index": 65,
   "display_name": "Orbital Factory",

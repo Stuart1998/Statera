@@ -5,7 +5,7 @@
   "atrophy_rate": 10.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 350,
-  "description": "Energy: Produces energy. Light armor.",
+  "description": "Energy Plant: Analysis: Energy: Produces energy. Light armor.",
   "display_group": 80,
   "display_index": 60,
   "display_name": "Energy Plant",

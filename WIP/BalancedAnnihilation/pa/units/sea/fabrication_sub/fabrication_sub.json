@@ -28,7 +28,7 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Combat Fabrication: Repairs, Reclaims, Lays Mines, Can Not Build Structures.",
+  "description": "Combat Fabrication Boat: Analysis: Combat Fabrication: Repairs, Reclaims, Lays Mines, Can Not Build Structures.",
   "display_group": 100,
   "display_index": 20,
   "display_name": "Combat Fabrication Boat",

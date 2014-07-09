@@ -42,10 +42,10 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Advanced Fabrication: Weak nanolathe, very fast speed.",
+  "description": "Advanced Fabrication Aircraft: Analysis: Advanced Fabrication: Weak nanolathe, very fast speed.",
   "display_group": 100,
   "display_index": 100,
-  "display_name": "Advanced Fab Aircraft",
+  "display_name": "Advanced Fabrication Aircraft",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"

@@ -8,7 +8,7 @@
   "consumption": {
     "energy": 0
   },
-  "description": "Armored Metal: Produces metal inefficiently, can only be placed on metal deposits; Stacks with Metal Extractor. Heavy armor.",
+  "description": "Armored Metal Extractor: Analysis: Metal: Produces metal inefficiently, can only be placed on metal deposits; Stacks with Metal Extractor. Heavy armor.",
   "display_group": 80,
   "display_index": 85,
   "display_name": "Armored Metal Extractor",

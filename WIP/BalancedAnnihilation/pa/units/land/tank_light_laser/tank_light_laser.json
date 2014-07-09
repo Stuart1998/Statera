@@ -26,10 +26,10 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 200,
-  "description": "Tank: Anti-land and anti-ship cannon. Slow speed. Medium armor.",
+  "description": "YOLO: Analysis: Tank: Anti-land and anti-ship lasers. Slow speed. Medium armor.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Yolo",
+  "display_name": "YOLO",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

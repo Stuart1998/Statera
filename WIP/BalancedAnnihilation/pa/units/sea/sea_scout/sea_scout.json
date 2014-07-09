@@ -12,10 +12,10 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 160,
-  "description": "AA: Light anti-everything missiles. Moderately effective vs naval, effective vs air..",
+  "description": "Sunfish: Analysis: AA Boat: Light anti-anything missiles. Moderately effective vs naval, effective vs air..",
   "display_group": 80,
   "display_index": 80,
-  "display_name": "SunFish",
+  "display_name": "Sunfish",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"

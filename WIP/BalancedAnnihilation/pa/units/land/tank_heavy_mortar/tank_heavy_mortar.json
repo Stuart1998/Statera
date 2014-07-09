@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 1500,
-  "description": "Mobile Artillery: Mobile Artillery",
+  "description": "Sheller: Analysis: Mobile Artillery: Heavy anti-structure artillery.",
   "display_group": 60,
   "display_index": 100,
   "display_name": "Sheller",

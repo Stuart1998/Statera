@@ -22,7 +22,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Teleporter: Teleports units from one to another.",
+  "description": "Teleporter: Analysis: Teleporter: Teleports units from one to another.",
   "display_group": 50,
   "display_index": 60,
   "display_name": "Teleporter",

@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 500,
-  "description": "Tactical Missile Bot: Medium range artillery bot. Intercepts certain types of missiles.",
+  "description": "Clobberer: Analysis: Tactical Missile Bot: Medium range artillery bot. Intercepts certain types of missiles.",
   "display_group": 40,
   "display_index": 60,
   "display_name": "Clobberer",

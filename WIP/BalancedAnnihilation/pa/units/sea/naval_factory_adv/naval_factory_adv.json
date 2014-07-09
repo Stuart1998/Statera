@@ -25,7 +25,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Factory: Builds specialized naval units",
+  "description": "Specialist Naval Factory: Analysis: Factory: Builds specialized naval units",
   "display_group": 75,
   "display_index": 45,
   "display_name": "Specialist Naval Factory",

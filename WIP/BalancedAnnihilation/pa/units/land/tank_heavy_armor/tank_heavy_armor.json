@@ -31,7 +31,7 @@
     "ORDER_Patrol",
     "ORDER_Assist"
   ],
-  "description": "Vanguard: Unarmed, heavily armored tank.",
+  "description": "Vanguard: Analysis: Radar: Unarmed, heavily armored radar tank.",
   "display_group": 60,
   "display_index": 115,
   "display_name": "Vanguard",
@@ -74,7 +74,7 @@
         {
           "channel": "radar",
           "layer": "surface_and_air",
-          "radius": 150,
+          "radius": 180,
           "shape": "capsule"
         }
       ]

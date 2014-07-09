@@ -8,10 +8,10 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Offensive Longrange Anti-Air AOE Missiles",
+  "description": "Missile Offense Tower: Analysis: Offensive Longrange Anti-Air AOE Missiles",
   "display_group": 50,
   "display_index": 80,
-  "display_name": "Anti-Air Offensive Tower",
+  "display_name": "Missile Offense Tower",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

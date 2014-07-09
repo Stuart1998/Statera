@@ -41,7 +41,7 @@
     "ORDER_Repair",
     "ORDER_Assist"
   ],
-  "description": "Fabricator: Medium nanolathe, medium speed.",
+  "description": "Fabrication Ship: Analysis: Fabrication: Medium nanolathe, medium speed.",
   "display_group": 100,
   "display_index": 80,
   "display_name": "Fabrication Ship",

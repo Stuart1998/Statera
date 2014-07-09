@@ -7,7 +7,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Artillery: Long range anti-land and anti-ship missile launcher.",
+  "description": "Catapult: Analysis: Tactical Missile Launcher: Long range anti-land and anti-ship missile launcher.",
   "display_group": 20,
   "display_index": 20,
   "display_name": "Catapult",

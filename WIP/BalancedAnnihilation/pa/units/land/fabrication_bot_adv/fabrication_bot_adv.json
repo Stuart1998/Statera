@@ -42,7 +42,7 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "description": "Advanced Fabrication: Medium nanolathe, fast speed.",
+  "description": "Advanced Fabrication Bot: Analysis: Advanced Fabrication: Medium nanolathe, fast speed.",
   "display_group": 100,
   "display_index": 100,
   "display_name": "Advanced Fabrication Bot",

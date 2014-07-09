@@ -17,7 +17,7 @@
     "ORDER_Attack",
     "ORDER_Assist"
   ],
-  "description": "Orbital Fighter: Fast moving orbital fighter for offense and defense.",
+  "description": "Avenger: Analysis: Fighter: Fast moving offensive orbital unit.",
   "display_name": "Avenger",
   "events": {
     "build_complete": {

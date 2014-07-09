@@ -5,7 +5,7 @@
   "atrophy_rate": 50.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 450,
-  "description": "Energy: Increases maximum energy storage capacity",
+  "description": "Energy Storage: Analysis: Storage: Increases maximum energy storage capacity",
   "display_group": 80,
   "display_index": 30,
   "display_name": "Energy Storage",

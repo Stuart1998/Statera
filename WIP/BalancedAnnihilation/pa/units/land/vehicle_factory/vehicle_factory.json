@@ -31,7 +31,7 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
-  "description": "Factory: Builds land vehicles",
+  "description": "Generalist Vehicle Factory: Analysis: Factory: Builds land vehicles",
   "display_group": 70,
   "display_index": 95,
   "display_name": "Generalist Vehicle Factory",

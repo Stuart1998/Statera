@@ -16,7 +16,7 @@
     "ORDER_Patrol",
     "ORDER_Assist"
   ],
-  "description": "Solar Array: Orbital energy generation.",
+  "description": "Solar Array: Analysis: Energy: Orbital energy generation.",
   "display_name": "Solar Array",
   "events": {
     "build_complete": {

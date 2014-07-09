@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 900,
-  "description": "Frigate: Heavy AOE Rapidfire Flak Cannon, Moderate Multipurpose Machinegun.",
+  "description": "Narwhal: Analysis: Flak Frigate: Heavy AOE Rapidfire Flak Cannon, Moderately Effective Multipurpose Machinegun.",
   "display_group": 60,
   "display_index": 100,
   "display_name": "Narwhal",

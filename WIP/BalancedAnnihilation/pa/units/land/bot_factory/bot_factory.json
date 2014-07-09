@@ -31,7 +31,7 @@
       "/pa/effects/specs/scorch_c_01.json"
     ]
   },
-  "description": "Factory: Builds bots",
+  "description": "Generalist Bot Factory: Analysis: Factory: Builds bots",
   "display_group": 70,
   "display_index": 80,
   "display_name": "Generalist Bot Factory",

@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 4320,
-  "description": "Sub Class: Anti-sub and anti-ship torpedoes, long range ballistic nuclear missile",
+  "description": "Barracuda: Analysis: Transport: Transports land units across the sea.",
   "display_group": 40,
   "display_index": 100,
   "display_name": "Barracuda",
