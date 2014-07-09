@@ -29,9 +29,7 @@
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
-    "ORDER_Assist",
-    "ORDER_Load",
-    "ORDER_Unload"
+    "ORDER_Assist"
   ],
   "description": "Vanguard: Unarmed, heavily armored tank.",
   "display_group": 60,
@@ -58,7 +56,7 @@
     "group_preference": "front",
     "move_speed": 7,
     "turn_speed": 180,
-    "type": "amphibiouis"
+    "type": "land-small"
   },
   "physics": {
     "push_class": 90,
@@ -87,12 +85,7 @@
     "uv_split": 0.855
   },
   "transportable": {
-    "size": 5
-  },
-  "transporter": {
-    "capacity": 3,
-    "transportable_attach_offset": "head",
-    "transporter_attach_bone": "bone_root"
+    "size": 1
   },
   "unit_types": [
     "UNITTYPE_Tank",
@@ -101,10 +94,5 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
-  ],
-  "usable": true,
-  "useable": {
-    "range": 10,
-    "type": "transport"
-  }
+  ]
 }
