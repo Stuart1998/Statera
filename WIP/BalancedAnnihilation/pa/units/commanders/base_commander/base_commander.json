@@ -92,8 +92,8 @@
   "show_in_orbital_layer": true,
   "si_name": "commander",
   "storage": {
-    "energy": 40000,
-    "metal": 2000
+    "energy": 30000,
+    "metal": 1500
   },
   "teleportable": {},
   "tools": [
