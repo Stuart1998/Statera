@@ -58,7 +58,7 @@
     "group_preference": "front",
     "move_speed": 7,
     "turn_speed": 180,
-    "type": "amphibious"
+    "type": "amphibiouis"
   },
   "physics": {
     "push_class": 90,
