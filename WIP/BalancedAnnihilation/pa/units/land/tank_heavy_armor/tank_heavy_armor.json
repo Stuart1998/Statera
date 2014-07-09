@@ -1,111 +1,110 @@
 {
-    "TEMP_texelinfo": 9.04444,
-    "attachable": {
-        "offsets": {
-            "head": [
-                0,
-                -0.5,
-                6.1
-            ],
-            "root": [
-                0,
-                0,
-                0
-            ]
-        }
-    },
-    "audio": {
-        "loops": {
-            "move": {
-                "cue": "/SE/Movement/veh/tank_heavy_mortar_loop",
-                "flag": "vel_changed",
-                "should_start_func": "is_moving",
-                "should_stop_func": "is_not_moving"
-            }
-        }
-    },
-    "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "build_metal_cost": 250,
-    "command_caps": [
-        "ORDER_Move",
-        "ORDER_Patrol",
-        "ORDER_Assist",
-        "ORDER_Load",
-        "ORDER_Unload"
-    ],
-    "description": "Vanguard: Unarmed, heavily armored tank.",
-    "display_group": 60,
-    "display_index": 115,
-    "display_name": "Vanguard",
-    "events": {
-        "build_complete": {
-            "audio_cue": "/SE/Build_Complete/veh"
-        },
-        "died": {
-            "audio_cue": "/SE/Death/Veh",
-            "effect_scale": 1.4
-        },
-        "guard_layer": "WL_LandHorizontal",
-        "guard_radius": 40,
-        "max_health": 2500,
-        "model": {
-            "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json",
-            "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa"
-        },
-        "navigation": {
-            "acceleration": 100,
-            "brake": 100,
-            "group_preference": "front",
-            "move_speed": 7,
-            "turn_speed": 180,
-            "type": "amphibious"
-        },
-        "physics": {
-            "push_class": 90,
-            "radius": 6
-        },
-        "recon": {
-            "observer": {
-                "items": [
-                    {
-                        "channel": "sight",
-                        "layer": "surface_and_air",
-                        "radius": 100,
-                        "shape": "capsule"
-                    },
-                    {
-                        "channel": "radar",
-                        "layer": "surface_and_air",
-                        "radius": 150,
-                        "shape": "capsule"
-                    }
-                ]
-            }
-        },
-        "scrolling_uv": {
-            "scroll_rate": 0.58,
-            "uv_split": 0.855
-        },
-        "transportable": {
-            "size": 5
-        },
-        "transporter": {
-            "capacity": 3,
-            "transportable_attach_offset": "head",
-            "transporter_attach_bone": "bone_root"
-        },
-        "unit_types": [
-            "UNITTYPE_Tank",
-            "UNITTYPE_Heavy",
-            "UNITTYPE_Mobile",
-            "UNITTYPE_Land",
-            "UNITTYPE_Basic",
-            "UNITTYPE_FactoryBuild"
-        ],
-        "usable": true,
-        "useable": {
-            "range": 10,
-            "type": "transport"
-        }
+  "TEMP_texelinfo": 9.04444,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        -0.5,
+        6.1
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
     }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_heavy_mortar_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 250,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Assist",
+    "ORDER_Load",
+    "ORDER_Unload"
+  ],
+  "description": "Vanguard: Unarmed, heavily armored tank.",
+  "display_group": 60,
+  "display_index": 115,
+  "display_name": "Vanguard",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Veh",
+      "effect_scale": 1.4
+  },
+  "guard_layer": "WL_LandHorizontal",
+  "guard_radius": 40,
+  "max_health": 2500,
+  "model": {
+    "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json",
+    "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa"
+  },
+  "navigation": {
+    "acceleration": 100,
+    "brake": 100,
+    "group_preference": "front",
+    "move_speed": 7,
+    "turn_speed": 180,
+    "type": "amphibious"
+  },
+  "physics": {
+    "push_class": 90,
+    "radius": 6
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "radar",
+          "layer": "surface_and_air",
+          "radius": 150,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "scrolling_uv": {
+    "scroll_rate": 0.58,
+    "uv_split": 0.855
+  },
+  "transportable": {
+    "size": 5
+  },
+  "transporter": {
+    "capacity": 3,
+    "transportable_attach_offset": "head",
+    "transporter_attach_bone": "bone_root"
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Heavy",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "usable": true,
+  "useable": {
+    "range": 10,
+    "type": "transport"
+  }
 }
