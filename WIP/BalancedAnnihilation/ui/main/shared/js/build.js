@@ -67,7 +67,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/fabrication_bot/fabrication_bot.json": ["bot", 8],
             "/pa/units/land/assault_bot/assault_bot.json": ["bot", 9],
             "/pa/units/land/amphibious_bot/amphibious_bot.json": ["bot", 10],
-            "/pa/units/land/bot_artillery/bot_artillery.json": ["bot", 11],
+            "/pa/units/land/bot_arty/bot_arty.json": ["bot", 11],
             "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 12],
             "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 13],
             "/pa/units/land/bot_grenadier/bot_grenadier.json": ["bot", 14],
@@ -83,7 +83,7 @@ function BuildHotkeyModel() {
             "/pa/units/orbital/orbital_factory/orbital_factory.json": ["orbital", 14],
                  
             "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json": ["air", 0],
-            "/pa/units/air/fighter_adv/fighter_adv.json": ["air", 5],
+            "/pa/units/air/fighter_riot/fighter_riot.json": ["air", 5],
             "/pa/units/air/bomber_adv/bomber_adv.json": ["air", 6],
             "/pa/units/air/gunship/gunship.json": ["air", 7],
 "/pa/units/air/gunship_basic/gunship_basic.json": ["air", 11],

@@ -82,7 +82,7 @@
         "bone_leftWing",
         "bone_rightWing"
       ],
-      "spec_id": "/pa/units/air/fighter_adv/fighter_adv_tool_weapon.json"
+      "spec_id": "/pa/units/air/fighter_riot/fighter_adv_tool_weapon.json"
     }
   ],
   "unit_types": [

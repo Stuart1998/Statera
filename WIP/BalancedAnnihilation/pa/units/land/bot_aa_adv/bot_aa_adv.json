@@ -89,7 +89,7 @@
         "socket_rightMuzzle",
         "socket_leftMuzzle"
       ],
-      "spec_id": "/pa/units/land/bot_aa/bot_aa_tool_weapon.json"
+      "spec_id": "/pa/units/land/bot_aa_adv/bot_aa_tool_weapon.json"
     }
   ],
   "transportable": {
