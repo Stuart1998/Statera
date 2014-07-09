@@ -104,6 +104,9 @@
             "spec_id": "/pa/units/land/tank_hover/tank_hover_tool_weapon.json"
         }
     ],
+    "transportable": {
+    "size": 1
+    },
     "unit_types": [
         "UNITTYPE_Tank",
         "UNITTYPE_Mobile",
