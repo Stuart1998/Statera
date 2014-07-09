@@ -29,9 +29,11 @@
     "command_caps": [
         "ORDER_Move",
         "ORDER_Patrol",
-        "ORDER_Assist"
+        "ORDER_Assist",
+        "ORDER_Load",
+        "ORDER_Unload"
     ],
-    "description": "Vanguard: Analysis: Radar: Unarmed, heavily armored radar tank.",
+    "description": "Vanguard: Analysis: Transport: Unarmed, heavily armored amphibious transport.",
     "display_group": 60,
     "display_index": 115,
     "display_name": "Vanguard",
@@ -57,7 +59,7 @@
         "group_preference": "front",
         "move_speed": 7,
         "turn_speed": 180,
-        "type": "land-small"
+        "type": "amphibious"
     },
     "physics": {
         "push_class": 90,
@@ -85,15 +87,13 @@
         "scroll_rate": 0.58,
         "uv_split": 0.855
     },
-    "tools": [
-        {
-            "aim_bone": "bone_turret",
-            "muzzle_bone": "socket_muzzle",
-            "spec_id": "/pa/units/land/tank_armor/tank_armor_tool_weapon.json"
-        }
-    ],
     "transportable": {
-        "size": 1
+        "size": 5
+    },
+    "transporter": {
+        "capacity": 3,
+        "transportable_attach_offset": "head",
+        "transporter_attach_bone": "bone_root"
     },
     "unit_types": [
         "UNITTYPE_Tank",
@@ -102,5 +102,10 @@
         "UNITTYPE_Land",
         "UNITTYPE_Basic",
         "UNITTYPE_FactoryBuild"
-    ]
+    ],
+    "usable": true,
+    "useable": {
+        "range": 10,
+        "type": "transport"
+    }
 }
