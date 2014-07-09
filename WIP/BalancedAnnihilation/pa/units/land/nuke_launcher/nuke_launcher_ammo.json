@@ -39,11 +39,11 @@
   "initial_velocity": 40.0,
   "interplanetary_type": "INTER_System",
   "lifetime": 0,
-  "max_health": 150,
   "max_velocity": 75.0,
   "model": {
     "filename": "/pa/units/air/missile_nuke/missile_nuke.papa"
   },
+  "network_critical": true,
   "physics": {
     "add_to_spatial_db": true,
     "allow_underground": true,
