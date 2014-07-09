@@ -41,7 +41,7 @@
   },
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 110,
-  "max_health": 100,
+  "max_health": 60,
   "model": {
     "animations": {
       "death01": "/pa/units/land/bot_bomb/bot_bomb_anim_death01.papa",
