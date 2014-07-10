@@ -25,7 +25,7 @@
         },
         "fired": {
             "audio_cue": "/SE/Weapons/bot/assault_fire",
-            "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
+            "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle"
         }
     },
     "guard_layer": "WL_AnySurface",
@@ -62,7 +62,7 @@
         2.6835
     ],
     "model": {
-        "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
+        "animtree": "/pa/anim/anim_trees/tank_hover_anim_tree.json",
         "arrows": 5,
         "filename": "/pa/units/land/tank_hover/tank_hover.papa"
     },
@@ -100,12 +100,12 @@
     "tools": [
         {
             "aim_bone": "socket_aim",
-            "muzzle_bone": "socket_rightMuzzle",
+            "muzzle_bone": "socket_leftMuzzle",
             "spec_id": "/pa/units/land/tank_hover/tank_hover_tool_weapon.json"
         },
 		{
 		    "aim_bone": "socket_aim",
-			"muzzle_bone": "socket_leftMuzzle",
+			"muzzle_bone": "socket_rightMuzzle",
 			"spec_id": "/pa/units/land/tank_hover/tank_hover_tool_weapon.json"
 		}
     ],
