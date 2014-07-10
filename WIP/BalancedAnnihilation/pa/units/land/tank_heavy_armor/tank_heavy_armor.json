@@ -41,6 +41,12 @@
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/veh"
         },
+        "child_attached": {
+            "audio_cue": "/SE/Movement/air/transport_load"
+        },
+        "child_detached": {
+            "audio_cue": "/SE/Movement/air/transport_unload"
+        },
         "died": {
             "audio_cue": "/SE/Death/Veh",
             "effect_scale": 1.4
