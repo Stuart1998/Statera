@@ -40,7 +40,7 @@
   },
   "factory": {
     "spawn_points": [
-      "socket_missile01"
+      "bone_missile01"
     ],
     "store_units": true
   },
