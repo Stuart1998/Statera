@@ -86,7 +86,13 @@
     {
       "aim_bone": "bone_turret",
       "muzzle_bone": [
-        "socket_rightMuzzle",
+        "socket_rightMuzzle"
+      ],
+      "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": [
         "socket_leftMuzzle"
       ],
       "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
@@ -94,7 +100,13 @@
     {
       "aim_bone": "bone_turret",
       "muzzle_bone": [
-        "socket_rightMuzzle",
+        "socket_rightMuzzle"
+      ],
+      "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
+    },
+        {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": [
         "socket_leftMuzzle"
       ],
       "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
@@ -102,7 +114,13 @@
     {
       "aim_bone": "bone_turret",
       "muzzle_bone": [
-        "socket_rightMuzzle",
+        "socket_rightMuzzle"
+      ],
+      "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": [
         "socket_leftMuzzle"
       ],
       "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv_tool_weapon.json"
