@@ -10,7 +10,7 @@
       "spec_id": "/pa/units/air/air_factory_adv/air_factory_adv.json"
     },
     "AdvancedAABot": {
-      "spec_id": "/pa/units/land/bot_aa/bot_aa.json"
+      "spec_id": "/pa/units/land/bot_aa_adv/bot_aa_adv.json"
     },
     "AdvancedArmorTank": {
       "spec_id": "/pa/units/land/tank_armor/tank_armor.json"
@@ -39,6 +39,9 @@
     "AdvancedEnergyGenerator": {
       "spec_id": "/pa/units/land/energy_plant_adv/energy_plant_adv.json"
     },
+	"AdvancedFighter": {
+	  "spec_id": "/pa/units/air/fighter_riot/fighter_riot.json"
+	},
     "AdvancedGunship": {
       "spec_id": "/pa/units/air/gunship/gunship.json"
     },
@@ -115,7 +118,7 @@
       "spec_id": "/pa/units/land/artillery_short/artillery_short.json"
     },
     "BasicArtilleryBot": {
-      "spec_id": "/pa/units/land/bot_artillery/bot_artillery.json"
+      "spec_id": "/pa/units/land/bot_arty/bot_arty.json"
     },
     "BasicAssaultBot": {
       "spec_id": "/pa/units/land/assault_bot/assault_bot.json"
