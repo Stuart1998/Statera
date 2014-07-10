@@ -96,7 +96,7 @@
     "/pa/units/land/tank_heavy_armor/tank_heavy_armor.json",
     "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.json",
     "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json",
-    "/pa/units/land/tank_hover/tank_hover.json",
+    "/pa/units/land/tank_attack/tank_attack.json",
     "/pa/units/land/tank_laser_adv/tank_laser_adv.json",
     "/pa/units/land/tank_light_laser/tank_light_laser.json",
     "/pa/units/land/teleporter/teleporter.json",
