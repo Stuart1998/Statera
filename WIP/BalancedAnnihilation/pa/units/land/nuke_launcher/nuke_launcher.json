@@ -15,7 +15,8 @@
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 12000,
   "buildable_projectiles": [
-    "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
+    "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
+	"/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json"
   ],
   "command_caps": [
     "ORDER_FactoryBuild",
@@ -38,10 +39,8 @@
     }
   },
   "factory": {
-    "default_build_stance": "Continuous",
-    "initial_build_spec": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
     "spawn_points": [
-      "bone_missile01"
+      "socket_missile01"
     ],
     "store_units": true
   },
@@ -203,6 +202,10 @@
       "aim_bone": "bone_root",
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_tool_weapon.json"
     },
+	{
+	  "aim_bone": "bone_root",
+	  "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_inter_tool_weapon.json"
+	},
     {
       "aim_bone": "bone_root",
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_build_arm.json"

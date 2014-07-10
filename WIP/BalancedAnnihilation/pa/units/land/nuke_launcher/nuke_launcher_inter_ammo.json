@@ -1,28 +1,49 @@
 {
   "ammo_type": "Projectile",
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
-  "build_metal_cost": 32400,
+  "build_metal_cost": 25000,
+  "burn_damage": 200,
+  "burn_radius": 137,
   "collision_check": "ground",
   "cruise_height": 100,
-  "damage": 4000,
+  "damage": 12000,
+  "damage_volume": {
+    "burnable_remove_radius": 100.0,
+    "delay": 1.0,
+    "initial_radius": 20.0,
+    "radius_accel": 100.0,
+    "radius_velocity": 50.0
+  },
+  "enable_orbital_shell": true,
+  "events": {
+    "collided": {
+      "audio_cue": "/SE/Impacts/missile_seeking",
+      "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
+      "effect_world_aligned": false
+    }
+  },
   "flight_type": "Staged",
-  "full_damage_splash_radius": 30,
+  "full_damage_splash_radius": 125,
   "fx_trail": {
-    "filename": "/pa/effects/specs/nuke_proj_trail.pfx",
+    "filename": "/pa/units/air/missile_nuke/missile_nuke_trail.pfx",
     "offset": [
       0.0,
-      7.427,
+      12.0,
       0.0
     ]
   },
-  "gravwell_velocity_multiplier": 15.0,
+  "gravwell_velocity_multiplier": 20.0,
+  "impact_decals": [
+    "/pa/effects/specs/nuke_scorch_01.json"
+  ],
   "initial_velocity": 40.0,
-  "interplanetary_type": "INTER_GravWell",
+  "interplanetary_type": "INTER_System",
   "lifetime": 0,
   "max_velocity": 75.0,
   "model": {
     "filename": "/pa/units/air/missile_nuke_interplanetary/missile_nuke_interplanetary.papa"
   },
+  "network_critical": true,
   "physics": {
     "add_to_spatial_db": true,
     "allow_underground": true,
@@ -35,7 +56,7 @@
   "show_strategic_icon": true,
   "sim_impact_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
   "spawn_layers": "WL_Air",
-  "splash_damage": 4000,
+  "splash_damage": 12000,
   "splash_damages_allies": true,
   "splash_radius": 150,
   "stages": [
@@ -69,6 +90,10 @@
       "stage_turn_rate": 1080
     }
   ],
-  "system_velocity_multiplier": 15.0,
-  "turn_rate": 180
+  "system_velocity_multiplier": 20.0,
+  "turn_rate": 180,
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Orbital"
+  ]
 }
