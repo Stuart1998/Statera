@@ -26,10 +26,10 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 150,
-  "description": "Boomer: Analysis: Self Destruction Bot. Very effective vs structures. Moderately effective vs units.",
+  "description": "Detonator: Analysis: Self Destruction Bot. Very effective vs structures. Moderately effective vs units.",
   "display_group": 40,
   "display_index": 60,
-  "display_name": "Boomer",
+  "display_name": "Detonator",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
