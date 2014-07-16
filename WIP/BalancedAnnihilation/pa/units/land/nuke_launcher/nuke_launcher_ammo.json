@@ -41,7 +41,7 @@
   "lifetime": 0,
   "max_velocity": 75.0,
   "model": {
-    "filename": "/pa/units/air/missile_nuke/missile_nuke.papa"
+    "filename": "/pa/units/air/missile_nuke_interplanetary/missile_nuke_interplanetary.papa"
   },
   "network_critical": true,
   "physics": {
