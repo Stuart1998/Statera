@@ -1,0 +1,7 @@
+{
+  "ammo_type": "PBAOE",
+  "sim_fire_effect": "",
+  "splash_damage": 0,
+  "splash_damages_allies": false,
+  "splash_radius": 0
+}
