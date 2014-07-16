@@ -63,6 +63,13 @@
     }
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_root",
+      "spec_id": "/pa/units/land/land_barrier/land_barrier_tool_weapon.json"
+    }
+  ],
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
@@ -71,5 +78,4 @@
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_CmdBuild"
   ],
-  "wreckage_health_frac": 0.0
 }
