@@ -11,7 +11,7 @@
         }
     },
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "build_metal_cost": 150,
+    "build_metal_cost": 160,
     "description": "Strider: Analysis: Hover Tank: Anti-land and anti-ship machine gun, hovers. Short range.",
     "display_group": 40,
     "display_index": 80,
@@ -71,7 +71,7 @@
         "brake": 25,
         "dodge_multiplier": 1,
         "dodge_radius": 15,
-        "move_speed": 10,
+        "move_speed": 11,
         "turn_speed": 400,
         "type": "land_small",
         "wobble_factor": 0.1,
