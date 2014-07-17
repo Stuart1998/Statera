@@ -41,10 +41,10 @@
     "filename": "/pa/units/sea/destroyer/destroyer.papa"
   },
   "navigation": {
-    "acceleration": 5,
+    "acceleration": 2,
     "brake": 4,
-    "move_speed": 7,
-    "turn_speed": 15,
+    "move_speed": 10,
+    "turn_speed": 20,
     "type": "water"
   },
   "nearby_target_tick_update_interval": 15,
