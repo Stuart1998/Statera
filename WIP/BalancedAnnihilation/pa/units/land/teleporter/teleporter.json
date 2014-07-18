@@ -156,7 +156,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_LandHorizontal",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "teleporter": {
     "energy_demand": 10000
   },
