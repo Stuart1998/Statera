@@ -38,7 +38,7 @@
       "audio_cue": "/SE/Death/Veh"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_light_fire",
+      "audio_cue": "/SE/Weapons/veh/land_scout_fire",
       "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
   },
