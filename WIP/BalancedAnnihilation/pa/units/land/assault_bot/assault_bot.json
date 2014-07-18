@@ -40,7 +40,7 @@
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/bot/assault_fire",
+      "audio_cue": "/SE/Weapons/veh/land_scout_fire",
       "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
     }
   },
