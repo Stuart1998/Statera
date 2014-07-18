@@ -87,6 +87,9 @@
     "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json"
   ],
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "storage": {
+    "metal": 250
+  },
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
