@@ -4,7 +4,7 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 70.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 3500,
+  "build_metal_cost": 4000,
   "description": "Heavy Energy Plant: Analysis: Energy: Produces energy inefficiently. Heavy armor.",
   "display_group": 80,
   "display_index": 65,
@@ -266,7 +266,7 @@
     }
   ],
   "production": {
-    "energy": 5000
+    "energy": 6500
   },
   "recon": {
     "observer": {
@@ -281,6 +281,9 @@
     }
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "storage": {
+    "energy": 20000
+  },
   "unit_types": [
     "UNITTYPE_Structure",
     "UNITTYPE_EnergyProduction",
