@@ -39,7 +39,8 @@
     "ORDER_Build",
     "ORDER_Reclaim",
     "ORDER_Repair",
-    "ORDER_Assist"
+    "ORDER_Assist",
+    "ORDER_Use"
   ],
   "description": "Fabrication Ship: Analysis: Fabrication: Medium nanolathe, medium speed.",
   "display_group": 100,
