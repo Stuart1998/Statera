@@ -4,7 +4,7 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 50.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 450,
+  "build_metal_cost": 650,
   "description": "Metal Storage: Analysis: Metal: Increases maximum metal storage capacity",
   "display_group": 80,
   "display_index": 40,
@@ -118,13 +118,11 @@
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "storage": {
-    "metal": 20000
+    "metal": 100000
   },
   "unit_types": [
     "UNITTYPE_Structure",
-    "UNITTYPE_Basic",
-    "UNITTYPE_CmdBuild",
-    "UNITTYPE_FabBuild",
+    "UNITTYPE_Advanced",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Economy"
   ]
