@@ -12,8 +12,8 @@
     },
     "died": {
       "audio_cue": "/SE/Death/barrier",
-      "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx",
-      "effect_scale": 2.5
+      "effect_scale": 2.5,
+      "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx"
     }
   },
   "max_health": 100,

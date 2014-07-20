@@ -79,7 +79,7 @@
           "radius": 600,
           "shape": "capsule",
           "uses_energy": true
-        },
+        }
       ]
     }
   },

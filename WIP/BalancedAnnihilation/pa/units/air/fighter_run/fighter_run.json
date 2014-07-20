@@ -84,7 +84,7 @@
       ],
       "spec_id": "/pa/units/air/fighter_run/fighter_run_tool_weapon.json"
     },
-	 {
+    {
       "aim_bone": "bone_root",
       "muzzle_bone": [
         "bone_leftWing",

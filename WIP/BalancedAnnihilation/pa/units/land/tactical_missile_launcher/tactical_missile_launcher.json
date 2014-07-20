@@ -29,25 +29,25 @@
   "max_health": 3000,
   "model": [
     {
-      "layer": "WL_LandHorizontal",
-      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
       "animations": {
-        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa",
+        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
         "loop": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_loop.papa",
-        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa"
+        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
+      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
+      "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_08.json"
     },
     {
-      "layer": "WL_WaterSurface",
-      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
       "animations": {
-        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa",
+        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa",
         "loop": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_loop.papa",
-        "end": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_end.papa"
+        "start": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_anim_start.papa"
       },
-      "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json"
+      "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
+      "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
+      "layer": "WL_WaterSurface"
     }
   ],
   "recon": {

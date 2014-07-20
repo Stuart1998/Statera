@@ -30,7 +30,7 @@
   "display_group": 40,
   "display_index": 80,
   "display_name": "Scamperer",
-  "events": { 
+  "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
     },

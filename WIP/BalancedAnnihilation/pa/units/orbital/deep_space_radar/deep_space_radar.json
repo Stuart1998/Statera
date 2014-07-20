@@ -29,25 +29,25 @@
   ],
   "model": [
     {
-      "layer": "WL_LandHorizontal",
-      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar.papa",
       "animations": {
-        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa",
+        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa",
         "loop": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_loop.papa",
-        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa"
+        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa"
       },
       "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar.papa",
+      "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_orbital_radar.json"
     },
     {
-      "layer": "WL_WaterSurface",
-      "filename": "/pa/units/sea/deep_space_radar/deep_space_radar.papa",
       "animations": {
-        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa",
+        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa",
         "loop": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_loop.papa",
-        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa"
+        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa"
       },
-      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json"
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
+      "filename": "/pa/units/sea/deep_space_radar/deep_space_radar.papa",
+      "layer": "WL_WaterSurface"
     }
   ],
   "physics": {

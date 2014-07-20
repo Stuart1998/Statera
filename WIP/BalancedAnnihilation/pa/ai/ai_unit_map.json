@@ -1,5 +1,8 @@
 {
   "unit_map": {
+    "AdvancedAABot": {
+      "spec_id": "/pa/units/land/bot_aa_adv/bot_aa_adv.json"
+    },
     "AdvancedAirDefense": {
       "spec_id": "/pa/units/land/air_defense_adv/air_defense_adv.json"
     },
@@ -8,9 +11,6 @@
     },
     "AdvancedAirFactory": {
       "spec_id": "/pa/units/air/air_factory_adv/air_factory_adv.json"
-    },
-    "AdvancedAABot": {
-      "spec_id": "/pa/units/land/bot_aa_adv/bot_aa_adv.json"
     },
     "AdvancedArmorTank": {
       "spec_id": "/pa/units/land/tank_armor/tank_armor.json"
@@ -39,9 +39,9 @@
     "AdvancedEnergyGenerator": {
       "spec_id": "/pa/units/land/energy_plant_adv/energy_plant_adv.json"
     },
-	"AdvancedFighter": {
-	  "spec_id": "/pa/units/air/fighter_riot/fighter_riot.json"
-	},
+    "AdvancedFighter": {
+      "spec_id": "/pa/units/air/fighter_riot/fighter_riot.json"
+    },
     "AdvancedGunship": {
       "spec_id": "/pa/units/air/gunship/gunship.json"
     },
@@ -96,11 +96,11 @@
     "AnyBasicFactory": {
       "unit_types": "Factory & Basic"
     },
-    "BasicAAVehicle": {
-      "spec_id": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json"
-    },
     "BasicAABot": {
       "spec_id": "/pa/units/land/bot_grenadier/bot_grenadier.json"
+    },
+    "BasicAAVehicle": {
+      "spec_id": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json"
     },
     "BasicAirDefense": {
       "spec_id": "/pa/units/land/air_defense/air_defense.json"

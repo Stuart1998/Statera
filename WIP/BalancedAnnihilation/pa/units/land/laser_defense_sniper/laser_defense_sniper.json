@@ -1,79 +1,79 @@
 {
-    "TEMP_texelinfo": 10.2184,
-    "area_build_separation": 18,
-    "atrophy_cool_down": 30,
-    "atrophy_rate": 10,
-    "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "build_metal_cost": 500,
-    "command_caps": [
-        "ORDER_Attack"
-    ],
-    "description": "Long-range Laser Tower: Analysis: Sniper Tower: Medium range anti-land and anti-ship lasers. Long reload time.",
-    "display_group": 20,
-    "display_index": 95,
-    "display_name": "Long-range Laser Tower",
-    "events": {
-        "build_complete": {
-            "audio_cue": "/SE/Build_Complete/structure_small"
-        },
-        "died": {
-            "audio_cue": "/SE/Death/structure_small",
-            "effect_scale": 0.3
-        },
-        "fired": {
-            "audio_cue": "/SE/Weapons/structure/laser_defence_fire",
-            "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
-        }
+  "TEMP_texelinfo": 10.2184,
+  "area_build_separation": 18,
+  "atrophy_cool_down": 30,
+  "atrophy_rate": 10,
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 500,
+  "command_caps": [
+    "ORDER_Attack"
+  ],
+  "description": "Long-range Laser Tower: Analysis: Sniper Tower: Medium range anti-land and anti-ship lasers. Long reload time.",
+  "display_group": 20,
+  "display_index": 95,
+  "display_name": "Long-range Laser Tower",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/structure_small"
     },
-    "guard_layer": "WL_AnySurface",
-    "guard_radius": 120,
-    "max_health": 1500,
-    "mesh_bounds": [
-        5,
-        5.76558,
-        16.0541
-    ],
-    "model": [
-        {
-            "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-            "filename": "/pa/units/land/laser_defense_sniper/laser_defense_single.papa",
-            "layer": "WL_LandHorizontal",
-            "skirt_decal": "/pa/effects/specs/skirt_defense.json"
-        },
-        {
-            "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
-            "filename": "/pa/units/sea/floating_laser_sniper/floating_laser_single.papa",
-            "layer": "WL_WaterSurface"
-        }
-    ],
-    "recon": {
-        "observer": {
-            "items": [
-                {
-                    "channel": "sight",
-                    "layer": "surface_and_air",
-                    "radius": 130,
-                    "shape": "capsule"
-                }
-            ]
-        }
+    "died": {
+      "audio_cue": "/SE/Death/structure_small",
+      "effect_scale": 0.3
     },
-    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-    "tools": [
+    "fired": {
+      "audio_cue": "/SE/Weapons/structure/laser_defence_fire",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
+    }
+  },
+  "guard_layer": "WL_AnySurface",
+  "guard_radius": 120,
+  "max_health": 1500,
+  "mesh_bounds": [
+    5,
+    5.76558,
+    16.0541
+  ],
+  "model": [
+    {
+      "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
+      "filename": "/pa/units/land/laser_defense_sniper/laser_defense_single.papa",
+      "layer": "WL_LandHorizontal",
+      "skirt_decal": "/pa/effects/specs/skirt_defense.json"
+    },
+    {
+      "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
+      "filename": "/pa/units/sea/floating_laser_sniper/floating_laser_single.papa",
+      "layer": "WL_WaterSurface"
+    }
+  ],
+  "recon": {
+    "observer": {
+      "items": [
         {
-            "aim_bone": "bone_pitch",
-            "muzzle_bone": [
-                "socket_muzzle"
-            ],
-            "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_tool_weapon.json"
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 130,
+          "shape": "capsule"
         }
-    ],
-    "unit_types": [
-        "UNITTYPE_Structure",
-        "UNITTYPE_Basic",
-        "UNITTYPE_Land",
-        "UNITTYPE_SurfaceDefense",
-        "UNITTYPE_Defense",
-        "UNITTYPE_FabBuild"
-    ]
+      ]
+    }
+  },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_muzzle"
+      ],
+      "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Land",
+    "UNITTYPE_SurfaceDefense",
+    "UNITTYPE_Defense",
+    "UNITTYPE_FabBuild"
+  ]
 }

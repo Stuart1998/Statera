@@ -12,7 +12,7 @@
     "ORDER_Repair",
     "ORDER_Attack",
     "ORDER_Assist"
-    ],
+  ],
   "description": "Unit Cannon: Long range unit dispersal",
   "display_group": 70,
   "display_index": 10,

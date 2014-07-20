@@ -1,97 +1,97 @@
 {
-    "build_metal_cost": 75,
-    "TEMP_texelinfo": 4.03457,
-    "unit_types": [
-        "UNITTYPE_Tank",
-        "UNITTYPE_Scout",
-        "UNITTYPE_Mobile",
-        "UNITTYPE_Land",
-        "UNITTYPE_Basic",
-        "UNITTYPE_FactoryBuild"
-    ],
-    "navigation": {
-        "brake": 200,
-        "acceleration": 150,
-        "move_speed": 15,
-        "turn_speed": 180,
-        "type": "land-small"
+  "TEMP_texelinfo": 4.03457,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        -0.2,
+        1.6
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/land_scout_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "build_metal_cost": 75,
+  "description": "Skitter: Analysis: Scout: Light attack laser, fast speed. Weak armor.",
+  "display_group": 80,
+  "display_index": 80,
+  "display_name": "Skitter",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
     },
-    "display_group": 80,
-    "max_health": 100,
-    "events": {
-        "fired": {
-            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle",
-            "audio_cue": "/SE/Weapons/veh/land_scout_fire"
-        },
-        "build_complete": {
-            "audio_cue": "/SE/Build_Complete/veh"
-        },
-        "died": {
-            "effect_scale": 0.65,
-            "audio_cue": "/SE/Death/Veh_small"
-        }
+    "died": {
+      "audio_cue": "/SE/Death/Veh_small",
+      "effect_scale": 0.65
     },
-    "tools": [
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/land_scout_fire",
+      "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
+    }
+  },
+  "max_health": 100,
+  "model": {
+    "animations": {
+      "drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/land/land_scout/land_scout.papa"
+  },
+  "navigation": {
+    "acceleration": 150,
+    "brake": 200,
+    "move_speed": 15,
+    "turn_speed": 180,
+    "type": "land-small"
+  },
+  "physics": {
+    "push_class": 50,
+    "radius": 3
+  },
+  "recon": {
+    "observer": {
+      "items": [
         {
-            "aim_bone": "socket_aim",
-            "spec_id": "/pa/units/land/land_scout/land_scout_tool_weapon.json",
-            "muzzle_bone": "socket_muzzle"
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 160,
+          "shape": "capsule"
         }
-    ],
-    "attachable": {
-        "offsets": {
-            "root": [
-                0,
-                0,
-                0
-            ],
-            "head": [
-                0,
-                -0.2,
-                1.6
-            ]
-        }
-    },
-    "display_name": "Skitter",
-    "description": "Skitter: Analysis: Scout: Light attack laser, fast speed. Weak armor.",
-    "model": {
-        "filename": "/pa/units/land/land_scout/land_scout.papa",
-        "arrows": 5,
-        "animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
-        "animations": {
-            "drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
-        }
-    },
-    "recon": {
-        "observer": {
-            "items": [
-                {
-                    "radius": 160,
-                    "shape": "capsule",
-                    "layer": "surface_and_air",
-                    "channel": "sight"
-                }
-            ]
-        }
-    },
-    "physics": {
-        "radius": 3,
-        "push_class": 50
-    },
-    "transportable": {
-        "size": 1
-    },
-    "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_index": 80,
-    "audio": {
-        "loops": {
-            "move": {
-                "flag": "vel_changed",
-                "should_start_func": "is_moving",
-                "cue": "/SE/Movement/veh/land_scout_loop",
-                "should_stop_func": "is_not_moving"
-            }
-        }
-    },
-    "wreckage_health_frac": 1
+      ]
+    }
+  },
+  "tools": [
+    {
+      "aim_bone": "socket_aim",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/land/land_scout/land_scout_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Scout",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "wreckage_health_frac": 1
 }

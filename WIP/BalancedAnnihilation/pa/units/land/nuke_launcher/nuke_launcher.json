@@ -16,7 +16,7 @@
   "build_metal_cost": 12000,
   "buildable_projectiles": [
     "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
-	"/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json"
+    "/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json"
   ],
   "command_caps": [
     "ORDER_FactoryBuild",
@@ -202,10 +202,10 @@
       "aim_bone": "bone_root",
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_tool_weapon.json"
     },
-	{
-	  "aim_bone": "bone_root",
-	  "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_inter_tool_weapon.json"
-	},
+    {
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_inter_tool_weapon.json"
+    },
     {
       "aim_bone": "bone_root",
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_build_arm.json"

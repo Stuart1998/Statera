@@ -1,5 +1,5 @@
 {
-  "units": [    
+  "units": [
     "/pa/units/commanders/avatar/avatar.json",
     "/pa/units/commanders/base_commander/base_commander.json",
     "/pa/units/commanders/imperial_alpha/imperial_alpha.json",
@@ -25,7 +25,7 @@
     "/pa/units/commanders/raptor_nemicus/raptor_nemicus.json",
     "/pa/units/commanders/raptor_rallus/raptor_rallus.json",
     "/pa/units/commanders/tank_aeson/tank_aeson.json",
-    "/pa/units/commanders/tank_base/tank_base.json",            
+    "/pa/units/commanders/tank_base/tank_base.json",
     "/pa/units/land/precision_launcher/precision_launcher.json",
     "/pa/units/air/transport_large/transport_large.json",
     "/pa/units/air/gunship_basic/gunship_basic.json",
@@ -36,7 +36,8 @@
     "/pa/units/air/base_flyer/base_flyer.json",
     "/pa/units/air/bomber/bomber.json",
     "/pa/units/air/bomber_adv/bomber_adv.json",
-    "/pa/units/air/bomber_naval/bomber_naval.json", "/pa/units/air/fabrication_aircraft/fabrication_aircraft.json",
+    "/pa/units/air/bomber_naval/bomber_naval.json",
+    "/pa/units/air/fabrication_aircraft/fabrication_aircraft.json",
     "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json",
     "/pa/units/air/fighter/fighter.json",
     "/pa/units/air/fighter_riot/fighter_riot.json",

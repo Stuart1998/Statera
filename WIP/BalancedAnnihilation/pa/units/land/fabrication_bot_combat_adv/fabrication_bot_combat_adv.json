@@ -1,145 +1,145 @@
 {
-    "TEMP_texelinfo": 6.38702,
-    "attachable": {
-        "offsets": {
-            "head": [
-                0,
-                0,
-                6.8
-            ],
-            "root": [
-                0,
-                0,
-                0
-            ]
-        }
+  "TEMP_texelinfo": 6.38702,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        6.8
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "audio": {
+    "loops": {
+      "build": {
+        "cue": "/SE/Construction/Fab_contruction_beam_loop",
+        "flag": "build_target_changed",
+        "should_start_func": "has_build_target",
+        "should_stop_func": "no_build_target"
+      },
+      "fired": {
+        "audio_cue": "/SE/Weapons/bot/artillery_fire",
+        "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleFront"
+      },
+      "move": {
+        "cue": "/SE/Movement/bot/T2_fab_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "build_metal_cost": 800,
+  "buildable_types": "CombatFabAdvBuild",
+  "can_only_assist_with_buildable_items": true,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "description": "Advanced Combat Fabrcation Bot: Analysis: Advanced Combat Fabrication: Repairs units and builds battlefield structures",
+  "display_group": 100,
+  "display_index": 50,
+  "display_name": "Advanced Combat Fabrication Bot",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/fab"
     },
-    "audio": {
-        "loops": {
-            "build": {
-                "cue": "/SE/Construction/Fab_contruction_beam_loop",
-                "flag": "build_target_changed",
-                "should_start_func": "has_build_target",
-                "should_stop_func": "no_build_target"
-            },
-            "move": {
-                "cue": "/SE/Movement/bot/T2_fab_loop",
-                "flag": "vel_changed",
-                "should_start_func": "is_moving",
-                "should_stop_func": "is_not_moving"
-            },
-            "fired": {
-                "audio_cue": "/SE/Weapons/bot/artillery_fire",
-                "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleFront"
-            }
-        }
+    "died": {
+      "audio_cue": "/SE/Death/Bot",
+      "effect_scale": 0.8
+    }
+  },
+  "fx_offsets": [
+    {
+      "bone": "socket_muzzleBack",
+      "filename": "/pa/effects/specs/fab_combat_spray.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    }
+  ],
+  "guard_layer": "WL_LandHorizontal",
+  "guard_radius": 60,
+  "max_health": 300,
+  "model": {
+    "animations": {
+      "death01": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01.papa",
+      "walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_run.papa"
     },
-    "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "build_metal_cost": 800,
-    "buildable_types": "CombatFabAdvBuild",
-    "can_only_assist_with_buildable_items": true,
-    "command_caps": [
-        "ORDER_Move",
-        "ORDER_Patrol",
-        "ORDER_Build",
-        "ORDER_Reclaim",
-        "ORDER_Repair",
-        "ORDER_Assist",
-        "ORDER_Use"
-    ],
-    "description": "Advanced Combat Fabrcation Bot: Analysis: Advanced Combat Fabrication: Repairs units and builds battlefield structures",
-    "display_group": 100,
-    "display_index": 50,
-    "display_name": "Advanced Combat Fabrication Bot",
-    "events": {
-        "build_complete": {
-            "audio_cue": "/SE/Build_Complete/fab"
-        },
-        "died": {
-            "audio_cue": "/SE/Death/Bot",
-            "effect_scale": 0.8
-        }
-    },
-    "fx_offsets": [
+    "animtree": "/pa/anim/anim_trees/fabrication_bot_combat_adv_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.papa",
+    "walk_speed": 12
+  },
+  "navigation": {
+    "acceleration": 120,
+    "brake": 120,
+    "group_preference": "back",
+    "move_speed": 12,
+    "turn_speed": 720,
+    "type": "land-small"
+  },
+  "physics": {
+    "allow_pushing": true,
+    "push_class": 2,
+    "radius": 4
+  },
+  "recon": {
+    "observer": {
+      "items": [
         {
-            "bone": "socket_muzzleBack",
-            "filename": "/pa/effects/specs/fab_combat_spray.pfx",
-            "offset": [
-                0,
-                0,
-                0
-            ],
-            "orientation": [
-                0,
-                0,
-                0
-            ],
-            "type": "build"
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
         }
-    ],
-    "guard_layer": "WL_LandHorizontal",
-    "guard_radius": 60,
-    "max_health": 300,
-    "model": {
-        "animations": {
-            "death01": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01.papa",
-            "walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_run.papa"
-        },
-        "animtree": "/pa/anim/anim_trees/fabrication_bot_combat_adv_anim_tree.json",
-        "arrows": 5,
-        "filename": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.papa",
-        "walk_speed": 12
+      ]
+    }
+  },
+  "spawn_layers": "WL_LandHorizontal",
+  "tools": [
+    {
+      "aim_bone": "bone_turretBack",
+      "build_arm": true,
+      "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json"
     },
-    "navigation": {
-        "acceleration": 120,
-        "brake": 120,
-        "group_preference": "back",
-        "move_speed": 12,
-        "turn_speed": 720,
-        "type": "land-small"
-    },
-    "physics": {
-        "allow_pushing": true,
-        "push_class": 2,
-        "radius": 4
-    },
-    "recon": {
-        "observer": {
-            "items": [
-                {
-                    "channel": "sight",
-                    "layer": "surface_and_air",
-                    "radius": 100,
-                    "shape": "capsule"
-                }
-            ]
-        }
-    },
-    "spawn_layers": "WL_LandHorizontal",
-    "tools": [
-        {
-            "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json",
-            "build_arm": true,
-            "aim_bone": "bone_turretBack"
-        },
-        {
-            "muzzle_bone": [
-                "socket_muzzleFront"
-            ],
-            "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json",
-            "aim_bone": "bone_turretFront",
-            "primary_weapon": true
-        }
-    ],
-    "transportable": {
-        "size": 1
-    },
-    "unit_types": [
-        "UNITTYPE_Construction",
-        "UNITTYPE_Bot",
-        "UNITTYPE_Mobile",
-        "UNITTYPE_Land",
-        "UNITTYPE_Advanced",
-        "UNITTYPE_FactoryBuild"
-    ]
+    {
+      "aim_bone": "bone_turretFront",
+      "muzzle_bone": [
+        "socket_muzzleFront"
+      ],
+      "primary_weapon": true,
+      "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json"
+    }
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Construction",
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ]
 }

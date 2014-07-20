@@ -1,30 +1,30 @@
 {
-    "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
-    "description": "Quadruped Class Commander. - If you're seeing this, something is wrong in your commander.",
-    "display_name": "Quadruped Class Commander",
-    "tools": [
-        {
-            "aim_bone": "bone_turret",
-            "build_arm": true,
-            "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
-        },
-        {
-            "aim_bone": "bone_turret",
-            "aim_weapon": true,
-            "muzzle_bone": "socket_rightMuzzle",
-            "primary_weapon": true,
-            "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_weapon_missile.json"
-        },
-        {
-            "aim_bone": "bone_turret",
-            "ammo_weapon": true,
-            "muzzle_bone": "socket_rightMuzzle",
-            "secondary_weapon": true,
-            "spec_id": "/pa/tools/uber_missile/uber_cannon.json"
-        },
-        {
-            "death_weapon": true,
-            "spec_id": "/pa/tools/commander_death/commander_death.json"
-        }
-    ]
+  "base_spec": "/pa/units/commanders/quad_base/quad_base.json",
+  "description": "Quadruped Class Commander. - If you're seeing this, something is wrong in your commander.",
+  "display_name": "Quadruped Class Commander",
+  "tools": [
+    {
+      "aim_bone": "bone_turret",
+      "build_arm": true,
+      "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "aim_weapon": true,
+      "muzzle_bone": "socket_rightMuzzle",
+      "primary_weapon": true,
+      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_weapon_missile.json"
+    },
+    {
+      "aim_bone": "bone_turret",
+      "ammo_weapon": true,
+      "muzzle_bone": "socket_rightMuzzle",
+      "secondary_weapon": true,
+      "spec_id": "/pa/tools/uber_missile/uber_cannon.json"
+    },
+    {
+      "death_weapon": true,
+      "spec_id": "/pa/tools/commander_death/commander_death.json"
+    }
+  ]
 }
