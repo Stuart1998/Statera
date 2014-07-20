@@ -36,7 +36,6 @@
     "/pa/units/air/base_flyer/base_flyer.json",
     "/pa/units/air/bomber/bomber.json",
     "/pa/units/air/bomber_adv/bomber_adv.json",
-    "/pa/units/air/bomber_naval/bomber_naval.json",
     "/pa/units/air/fabrication_aircraft/fabrication_aircraft.json",
     "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json",
     "/pa/units/air/fighter/fighter.json",
