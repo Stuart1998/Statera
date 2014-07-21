@@ -191,6 +191,7 @@
     "UNITTYPE_Defense",
     "UNITTYPE_NukeDefense",
     "UNITTYPE_Advanced",
-    "UNITTYPE_Factory"
+    "UNITTYPE_Factory",
+    "UNITTYPE_FabBuild"
   ]
 }

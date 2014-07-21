@@ -4,14 +4,14 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 10.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 250,
+  "build_metal_cost": 150,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Light Defense Tower: Analysis: Weak Defense: Direct fire anti-land, anti-sea, and anti-air. Cheap but only eliminates small light threats.",
+  "description": "Light Laser Tower: Analysis: Weak Defense: Direct fire anti-land, anti-sea, and anti-air. Cheap but only eliminates small light threats.",
   "display_group": 20,
   "display_index": 95,
-  "display_name": "Light Defense Tower",
+  "display_name": "Light Laser Tower",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"

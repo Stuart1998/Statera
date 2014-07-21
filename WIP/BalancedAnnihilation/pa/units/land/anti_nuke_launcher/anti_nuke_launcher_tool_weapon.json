@@ -2,7 +2,8 @@
   "ammo_id": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json",
   "ammo_source": "factory",
   "anti_entity_targets": [
-    "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
+    "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
+    "/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json"
   ],
   "auto_attack": false,
   "auto_task_type": "anti_entity",
