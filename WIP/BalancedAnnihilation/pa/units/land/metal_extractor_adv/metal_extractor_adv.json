@@ -63,7 +63,7 @@
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
       "arrows": 10,
       "filename": "/pa/units/sea/sea_metal_extractor_adv/sea_metal_extractor_adv.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "placement_size": [

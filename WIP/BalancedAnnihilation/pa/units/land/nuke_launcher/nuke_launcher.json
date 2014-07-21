@@ -181,7 +181,7 @@
       },
       "animtree": "/pa/anim/anim_trees/missile_launcher_anim_tree.json",
       "filename": "/pa/units/sea/nuke_launcher/nuke_launcher.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "recon": {

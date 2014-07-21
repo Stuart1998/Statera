@@ -31,7 +31,7 @@
     },
     {
       "filename": "/pa/units/sea/sea_barrier/sea_barrier.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "physics": {

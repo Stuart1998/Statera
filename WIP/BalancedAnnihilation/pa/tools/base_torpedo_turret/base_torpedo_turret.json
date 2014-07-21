@@ -7,7 +7,7 @@
   "pitch_rate": 30,
   "rate_of_fire": 0.66,
   "target_layers": [
-    "WL_WaterSurface",
+    "WL_DeepWater",
     "WL_Underwater",
     "WL_Seafloor"
   ],

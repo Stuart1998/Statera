@@ -47,7 +47,7 @@
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_transition_anim_tree.json",
       "filename": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "recon": {

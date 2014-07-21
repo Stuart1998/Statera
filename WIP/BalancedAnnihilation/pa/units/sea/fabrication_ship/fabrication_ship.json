@@ -101,7 +101,7 @@
     "brake": 12,
     "move_speed": 12,
     "turn_speed": 60,
-    "type": "water"
+    "type": "deepwater"
   },
   "physics": {
     "allow_pushing": true,
@@ -121,7 +121,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "tools": [
     {
       "aim_bone": "bone_root",

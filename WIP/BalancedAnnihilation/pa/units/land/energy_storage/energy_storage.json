@@ -184,7 +184,7 @@
     },
     {
       "filename": "/pa/units/sea/sea_energy_storage/sea_energy_storage.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "recon": {

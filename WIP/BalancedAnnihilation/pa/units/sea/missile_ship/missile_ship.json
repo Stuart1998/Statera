@@ -44,7 +44,7 @@
     "brake": 2,
     "move_speed": 9,
     "turn_speed": 15,
-    "type": "water"
+    "type": "deepwater"
   },
   "nearby_target_tick_update_interval": 20,
   "physics": {
@@ -63,7 +63,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "tools": [
     {
       "aim_bone": "socket_missile_aim",

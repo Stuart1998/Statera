@@ -113,7 +113,7 @@
       0
     ]
   ],
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "tools": [
     {
       "aim_bone": "bone_root",

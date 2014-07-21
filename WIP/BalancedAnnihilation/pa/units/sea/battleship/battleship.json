@@ -45,7 +45,7 @@
     "brake": 2,
     "move_speed": 10,
     "turn_speed": 15,
-    "type": "water"
+    "type": "deepwater"
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {
@@ -65,7 +65,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "tools": [
     {
       "aim_bone": "bone_pitch01",

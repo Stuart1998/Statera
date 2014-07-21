@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Weapons/sea/attack_sub_fire"
     }
   },
-  "guard_layer": "WL_WaterSurface",
+  "guard_layer": "WL_DeepWater",
   "guard_radius": 160,
   "max_health": 820,
   "model": {
@@ -39,7 +39,7 @@
     "brake": 12,
     "move_speed": 12,
     "turn_speed": 60,
-    "type": "water"
+    "type": "deepwater"
   },
   "physics": {
     "push_class": 2,
@@ -57,7 +57,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "tools": [
     {
       "aim_bone": "bone_root",
