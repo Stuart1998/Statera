@@ -25,7 +25,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-  "build_metal_cost": 1200,
+  "build_metal_cost": 650,
   "description": "Thumper: Analysis: Riot Artillery: Mobile Heavy Artillery Tank. Shells in a wide area. Effective vs Massed Units.",
   "display_group": 60,
   "display_index": 100,
