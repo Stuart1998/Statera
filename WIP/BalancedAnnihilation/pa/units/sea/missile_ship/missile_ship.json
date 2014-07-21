@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Weapons/sea/T2_missile_ship_fire"
     }
   },
-  "guard_layer": "WL_HorizontalSurface",
+  "guard_layer": "WL_AnySurface",
   "guard_radius": 420,
   "max_health": 3000,
   "mesh_bounds": [
