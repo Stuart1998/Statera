@@ -11,26 +11,26 @@
     "flight_type": "Staged",
     "stages": [
         {
-            "ignores_gravity": false,
-            "ignores_LOS": true,
-            "stage_duration": 600,
-            "stage_turn_rate": 0,
-            "rotates_to_velocity": false
-        },
-        {
-            "ignores_gravity": true,
-            "ignores_LOS": true,
-            "stage_duration": 0,
-            "stage_turn_rate": 90,
-            "stage_change_range": 100,
-            "rotates_to_velocity": false
-        },
-        {
-            "ignores_gravity": false,
-            "ignores_LOS": false,
-            "stage_duration": 5000,
-            "stage_turn_rate": 360,
-            "rotates_to_velocity": true
+      "ignores_LOS": true,
+      "ignores_gravity": false,
+      "rotates_to_velocity": false,
+      "stage_duration": 600,
+      "stage_turn_rate": 0
+    },
+    {
+      "ignores_LOS": true,
+      "ignores_gravity": true,
+      "rotates_to_velocity": false,
+      "stage_change_range": 100,
+      "stage_duration": 0,
+      "stage_turn_rate": 90
+    },
+    {
+      "ignores_LOS": false,
+      "ignores_gravity": false,
+      "rotates_to_velocity": true,
+      "stage_duration": 5000,
+      "stage_turn_rate": 360
         }
     ],
     "model": {
