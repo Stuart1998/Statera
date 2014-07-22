@@ -38,16 +38,23 @@
       "ignores_LOS": true,
       "ignores_gravity": true,
       "rotates_to_velocity": true,
-      "stage_change_range": 50,
+      "stage_duration": 100,
+      "stage_turn_rate": 0
+    },
+    {
+      "ignores_LOS": true,
+      "ignores_gravity": true,
+      "rotates_to_velocity": true,
+      "stage_change_range": 30,
       "stage_duration": 0,
-      "stage_turn_rate": 35
+      "stage_turn_rate": 360
     },
     {
       "ignores_LOS": false,
       "ignores_gravity": false,
       "rotates_to_velocity": true,
       "stage_duration": 5000,
-      "stage_turn_rate": 405
+      "stage_turn_rate": 540
     }
   ],
   "turn_rate": 45
