@@ -15,7 +15,7 @@
   "description": "Kingfisher: Analysis: Bomber: anti-naval torpedos. Very effective vs Naval units, effective vs Naval Structures.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "KingFisher",
+  "display_name": "Kingfisher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"
