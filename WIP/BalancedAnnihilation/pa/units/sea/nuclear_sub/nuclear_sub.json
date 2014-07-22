@@ -44,7 +44,7 @@
     "dodge_radius": 15,
     "move_speed": 10,
     "turn_speed": 30,
-    "type": "water",
+    "type": "deepwater",
     "wobble_factor": 0.0,
     "wobble_speed": 0.0
   },
@@ -64,7 +64,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "tools": [
     {
       "aim_bone": "bone_root",

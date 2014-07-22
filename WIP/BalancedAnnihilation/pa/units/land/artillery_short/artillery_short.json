@@ -65,7 +65,7 @@
       },
       "animtree": "/pa/anim/anim_trees/artillery_building_anim_tree.json",
       "filename": "/pa/units/sea/artillery_short/artillery_short.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "nearby_target_tick_update_interval": 15,

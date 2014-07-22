@@ -150,7 +150,7 @@
       },
       "animtree": "/pa/anim/anim_trees/anti_nuke_anim_tree.json",
       "filename": "/pa/units/sea/anti_nuke_launcher/anti_nuke_launcher.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "recon": {

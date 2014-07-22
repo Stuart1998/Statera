@@ -101,7 +101,7 @@
     },
     {
       "filename": "/pa/units/sea/sea_metal_storage/sea_metal_storage.papa",
-      "layer": "WL_WaterSurface"
+      "layer": "WL_DeepWater"
     }
   ],
   "recon": {

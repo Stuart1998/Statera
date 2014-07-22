@@ -38,18 +38,18 @@
     "dodge_radius": 15,
     "move_speed": 1000,
     "turn_speed": 1000,
-    "type": "water",
+    "type": "deepwater",
     "wobble_factor": 0.1,
     "wobble_speed": 0.2
   },
   "physics": {
     "air_friction": 1.0,
-    "collision_layers": "WL_WaterSurface",
+    "collision_layers": "WL_DeepWater",
     "push_class": 2,
     "radius": 6,
     "shape": "Box"
   },
-  "spawn_layers": "WL_WaterSurface",
+  "spawn_layers": "WL_DeepWater",
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
