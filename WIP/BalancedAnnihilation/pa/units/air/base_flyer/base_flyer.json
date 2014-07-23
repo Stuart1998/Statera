@@ -41,7 +41,7 @@
     "aggressive_distance": 50.0,
     "brake": 10000,
     "dodge_multiplier": 3.0,
-    "dodge_radius": 1000,
+    "dodge_radius": 128,
     "hover_time": 5.0,
     "move_speed": 1000,
     "turn_speed": 1000,
