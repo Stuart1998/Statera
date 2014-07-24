@@ -16,7 +16,7 @@
       "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx"
     }
   },
-  "max_health": 100,
+  "max_health": 99999999999,
   "mesh_bounds": [
     4.0,
     4.0,
