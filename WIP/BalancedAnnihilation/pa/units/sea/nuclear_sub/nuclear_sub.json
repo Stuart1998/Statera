@@ -38,11 +38,11 @@
     "filename": "/pa/units/sea/nuclear_sub/nuclear_sub.papa"
   },
   "navigation": {
-    "acceleration": 50,
+    "acceleration": 2,
     "brake": 50,
     "dodge_multiplier": 1.0,
     "dodge_radius": 15,
-    "move_speed": 10,
+    "move_speed": 20,
     "turn_speed": 30,
     "type": "deepwater",
     "wobble_factor": 0.0,

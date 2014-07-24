@@ -40,9 +40,9 @@
     "filename": "/pa/units/sea/missile_ship/missile_ship.papa"
   },
   "navigation": {
-    "acceleration": 1,
+    "acceleration": 2,
     "brake": 2,
-    "move_speed": 9,
+    "move_speed": 18,
     "turn_speed": 15,
     "type": "deepwater"
   },

@@ -64,9 +64,9 @@
     "filename": "/pa/units/sea/fabrication_sub/fabrication_sub.papa"
   },
   "navigation": {
-    "acceleration": 50,
+    "acceleration": 5,
     "brake": 50,
-    "move_speed": 12,
+    "move_speed": 25,
     "turn_speed": 90,
     "type": "deepwater"
   },

@@ -35,9 +35,9 @@
     "filename": "/pa/units/sea/attack_sub/attack_sub.papa"
   },
   "navigation": {
-    "acceleration": 8,
+    "acceleration": 5,
     "brake": 12,
-    "move_speed": 12,
+    "move_speed": 25,
     "turn_speed": 60,
     "type": "deepwater"
   },
