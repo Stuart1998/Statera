@@ -11,7 +11,7 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 1500,
+  "build_metal_cost": 2500,
   "description": "Leviathan: Analyis: Battleship: Huge size, anti-land and anti-ship rapidfire bombardment cannons.",
   "display_group": 20,
   "display_index": 100,
@@ -43,7 +43,7 @@
   "navigation": {
     "acceleration": 2,
     "brake": 2,
-    "move_speed": 20,
+    "move_speed": 18,
     "turn_speed": 15,
     "type": "deepwater"
   },
