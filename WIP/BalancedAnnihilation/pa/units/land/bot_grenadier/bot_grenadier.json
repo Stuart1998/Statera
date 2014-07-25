@@ -60,12 +60,12 @@
     },
     "animtree": "/pa/anim/anim_trees/bot_grenadier_anim_tree.json",
     "filename": "/pa/units/land/bot_grenadier/bot_grenadier.papa",
-    "walk_speed": 12
+    "walk_speed": 10
   },
   "navigation": {
     "acceleration": 120,
     "brake": 120,
-    "move_speed": 12,
+    "move_speed": 10,
     "turn_speed": 720,
     "type": "land-small"
   },
