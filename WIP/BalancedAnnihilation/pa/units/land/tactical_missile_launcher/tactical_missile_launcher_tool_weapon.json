@@ -1,5 +1,5 @@
 {
-  "ammo_capacity": 60000,
+  "ammo_capacity": 6000,
   "ammo_demand": 1500,
   "ammo_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
   "ammo_per_shot": 6000,
@@ -9,7 +9,7 @@
   "carpet_fire": true,
   "firing_arc_pitch": 180,
   "firing_arc_yaw": 180,
-  "max_range": 400,
+  "max_range": 325,
   "pitch_range": 0,
   "pitch_rate": 180,
   "rate_of_fire": 6,

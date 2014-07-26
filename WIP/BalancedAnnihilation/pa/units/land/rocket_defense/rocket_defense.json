@@ -1,0 +1,82 @@
+{
+  "TEMP_texelinfo": 9.4493,
+  "area_build_separation": 18,
+  "atrophy_cool_down": 30.0,
+  "atrophy_rate": 20.0,
+  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "build_metal_cost": 250,
+  "command_caps": [
+    "ORDER_Attack"
+  ],
+  "description": "Rocket Defense Tower: Analysis: Long range defensive rockets.",
+  "display_group": 50,
+  "display_index": 80,
+  "display_name": "Rocket Defense Tower",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/structure_small"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/structure_small",
+      "effect_scale": 0.3
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/structure/air_defense_fire",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
+    }
+  },
+  "guard_layer": "WL_AnySurface",
+  "guard_radius": 220,
+  "max_health": 150,
+  "mesh_bounds": [
+    5,
+    5,
+    10.7778
+  ],
+  "model": [
+    {
+      "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
+      "filename": "/pa/units/land/air_defense/air_defense.papa",
+      "layer": "WL_LandHorizontal",
+      "skirt_decal": "/pa/effects/specs/skirt_defense.json"
+    },
+    {
+      "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
+      "filename": "/pa/units/sea/air_defense/air_defense.papa",
+      "layer": "WL_DeepWater"
+    }
+  ],
+  "nearby_target_tick_update_interval": 3,
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ],
+      "spec_id": "/pa/units/land/rocket_defense/rocket_defense_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Structure",
+    "UNITTYPE_Basic",
+    "UNITTYPE_Land",
+    "UNITTYPE_Defense",
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_FabBuild",
+    "UNITTYPE_FabAdvBuild"
+  ]
+}

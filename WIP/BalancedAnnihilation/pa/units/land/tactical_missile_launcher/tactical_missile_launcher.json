@@ -3,7 +3,7 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 20.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 3000,
+  "build_metal_cost": 4000,
   "command_caps": [
     "ORDER_Attack"
   ],
@@ -64,6 +64,51 @@
   },
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_missile01",
+      "muzzle_bone": "bone_missile01",
+      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json"
+    },
     {
       "aim_bone": "bone_missile01",
       "muzzle_bone": "bone_missile01",

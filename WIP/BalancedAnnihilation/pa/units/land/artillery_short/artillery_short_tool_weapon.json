@@ -5,9 +5,7 @@
   "ammo_per_shot": 1000,
   "ammo_source": "energy",
   "auto_attack": true,
-  "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
-  "firing_arc_pitch": 5,
-  "firing_arc_yaw": 5,
+  "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
   "firing_standard_deviation": 0.25,
   "max_range": 280,
   "physics": {
