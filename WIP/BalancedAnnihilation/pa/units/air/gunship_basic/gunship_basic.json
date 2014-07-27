@@ -31,7 +31,7 @@
   "fx_offsets": [
     {
       "bone": "bone_turret",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         0,
         -1.25,
@@ -46,7 +46,7 @@
     },
     {
       "bone": "bone_leftWing",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         1.449,
         0,
@@ -61,7 +61,7 @@
     },
     {
       "bone": "bone_rightWing",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "offset": [
         -1.449,
         0,
