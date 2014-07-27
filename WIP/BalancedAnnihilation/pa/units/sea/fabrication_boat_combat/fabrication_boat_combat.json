@@ -91,7 +91,7 @@
   "tools": [
     {
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/sea/fabrication_sub/fabrication_sub_build_arm.json"
+      "spec_id": "/pa/units/sea/fabrication_boat_combat/fabrication_boat_combat_build_arm.json"
     }
   ],
   "transportable": {

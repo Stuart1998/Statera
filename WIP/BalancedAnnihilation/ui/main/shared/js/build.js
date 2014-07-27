@@ -103,7 +103,7 @@ function BuildHotkeyModel() {
             "/pa/units/sea/destroyer/destroyer.json": ["sea", 13],
             "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 11],
             "/pa/units/sea/attack_boat/attack_boat.json": ["sea", 12],
-            "/pa/units/sea/fabrication_sub/fabrication_sub.json": ["sea", 14],
+            "/pa/units/sea/fabrication_boat_combat/fabrication_boat_combat.json": ["sea", 14],
 
             "/pa/units/land/land_mine/land_mine.json": ["ammo", 10],
             "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 11],
