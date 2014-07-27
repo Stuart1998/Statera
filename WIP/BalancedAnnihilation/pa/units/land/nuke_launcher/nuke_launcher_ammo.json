@@ -18,7 +18,7 @@
   "events": {
     "collided": {
       "audio_cue": "/SE/Impacts/missile_seeking",
-      "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
+      "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
       "effect_world_aligned": false
     }
   },

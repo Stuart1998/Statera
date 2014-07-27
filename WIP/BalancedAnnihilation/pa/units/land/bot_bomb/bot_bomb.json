@@ -35,8 +35,8 @@
       "audio_cue": "/SE/Build_Complete/bot"
     },
     "died": {
-      "audio_cue": "/SE/Death/Bot",
-      "effect_scale": 2.0
+      "audio_cue": "/SE/Death/Bot_bomb",
+      "effect_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion.pfx"
     }
   },
   "guard_layer": "WL_LandHorizontal",
