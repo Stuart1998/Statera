@@ -10,7 +10,6 @@ function BuildHotkeyModel() {
             "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],
             "/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 5],
             "/pa/units/land/radar/radar.json": ["utility", 6],
-            "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json": ["utility", 7],
             "/pa/units/land/energy_plant/energy_plant.json": ["utility", 8],
             "/pa/units/land/metal_extractor/metal_extractor.json": ["utility", 9],
             "/pa/units/land/teleporter/teleporter.json": ["utility", 10],

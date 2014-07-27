@@ -34,10 +34,14 @@
     10.7778
   ],
   "model": [
-    {
-      "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
+    { "layer":"WL_LandHorizontal",
+      "animtree": "/pa/anim/anim_trees/rocket_defense_anim_tree.json",
       "filename": "/pa/units/land/rocket_defense/rocket_defense.papa",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
+    },
+    { "layer":"WL_WaterSurface",
+      "animtree": "/pa/anim/anim_trees/rocket_defense_anim_tree.json",
+      "filename": "/pa/units/sea/floating_rocket_defense/floating_rocket_defense.papa"
     }
   ],
   "nearby_target_tick_update_interval": 3,
@@ -57,10 +61,7 @@
   "tools": [
     {
       "aim_bone": "bone_pitch",
-      "muzzle_bone": [
-        "socket_rightMuzzle",
-        "socket_leftMuzzle"
-      ],
+      "muzzle_bone": "bone_muzzle",
       "spec_id": "/pa/units/land/rocket_defense/rocket_defense_tool_weapon.json"
     }
   ],
