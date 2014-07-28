@@ -6,7 +6,7 @@
   "burn_radius": 137,
   "collision_check": "ground",
   "cruise_height": 100,
-  "damage": 4000,
+  "damage": 1500,
   "damage_volume": {
     "burnable_remove_radius": 100.0,
     "delay": 1.0,
@@ -18,7 +18,7 @@
   "events": {
     "collided": {
       "audio_cue": "/SE/Impacts/missile_seeking",
-        "sim_fire_effect": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
+      "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
       "effect_world_aligned": false
     }
   },
@@ -54,9 +54,9 @@
   },
   "show_in_orbital_layer": true,
   "show_strategic_icon": true,
-  "sim_impact_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
+  "sim_impact_effect": "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion_ent.json",
   "spawn_layers": "WL_Air",
-  "splash_damage": 4000,
+  "splash_damage": 1500,
   "splash_damages_allies": true,
   "splash_radius": 150,
   "stages": [

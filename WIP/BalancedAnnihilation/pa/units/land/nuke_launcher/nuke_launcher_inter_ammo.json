@@ -18,8 +18,7 @@
   "events": {
     "collided": {
       "audio_cue": "/SE/Impacts/missile_seeking",
-      "sim_fire_effect": 
-      "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
+      "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
       "effect_world_aligned": false
     }
   },
@@ -55,7 +54,7 @@
   },
   "show_in_orbital_layer": true,
   "show_strategic_icon": true,
-  "sim_impact_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
+  "sim_impact_effect": "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion_ent.json",
   "spawn_layers": "WL_Air",
   "splash_damage": 12000,
   "splash_damages_allies": true,
