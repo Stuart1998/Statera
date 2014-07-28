@@ -69,7 +69,8 @@
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Scout"
   ],
   "wreckage_health_frac": 0.0
 }
