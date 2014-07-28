@@ -87,7 +87,6 @@
       "ignore_radar": true,
 "uses_energy": true
     },
-    "observer"
     "observer": {
       "items": [
         {
