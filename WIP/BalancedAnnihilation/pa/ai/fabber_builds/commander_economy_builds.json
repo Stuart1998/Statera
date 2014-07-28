@@ -14,6 +14,7 @@
             "test_type": "CanFindMetalSpotToBuildBasic"
           },
           {
+            "boolean": true,
             "compare0": "<",
             "test_type": "UnitCountOnPlanet",
             "unit_type_string0": "Fabber - Orbital",
@@ -51,6 +52,7 @@
             "test_type": "CanFindMetalSpotToBuildBasic"
           },
           {
+            "boolean": true,
             "compare0": "<",
             "test_type": "UnitCountOnPlanet",
             "unit_type_string0": "Fabber - Orbital",

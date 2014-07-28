@@ -122,6 +122,46 @@
           },
           {
             "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "(Recon & Structure - Orbital) | (Recon & Orbital - Structure)",
+            "value0": 1
+          },
+          {
+            "string0": "BasicRadar",
+            "test_type": "CanAffordPotentialDrain"
+          },
+          {
+            "string0": "BasicRadar",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ],
+      "builders": [
+        "AnyBasicFabber"
+      ],
+      "instance_count": 1,
+      "name": "Basic Radar - Have none",
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 264,
+      "shared_instance_count": "BasicRadar",
+      "to_build": "BasicRadar"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
             "test_type": "UnitCountInBase",
             "unit_type_string0": "Land & Structure & Recon & Advanced",
             "value0": 1
@@ -213,6 +253,46 @@
         }
       },
       "priority": 247,
+      "shared_instance_count": "AdvancedRadar",
+      "to_build": "AdvancedRadar"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "(Recon & Structure - Orbital) | (Recon & Orbital - Structure)",
+            "value0": 1
+          },
+          {
+            "string0": "AdvancedRadar",
+            "test_type": "CanAffordPotentialDrain"
+          },
+          {
+            "string0": "AdvancedRadar",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ],
+      "builders": [
+        "AnyAdvancedFabber"
+      ],
+      "instance_count": 1,
+      "name": "Advanced Radar - Have none",
+      "placement_rules": {
+        "buffer": 2,
+        "threat": {
+          "compare_type": "<",
+          "influence_type": "AntiSurface",
+          "radius": 10,
+          "value": 50
+        }
+      },
+      "priority": 265,
       "shared_instance_count": "AdvancedRadar",
       "to_build": "AdvancedRadar"
     },

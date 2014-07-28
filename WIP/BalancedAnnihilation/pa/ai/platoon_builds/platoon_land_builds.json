@@ -58,10 +58,9 @@
             "value0": 1
           },
           {
-            "string0": "land_attack",
+            "string0": "WL_AnySurface",
             "string1": "WL_AnySurface",
-            "string2": "WL_AnySurface",
-            "test_type": "CanAttackWithPoolUnits",
+            "test_type": "CanAttackWithPoolUnitsLand",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -82,10 +81,9 @@
             "value0": 4
           },
           {
-            "string0": "land_attack",
+            "string0": "WL_AnySurface",
             "string1": "WL_AnySurface",
-            "string2": "WL_AnySurface",
-            "test_type": "CanAttackWithPoolUnits",
+            "test_type": "CanAttackWithPoolUnitsLand",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -106,10 +104,9 @@
             "value0": 10
           },
           {
-            "string0": "land_attack",
+            "string0": "WL_AnySurface",
             "string1": "WL_AnySurface",
-            "string2": "WL_AnySurface",
-            "test_type": "CanAttackWithPoolUnits",
+            "test_type": "CanAttackWithPoolUnitsLand",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -130,10 +127,9 @@
             "value0": 20
           },
           {
-            "string0": "land_attack",
+            "string0": "WL_AnySurface",
             "string1": "WL_AnySurface",
-            "string2": "WL_AnySurface",
-            "test_type": "CanAttackWithPoolUnits",
+            "test_type": "CanAttackWithPoolUnitsLand",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -154,10 +150,9 @@
             "value0": 40
           },
           {
-            "string0": "land_attack",
+            "string0": "WL_AnySurface",
             "string1": "WL_AnySurface",
-            "string2": "WL_AnySurface",
-            "test_type": "CanAttackWithPoolUnits",
+            "test_type": "CanAttackWithPoolUnitsLand",
             "unit_type_string0": "Mobile | Structure"
           }
         ]

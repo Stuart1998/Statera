@@ -289,10 +289,39 @@
             "value0": 1.0
           },
           {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Commander",
+            "value0": 0
+          },
+          {
             "compare0": ">=",
             "test_type": "UnitCount",
             "unit_type_string0": "EnergyProduction & Basic",
             "value0": 10
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCount",
+            "unit_type_string0": "EnergyProduction & Advanced",
+            "value0": 1
+          },
+          {
+            "string0": "BasicEnergyGenerator",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ],
+        [
+          {
+            "compare0": "<",
+            "test_type": "PotentialEnergyEfficiency",
+            "value0": 1.0
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Commander",
+            "value0": 1
           },
           {
             "compare0": "<",
@@ -333,10 +362,37 @@
             "test_type": "DesireEnergy"
           },
           {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Commander",
+            "value0": 0
+          },
+          {
             "compare0": ">=",
             "test_type": "UnitCount",
             "unit_type_string0": "EnergyProduction & Basic",
             "value0": 10
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCount",
+            "unit_type_string0": "EnergyProduction & Advanced",
+            "value0": 1
+          },
+          {
+            "string0": "BasicEnergyGenerator",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ],
+        [
+          {
+            "test_type": "DesireEnergy"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Commander",
+            "value0": 1
           },
           {
             "compare0": "<",

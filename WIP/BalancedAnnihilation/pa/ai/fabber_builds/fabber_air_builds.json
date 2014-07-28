@@ -5,121 +5,15 @@
         [
           {
             "boolean": false,
-            "test_type": "AloneOnPlanet"
+            "test_type": "HaveEcoForAdvanced"
           },
           {
+            "boolean": false,
             "test_type": "NeedBasicAirFactory"
           },
           {
             "string0": "BasicAirFactory",
             "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "boolean": false,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Factory & Basic - Orbital - NukeDefense - Nuke",
-            "unit_type_string1": "Fabber & Basic",
-            "value0": 0.4
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "NeedBasicAirFactory"
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "boolean": false,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
-            "compare0": ">=",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 5
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "NeedBasicAirFactory"
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "boolean": true,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Factory & Basic - Orbital - NukeDefense - Nuke",
-            "unit_type_string1": "Factory & Advanced - Orbital - NukeDefense - Nuke",
-            "value0": 5
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Factory & Basic - Orbital - NukeDefense - Nuke",
-            "unit_type_string1": "Fabber & Basic",
-            "value0": 0.4
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "NeedBasicAirFactory"
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "boolean": true,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Factory & Basic - Orbital - NukeDefense - Nuke",
-            "unit_type_string1": "Factory & Advanced - Orbital - NukeDefense - Nuke",
-            "value0": 5
-          },
-          {
-            "compare0": ">=",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 5
           },
           {
             "string0": "BasicAirFactory",
@@ -129,47 +23,15 @@
         [
           {
             "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "NeedBasicAirFactory"
-          },
-          {
-            "string0": "BasicAirFactory",
-            "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Factory & Basic - Orbital - NukeDefense - Nuke",
-            "value0": 3
-          },
-          {
-            "boolean": false,
             "test_type": "HaveEcoForAdvanced"
           },
           {
-            "string0": "BasicAirFactory",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
             "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
             "test_type": "NeedBasicAirFactory"
           },
           {
             "string0": "BasicAirFactory",
             "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Factory & Basic - Orbital - NukeDefense - Nuke",
-            "value0": 1
           },
           {
             "string0": "BasicAirFactory",
@@ -203,80 +65,16 @@
       "build_conditions": [
         [
           {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
+            "boolean": true,
+            "test_type": "HaveEcoForAdvanced"
           },
           {
+            "boolean": true,
             "test_type": "NeedAdvancedAirFactory"
           },
           {
             "string0": "AdvancedAirFactory",
             "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "boolean": true,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "Factory & Advanced - Orbital - NukeDefense - Nuke",
-            "unit_type_string1": "Fabber & Advanced",
-            "value0": 0.4
-          },
-          {
-            "string0": "AdvancedAirFactory",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "NeedAdvancedAirFactory"
-          },
-          {
-            "string0": "AdvancedAirFactory",
-            "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "boolean": true,
-            "test_type": "HaveEcoForAdvanced"
-          },
-          {
-            "compare0": ">=",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Advanced",
-            "value0": 3
-          },
-          {
-            "string0": "AdvancedAirFactory",
-            "test_type": "CanFindPlaceToBuild"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "NeedAdvancedAirFactory"
-          },
-          {
-            "string0": "AdvancedAirFactory",
-            "test_type": "CanAffordPotentialDrain"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Factory & Advanced - Orbital - NukeDefense - Nuke",
-            "value0": 3
-          },
-          {
-            "boolean": true,
-            "test_type": "HaveEcoForAdvanced"
           },
           {
             "string0": "AdvancedAirFactory",

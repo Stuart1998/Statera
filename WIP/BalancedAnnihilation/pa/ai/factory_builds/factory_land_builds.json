@@ -5,69 +5,17 @@
         [
           {
             "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "boolean": false,
             "test_type": "BaseThreatened"
           },
           {
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Basic",
-            "unit_type_string1": "(Tank | Bot) & Factory & Basic",
-            "value0": 5
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 15
+            "test_type": "NeedBasicLandFabber"
           },
           {
             "string0": "BasicBotFabber",
             "test_type": "CanAffordPotentialDrain"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Basic",
-            "unit_type_string1": "(Tank | Bot) & Factory & Basic",
-            "value0": 6
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 12
-          },
-          {
-            "string0": "BasicBotFabber",
-            "test_type": "CanAffordPotentialDrain"
-          }
-        ],
-        [
-          {
-            "boolean": false,
-            "test_type": "BaseThreatened"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 2
           }
         ]
       ],
@@ -95,43 +43,7 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Basic",
-            "unit_type_string1": "(Tank | Bot) & Factory & Basic",
-            "value0": 5
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 15
-          },
-          {
-            "string0": "BasicVehicleFabber",
-            "test_type": "CanAffordPotentialDrain"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Basic",
-            "unit_type_string1": "(Tank | Bot) & Factory & Basic",
-            "value0": 6
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitCountOnPlanet",
-            "unit_type_string0": "Fabber & Basic",
-            "value0": 12
+            "test_type": "NeedBasicLandFabber"
           },
           {
             "string0": "BasicVehicleFabber",
@@ -170,6 +82,25 @@
           {
             "test_type": "CanAffordBuildDemand"
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
@@ -178,7 +109,7 @@
       "instance_count": -1,
       "max_num_assisters": 10,
       "name": "Basic Assault Bot",
-      "priority": 97,
+      "priority": 0,
       "to_build": "BasicAssaultBot"
     },
     {
@@ -197,6 +128,32 @@
             "unit_type_string0": "(Tank | Bot) & Artillery",
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.35
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot) & Artillery",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.35
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
           }
         ]
       ],
@@ -225,6 +182,32 @@
             "unit_type_string0": "(Bot & Construction) - Fabber",
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.1
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Bot & Construction) - Fabber",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.1
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
           }
         ]
       ],
@@ -309,6 +292,32 @@
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.1
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "Land & Scout",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.1
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
@@ -329,6 +338,25 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
           }
         ]
       ],
@@ -358,12 +386,38 @@
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.5
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "Tank & Heavy",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.5
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
         "BasicVehicleFactory"
       ],
-      "instance_count": 1,
+      "instance_count": -1,
       "max_num_assisters": 10,
       "name": "Basic Armor Tank",
       "priority": 97,
@@ -395,6 +449,32 @@
             "test_type": "BaseThreatRatio",
             "value0": 1.0
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot) & AirDefense",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.1
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
@@ -410,41 +490,13 @@
         [
           {
             "boolean": false,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "boolean": false,
             "test_type": "BaseThreatened"
           },
           {
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Advanced",
-            "unit_type_string1": "(Tank | Bot) & Factory & Advanced",
-            "value0": 5
-          },
-          {
-            "string0": "AdvancedBotFabber",
-            "test_type": "CanAffordPotentialDrain"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Advanced",
-            "unit_type_string1": "(Tank | Bot) & Factory & Advanced",
-            "value0": 6
+            "test_type": "NeedAdvancedLandFabber"
           },
           {
             "string0": "AdvancedBotFabber",
@@ -488,31 +540,7 @@
             "test_type": "CanAffordBuildDemand"
           },
           {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Advanced",
-            "unit_type_string1": "(Tank | Bot) & Factory & Advanced",
-            "value0": 5
-          },
-          {
-            "string0": "AdvancedVehicleFabber",
-            "test_type": "CanAffordPotentialDrain"
-          }
-        ],
-        [
-          {
-            "boolean": true,
-            "test_type": "AloneOnPlanet"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          },
-          {
-            "compare0": "<",
-            "test_type": "UnitRatioOnPlanet",
-            "unit_type_string0": "(Tank | Bot) & Fabber & Advanced",
-            "unit_type_string1": "(Tank | Bot) & Factory & Advanced",
-            "value0": 6
+            "test_type": "NeedAdvancedLandFabber"
           },
           {
             "string0": "AdvancedVehicleFabber",
@@ -551,6 +579,25 @@
           {
             "test_type": "CanAffordBuildDemand"
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
@@ -579,6 +626,32 @@
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.1
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Bot & Construction) - Fabber",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.1
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
@@ -606,12 +679,38 @@
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.35
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot) & Artillery",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.35
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
         "AdvancedBotFactory"
       ],
-      "instance_count": 1,
+      "instance_count": -1,
       "max_num_assisters": 15,
       "name": "Advanced Artillery Bot",
       "priority": 199,
@@ -626,6 +725,79 @@
           },
           {
             "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot) & Tactical",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.35
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot) & Tactical",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.35
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
+        ]
+      ],
+      "builders": [
+        "AdvancedBotFactory"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 15,
+      "name": "Advanced Tactical Bot",
+      "priority": 199,
+      "to_build": "TMLBot"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
           }
         ]
       ],
@@ -655,12 +827,38 @@
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.5
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "Tank & Heavy",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.5
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
         "AdvancedVehicleFactory"
       ],
-      "instance_count": 1,
+      "instance_count": -1,
       "max_num_assisters": 15,
       "name": "Advanced Armor Tank",
       "priority": 199,
@@ -683,12 +881,38 @@
             "unit_type_string1": "(Tank | Bot) - Fabber",
             "value0": 0.35
           }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Tank | Bot) & Artillery",
+            "unit_type_string1": "(Tank | Bot) - Fabber",
+            "value0": 0.35
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
         ]
       ],
       "builders": [
         "AdvancedVehicleFactory"
       ],
-      "instance_count": 1,
+      "instance_count": -1,
       "max_num_assisters": 15,
       "name": "Advanced Artillery Vehicle",
       "priority": 199,

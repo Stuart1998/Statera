@@ -4,8 +4,10 @@
       "build_conditions": [
         [
           {
-            "boolean": false,
-            "test_type": "BaseThreatened"
+            "compare0": "<=",
+            "string0": "Orbital",
+            "test_type": "BaseThreat",
+            "value0": 0
           },
           {
             "test_type": "CanAffordBuildDemand"
@@ -161,6 +163,35 @@
             "unit_type_string0": "Orbital & Fighter",
             "value0": 3
           }
+        ],
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "test_type": "BaseThreat",
+            "value0": 0
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Orbital & Fighter",
+            "value0": 3
+          }
+        ],
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": ">",
+            "string0": "Orbital",
+            "string1": "AntiOrbital",
+            "test_type": "PlanetThreatRatio",
+            "value0": 1.0
+          }
         ]
       ],
       "builders": [
@@ -169,7 +200,7 @@
       "instance_count": 1,
       "max_num_assisters": 5,
       "name": "Orbital Fighter - Threat",
-      "priority": 102,
+      "priority": 200,
       "to_build": "OrbitalFighter"
     },
     {
@@ -204,6 +235,12 @@
         [
           {
             "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<=",
+            "string0": "Orbital",
+            "test_type": "BaseThreat",
+            "value0": 0
           },
           {
             "boolean": true,

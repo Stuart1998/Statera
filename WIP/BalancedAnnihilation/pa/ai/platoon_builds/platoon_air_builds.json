@@ -27,10 +27,9 @@
             "value0": 1
           },
           {
-            "string0": "bomber_attack",
-            "string1": "WL_AnySurface",
-            "string2": "WL_Air",
-            "test_type": "CanAttackWithPoolUnits",
+            "string0": "WL_AnySurface",
+            "string1": "WL_Air",
+            "test_type": "CanAttackWithPoolUnitsBomber",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -51,10 +50,9 @@
             "value0": 4
           },
           {
-            "string0": "bomber_attack",
-            "string1": "WL_AnySurface",
-            "string2": "WL_Air",
-            "test_type": "CanAttackWithPoolUnits",
+            "string0": "WL_AnySurface",
+            "string1": "WL_Air",
+            "test_type": "CanAttackWithPoolUnitsBomber",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -75,10 +73,9 @@
             "value0": 10
           },
           {
-            "string0": "bomber_attack",
-            "string1": "WL_AnySurface",
-            "string2": "WL_Air",
-            "test_type": "CanAttackWithPoolUnits",
+            "string0": "WL_AnySurface",
+            "string1": "WL_Air",
+            "test_type": "CanAttackWithPoolUnitsBomber",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -99,10 +96,9 @@
             "value0": 20
           },
           {
-            "string0": "bomber_attack",
-            "string1": "WL_AnySurface",
-            "string2": "WL_Air",
-            "test_type": "CanAttackWithPoolUnits",
+            "string0": "WL_AnySurface",
+            "string1": "WL_Air",
+            "test_type": "CanAttackWithPoolUnitsBomber",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -123,10 +119,9 @@
             "value0": 40
           },
           {
-            "string0": "bomber_attack",
-            "string1": "WL_AnySurface",
-            "string2": "WL_Air",
-            "test_type": "CanAttackWithPoolUnits",
+            "string0": "WL_AnySurface",
+            "string1": "WL_Air",
+            "test_type": "CanAttackWithPoolUnitsBomber",
             "unit_type_string0": "Mobile | Structure"
           }
         ]
@@ -147,10 +142,9 @@
             "value0": 1
           },
           {
-            "string0": "fighter_attack",
+            "string0": "WL_Air",
             "string1": "WL_Air",
-            "string2": "WL_Air",
-            "test_type": "CanAttackWithPoolUnits",
+            "test_type": "CanAttackWithPoolUnitsFighter",
             "unit_type_string0": "Mobile | Structure"
           }
         ],
