@@ -339,7 +339,7 @@
       },
       "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
       "filename": "/pa/units/sea/air_factory_adv/air_factory_adv.papa",
-      "layer": "WL_DeepWater"
+      "layer": "WL_WaterSurface"
     }
   ],
   "physics": {

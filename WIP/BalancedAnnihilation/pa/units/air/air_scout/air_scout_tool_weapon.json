@@ -9,7 +9,7 @@
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Seafloor",
-    "WL_DeepWater",
+    "WL_WaterSurface",
     "WL_Air"
   ],
   "yaw_range": 180,
