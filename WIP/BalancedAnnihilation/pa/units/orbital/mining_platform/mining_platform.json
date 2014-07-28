@@ -29,7 +29,7 @@
   ],
   "max_health": 7500,
   "model": {
-    "filename": "/pa/units/orbital/laser_satellite/laser_satellite.papa"
+    "filename": "/pa/units/orbital/orbital_laser/orbital_laser.papa"
   },
   "physics": {
     "gravity_scalar": 0.001,
