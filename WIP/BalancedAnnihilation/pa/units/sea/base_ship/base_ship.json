@@ -50,6 +50,7 @@
     "shape": "Box"
   },
   "spawn_layers": "WL_DeepWater",
+  "teleportable": {},
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",

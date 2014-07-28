@@ -15,7 +15,8 @@
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Attack",
-    "ORDER_Assist"
+    "ORDER_Assist",
+	"ORDER_Use"
   ],
   "description": "Base Flyer Description - If you're seeing this, something is wrong in your flyer.",
   "display_group": 99,
@@ -70,6 +71,7 @@
     }
   },
   "spawn_layers": "WL_LandHorizontal",
+  "teleportable": {},
   "unit_types": [
     "UNITTYPE_Mobile",
     "UNITTYPE_Air",

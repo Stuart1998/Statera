@@ -15,7 +15,8 @@
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
-    "ORDER_Assist"
+    "ORDER_Assist",
+	"ORDER_Use"
   ],
   "description": "Firefly: Analysis: Scout: Fast, unarmed craft with a high vision radius.",
   "display_group": 80,

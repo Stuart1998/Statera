@@ -26,7 +26,8 @@
     "ORDER_Patrol",
     "ORDER_Assist",
     "ORDER_Load",
-    "ORDER_Unload"
+    "ORDER_Unload",
+	"ORDER_Use"
   ],
   "description": "Osprey: Analysis: Advanced Air Transport: Load ten units for rapid long distance travel.",
   "display_name": "Osprey",
