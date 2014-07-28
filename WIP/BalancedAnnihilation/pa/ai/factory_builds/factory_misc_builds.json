@@ -15,8 +15,27 @@
         "NukeSilo"
       ],
       "instance_count": -1,
-      "name": "Nuke Missile",
+      "name": "Tactical Missile",
       "priority": 151,
+      "to_build": "TacticalMissile"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "test_type": "FactoryHasOpenSlot"
+          }
+        ]
+      ],
+      "builders": [
+        "NukeSilo"
+      ],
+      "instance_count": -1,
+      "name": "Nuke Missile",
+      "priority": 150,
       "to_build": "NukeMissile"
     },
     {

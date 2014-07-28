@@ -18,15 +18,21 @@
     "AdvancedArtilleryBot": {
       "spec_id": "/pa/units/land/bot_sniper/bot_sniper.json"
     },
-    "AdvancedArtilleryVehicle": {
+    "AdvancedMortarVehicle": {
       "spec_id": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json"
     },
+	"AdvancedArtilleryVehicle": {
+	  "spec_id": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.json"
+	},
     "AdvancedAssaultBot": {
       "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv.json"
     },
     "AdvancedBomber": {
       "spec_id": "/pa/units/air/bomber_adv/bomber_adv.json"
     },
+	"AdvancedBomberNaval": {
+	  "spec_id": "/pa/units/air/bomber_naval/bomber_naval.json"
+	},
     "AdvancedBotCombatFabber": {
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json"
     },
@@ -142,11 +148,14 @@
       "spec_id": "/pa/units/air/fighter/fighter.json"
     },
     "BasicGunship": {
-      "spec_id": "/pa/units/air/gunship_basic/gunship.json"
+      "spec_id": "/pa/units/air/gunship_basic/gunship_basic.json"
     },
     "BasicLandDefense": {
       "spec_id": "/pa/units/land/laser_defense/laser_defense.json"
     },
+	"BasicLandDefenseRocket": {
+	  "spec_id": "/pa/units/land/rocket_defense/rocket_defense.json"
+	},
     "BasicLandDefenseSingle": {
       "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single.json"
     },
@@ -192,6 +201,9 @@
     "Destroyer": {
       "spec_id": "/pa/units/sea/destroyer/destroyer.json"
     },
+    "SeaScout": {
+      "spec_id": "/pa/units/sea/attack_boat/attack_boat.json"
+    },
     "EnergyStorage": {
       "spec_id": "/pa/units/land/energy_storage/energy_storage.json"
     },
@@ -216,8 +228,11 @@
     "MissleShip": {
       "spec_id": "/pa/units/sea/missile_ship/missile_ship.json"
     },
-    "NukeMissile": {
+    "TacticalMissile": {
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
+    },
+    "NukeMissile": {
+      "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json"
     },
     "NukeSilo": {
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher.json"
@@ -244,7 +259,7 @@
       "spec_id": "/pa/units/orbital/delta_v_engine/delta_v_engine.json"
     },
     "RaiderTank": {
-      "spec_id": "/pa/units/land/tank_hover/tank_hover.json"
+      "spec_id": "/pa/units/land/tank_attack/tank_attack.json"
     },
     "SkirmishBot": {
       "spec_id": "/pa/units/land/amphibious_bot/amphibious_bot.json"

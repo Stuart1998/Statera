@@ -222,7 +222,7 @@
         ]
       ],
       "builders": [
-        "OrbitalLauncher"
+        "OrbitalFactory"
       ],
       "instance_count": 1,
       "max_num_assisters": 5,
@@ -255,7 +255,7 @@
         ]
       ],
       "builders": [
-        "OrbitalLauncher"
+        "OrbitalFactory"
       ],
       "instance_count": 1,
       "max_num_assisters": 20,
@@ -263,35 +263,6 @@
       "name": "Orbital Lander - Commander Evac",
       "priority": 600,
       "to_build": "OrbitalLander"
-    },
-    {
-      "build_conditions": [
-        [
-          {
-            "compare0": "<",
-            "test_type": "PotentialEnergyEfficiency",
-            "value0": 1.0
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          }
-        ],
-        [
-          {
-            "test_type": "DesireEnergy"
-          },
-          {
-            "test_type": "CanAffordBuildDemand"
-          }
-        ]
-      ],
-      "builders": [
-        "OrbitalFactory"
-      ],
-      "instance_count": 1,
-      "name": "Solar Array",
-      "priority": 195,
-      "to_build": "SolarArray"
     },
     {
       "build_conditions": [

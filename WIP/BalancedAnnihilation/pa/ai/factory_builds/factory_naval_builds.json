@@ -36,6 +36,62 @@
         [
           {
             "boolean": false,
+            "test_type": "BaseThreatened"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Air & Factory",
+            "value0": 1
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountPerPlanetRadius",
+            "unit_type_string0": "Sea & Scout",
+            "value0": 400
+          },
+          {
+            "boolean": false,
+            "test_type": "HaveFullPlanetIntel"
+          }
+        ],
+        [
+          {
+            "boolean": false,
+            "test_type": "BaseThreatened"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Air & Factory",
+            "value0": 1
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Sea & Scout",
+            "value0": 1
+          },
+          {
+            "boolean": false,
+            "test_type": "HaveFullPlanetIntel"
+          }
+        ]
+      ],
+      "builders": [
+        "BasicNavalFactory"
+      ],
+      "instance_count": 1,
+      "name": "Land Scout - Intel",
+      "priority": 98,
+      "shared_instance_count": "SeaScout",
+      "to_build": "SeaScout"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
             "test_type": "AloneOnPlanet"
           },
           {
@@ -69,9 +125,83 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Frigate",
+      "name": "Basic AA Boat",
       "priority": 97,
+      "to_build": "BasicAABoat"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ]
+      ],
+      "builders": [
+        "AdvancedNavalFactory"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "name": "Frigate",
+      "priority": 199,
       "to_build": "Frigate"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Naval & Construction) - Fabber",
+            "unit_type_string1": "(Naval) - Fabber",
+            "value0": 0.1
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitRatioOnPlanet",
+            "unit_type_string0": "(Naval & Construction) - Fabber",
+            "unit_type_string1": "(Naval) - Fabber",
+            "value0": 0.1
+          },
+          {
+            "boolean": true,
+            "test_type": "OtherPlanetNeedsLandUnitAssistance"
+          },
+          {
+            "compare0": ">",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Structure & Teleporter",
+            "value0": 0
+          }
+        ]
+      ],
+      "builders": [
+        "BasicNavalFactory"
+      ],
+      "instance_count": 1,
+      "name": "Basic Combat Fabber Boat",
+      "priority": 97,
+      "to_build": "BasicBoatCombatFabber"
     },
     {
       "build_conditions": [

@@ -163,6 +163,42 @@
         [
           {
             "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Gunship",
+            "value0": 20
+          }
+        ]
+      ],
+      "builders": [
+        "BasicAirFactory"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "name": "Basic Air Gunship",
+      "priority": 97,
+      "to_build": "BasicGunship"
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
             "test_type": "BaseThreatened"
           },
           {
@@ -269,6 +305,57 @@
       "name": "Advanced Gunship",
       "priority": 199,
       "to_build": "AdvancedGunship"
-    }
+    },
+    {
+      "build_conditions": [
+        [
+          {
+            "boolean": false,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fighter & Advanced",
+            "value0": 50
+          }
+        ],
+        [
+          {
+            "boolean": true,
+            "test_type": "AloneOnPlanet"
+          },
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountOnPlanet",
+            "unit_type_string0": "Fighter",
+            "value0": 20
+          }
+        ],
+        [
+          {
+            "compare0": ">",
+            "string0": "Air",
+            "string1": "AntiAir",
+            "test_type": "BaseThreatRatio",
+            "value0": 1.0
+          }
+        ]
+      ],
+      "builders": [
+        "BasicAirFactory"
+      ],
+      "instance_count": -1,
+      "max_num_assisters": 10,
+      "name": "Advanced Air Fighter",
+      "priority": 97,
+      "to_build": "AdvancedFighter"
+    },
   ]
 }
