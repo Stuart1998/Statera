@@ -102,6 +102,7 @@
   },
   "unit_types": [
     "UNITTYPE_Bot",
+    "UNITTYPE_AirDefense",
     "UNITTYPE_Mobile",
     "UNITTYPE_Artillery",
     "UNITTYPE_Land",
