@@ -14,6 +14,8 @@
     "radius_accel": 100.0,
     "radius_velocity": 50.0
   },
+  "description": "Tactical missile - Long range, medium area damage, projectile. Strong vs armies.",
+  "display_name": "IPBM-13 -Silencer- Missile",
   "enable_orbital_shell": true,
   "events": {
     "collided": {
