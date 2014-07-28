@@ -638,7 +638,6 @@
         ]
       ],
       "builders": [
-        "AnyBasicFabber",
         "AnyAdvancedFabber"
       ],
       "instance_count": 1,
@@ -674,7 +673,6 @@
         ]
       ],
       "builders": [
-        "AnyBasicFabber",
         "AnyAdvancedFabber"
       ],
       "instance_count": 1,

@@ -105,6 +105,9 @@
     "BasicAABot": {
       "spec_id": "/pa/units/land/bot_grenadier/bot_grenadier.json"
     },
+	"BasicAABoat": {
+	  "spec_id": "/pa/units/sea/sea_scout/sea_scout.json"
+	},
     "BasicAAVehicle": {
       "spec_id": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json"
     },
@@ -135,6 +138,9 @@
     "BasicBotCombatFabber": {
       "spec_id": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json"
     },
+	"BasicBoatCombatFabber": {
+	  "spec_id": "/pa/units/sea/fabrication_boat_combat/fabrication_boat_combat.json"
+	},
     "BasicBotFabber": {
       "spec_id": "/pa/units/land/fabrication_bot/fabrication_bot.json"
     },
@@ -159,6 +165,9 @@
     "BasicLandDefenseSingle": {
       "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single.json"
     },
+	"BasicLandDefenseSniper": {
+	  "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper.json"
+	},
     "BasicMetalExtractor": {
       "spec_id": "/pa/units/land/metal_extractor/metal_extractor.json"
     },

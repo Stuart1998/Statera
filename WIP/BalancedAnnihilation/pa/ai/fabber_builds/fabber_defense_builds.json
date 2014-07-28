@@ -456,6 +456,80 @@
         "AnyBasicFabber"
       ],
       "instance_count": 1,
+      "name": "Basic Land Defense Rocket",
+      "placement_rules": {
+        "buffer": 2,
+        "placement_type": "FromMainBasePerimeter",
+        "unit_count_rules": [
+          {
+            "alliance": "Ally",
+            "compare_type": ">=",
+            "count": 1,
+            "range": 50,
+            "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)"
+          },
+          {
+            "alliance": "Ally",
+            "compare_type": "<",
+            "count": 1,
+            "range": 50,
+            "unit_type_string": "Structure & Basic & SurfaceDefense"
+          }
+        ]
+      },
+      "priority": 85,
+      "to_build": "BasicLandDefenseRocket"
+    },
+    {
+      "base_sort": "FromPerimeter",
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Basic & SurfaceDefense",
+            "value0": 1
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & (EnergyProduction | Factory)",
+            "value0": 5
+          },
+          {
+            "string0": "BasicLandDefense",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ],
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Basic & SurfaceDefense",
+            "value0": 1
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & (Tactical | Artillery)",
+            "value0": 1
+          },
+          {
+            "string0": "BasicLandDefense",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ],
+      "builders": [
+        "AnyBasicFabber"
+      ],
+      "instance_count": 1,
       "name": "Basic Land Defense",
       "placement_rules": {
         "buffer": 2,
@@ -479,6 +553,80 @@
       },
       "priority": 85,
       "to_build": "BasicLandDefense"
+    },
+    {
+      "base_sort": "FromPerimeter",
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Basic & SurfaceDefense",
+            "value0": 1
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & (EnergyProduction | Factory)",
+            "value0": 5
+          },
+          {
+            "string0": "BasicLandDefense",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ],
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          },
+          {
+            "compare0": "<",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & Basic & SurfaceDefense",
+            "value0": 1
+          },
+          {
+            "compare0": ">=",
+            "test_type": "UnitCountInBase",
+            "unit_type_string0": "Structure & (Tactical | Artillery)",
+            "value0": 1
+          },
+          {
+            "string0": "BasicLandDefense",
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ],
+      "builders": [
+        "AnyBasicFabber"
+      ],
+      "instance_count": 1,
+      "name": "Basic Land Defense Sniper",
+      "placement_rules": {
+        "buffer": 2,
+        "placement_type": "FromMainBasePerimeter",
+        "unit_count_rules": [
+          {
+            "alliance": "Ally",
+            "compare_type": ">=",
+            "count": 1,
+            "range": 50,
+            "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)"
+          },
+          {
+            "alliance": "Ally",
+            "compare_type": "<",
+            "count": 1,
+            "range": 50,
+            "unit_type_string": "Structure & Basic & SurfaceDefense"
+          }
+        ]
+      },
+      "priority": 85,
+      "to_build": "BasicLandDefenseSniper"
     },
     {
       "base_sort": "FromPerimeter",
@@ -1092,7 +1240,7 @@
         ]
       ],
       "builders": [
-        "AnyAdvancedFabber"
+        "AnyBasicFabber"
       ],
       "instance_count": 1,
       "name": "Anti Nuke Silo",
@@ -1179,7 +1327,7 @@
         ]
       ],
       "builders": [
-        "AnyAdvancedFabber"
+        "AnyBasicFabber"
       ],
       "instance_count": 1,
       "max_num_assisters": 12,
