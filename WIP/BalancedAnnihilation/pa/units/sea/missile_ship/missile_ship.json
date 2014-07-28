@@ -63,7 +63,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "socket_missile_aim",

@@ -47,7 +47,7 @@
       },
       "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json",
       "filename": "/pa/units/sea/deep_space_radar/deep_space_radar.papa",
-      "layer": "WL_DeepWater"
+      "layer": "WL_WaterSurface"
     }
   ],
   "physics": {

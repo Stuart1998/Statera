@@ -17,7 +17,7 @@
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Orbital",
-    "WL_DeepWater"
+    "WL_WaterSurface"
   ],
   "yaw_range": 0,
   "yaw_rate": 0

@@ -31,7 +31,7 @@
     "animtree": "/pa/anim/anim_trees/torpedo_launcher_adv_anim_tree.json",
     "filename": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.papa"
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_turret",

@@ -116,7 +116,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_pitch",

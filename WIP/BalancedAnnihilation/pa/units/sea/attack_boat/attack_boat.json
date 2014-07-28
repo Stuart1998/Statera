@@ -27,7 +27,7 @@
       "audio_cue": "/SE/Weapons/sea/attack_sub_fire"
     }
   },
-  "guard_layer": "WL_DeepWater",
+  "guard_layer": "WL_WaterSurface",
   "guard_radius": 160,
   "max_health": 820,
   "model": {
@@ -57,7 +57,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_root",

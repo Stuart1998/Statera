@@ -333,7 +333,7 @@
       },
       "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
       "filename": "/pa/units/orbital/orbital_launcher/orbital_launcher.papa",
-      "layer": "WL_DeepWater"
+      "layer": "WL_WaterSurface"
     }
   ],
   "physics": {

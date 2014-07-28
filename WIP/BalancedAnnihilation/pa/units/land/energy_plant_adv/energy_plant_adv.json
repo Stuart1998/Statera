@@ -262,7 +262,7 @@
       },
       "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
       "filename": "/pa/units/sea/sea_energy_plant_adv/sea_energy_plant_adv.papa",
-      "layer": "WL_DeepWater"
+      "layer": "WL_WaterSurface"
     }
   ],
   "production": {

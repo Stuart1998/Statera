@@ -21,7 +21,7 @@
       "audio_cue": "/SE/Weapons/sea/torpedo_fire"
     }
   },
-  "guard_layer": "WL_DeepWater",
+  "guard_layer": "WL_WaterSurface",
   "guard_radius": 250,
   "max_health": 3500,
   "mesh_bounds": [
@@ -48,7 +48,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
       "aim_bone": "bone_turret",

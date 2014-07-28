@@ -44,12 +44,12 @@
   },
   "physics": {
     "air_friction": 1.0,
-    "collision_layers": "WL_DeepWater",
+    "collision_layers": "WL_WaterSurface",
     "push_class": 2,
     "radius": 6,
     "shape": "Box"
   },
-  "spawn_layers": "WL_DeepWater",
+  "spawn_layers": "WL_WaterSurface",
   "teleportable": {},
   "unit_types": [
     "UNITTYPE_Naval",
