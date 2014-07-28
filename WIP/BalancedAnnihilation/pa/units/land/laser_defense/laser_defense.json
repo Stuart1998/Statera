@@ -43,7 +43,7 @@
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_anim_tree.json",
       "filename": "/pa/units/sea/floating_laser/floating_laser.papa",
-      "layer": "WL_DeepWater"
+      "layer": "WL_WaterSurface"
     }
   ],
   "recon": {
