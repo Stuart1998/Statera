@@ -29,7 +29,7 @@
   },
   "guard_layer": "WL_WaterSurface",
   "guard_radius": 160,
-  "max_health": 820,
+  "max_health": 400,
   "model": {
     "arrows": 5,
     "filename": "/pa/units/sea/attack_sub/attack_sub.papa"
