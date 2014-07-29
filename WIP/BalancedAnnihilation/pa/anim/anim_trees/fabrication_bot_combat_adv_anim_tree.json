@@ -57,17 +57,11 @@
     {
       "child": {
         "rotation_axis": "x",
-        "rotation_bone": "bone_pitchFront",
+        "rotation_bone": "bone_recoil",
         "type": "procedural_aim"
       },
       "lerp_func": "is_active",
       "type": "fader"
-    },
-    {
-      "bone": "bone_recoil",
-      "recoil_dist": 0.95,
-      "restore_time": 0.9,
-      "type": "recoil"
     },
     {
       "child": {

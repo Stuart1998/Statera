@@ -22,10 +22,6 @@
         "should_start_func": "has_build_target",
         "should_stop_func": "no_build_target"
       },
-      "fired": {
-        "audio_cue": "/SE/Weapons/bot/artillery_fire",
-        "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzleFront"
-      },
       "move": {
         "cue": "/SE/Movement/bot/T2_fab_loop",
         "flag": "vel_changed",
@@ -35,7 +31,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 800,
+  "build_metal_cost": 900,
   "buildable_types": "CombatFabAdvBuild",
   "can_only_assist_with_buildable_items": true,
   "command_caps": [
@@ -45,11 +41,10 @@
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Assist",
+    "ORDER_Attack",
     "ORDER_Use"
   ],
-  "description": "Advanced Combat Fabrcation Bot: Analysis: Advanced Combat Fabrication: Repairs units and builds battlefield structures",
-  "display_group": 100,
-  "display_index": 50,
+  "description": "Submersible Support Bot: Bot with repair and build tool and short range cannon. Weak vs Long-Range & Skirmishers",
   "display_name": "Advanced Combat Fabrication Bot",
   "events": {
     "build_complete": {
@@ -79,10 +74,16 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 60,
-  "max_health": 300,
+  "max_health": 250,
+  "mesh_bounds": [
+    4.4,
+    7.5,
+    10
+  ],
   "model": {
     "animations": {
       "death01": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_death01.papa",
+      "idle": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_idle.papa",
       "walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_run.papa"
     },
     "animtree": "/pa/anim/anim_trees/fabrication_bot_combat_adv_anim_tree.json",
@@ -94,9 +95,9 @@
     "acceleration": 120,
     "brake": 120,
     "group_preference": "back",
-    "move_speed": 12,
+    "move_speed": 15,
     "turn_speed": 720,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "allow_pushing": true,
@@ -119,15 +120,11 @@
   "tools": [
     {
       "aim_bone": "bone_turretBack",
-      "build_arm": true,
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json"
     },
     {
       "aim_bone": "bone_turretFront",
-      "muzzle_bone": [
-        "socket_muzzleFront"
-      ],
-      "primary_weapon": true,
+      "muzzle_bone": "socket_muzzleFront",
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json"
     }
   ],
