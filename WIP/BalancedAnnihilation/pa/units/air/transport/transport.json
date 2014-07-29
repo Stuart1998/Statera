@@ -27,7 +27,7 @@
     "ORDER_Assist",
     "ORDER_Load",
     "ORDER_Unload",
-	"ORDER_Use"
+    "ORDER_Use"
   ],
   "description": "Pelican: Analysis: Air Transport: Load a land unit for rapid long distance travel.",
   "display_name": "Pelican",

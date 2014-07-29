@@ -1,16 +1,23 @@
 {
-    "base_spec": "/pa/ammo/torpedo/torpedo.json",
-    "damage": 400,
-    "splash_damage": 0,
-    "splash_radius": 0,
-    "splash_damages_allies": false,
-    "initial_velocity": 30,
-    "max_velocity": 60,
-    "lifetime": 10,
-    "turn_rate": 360,
-    "flight_type": "Staged",
-    "stages": [
-        {
+  "base_spec": "/pa/ammo/torpedo/torpedo.json",
+  "damage": 400,
+  "events": {
+    "died": {
+      "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx"
+    }
+  },
+  "flight_type": "Staged",
+  "initial_velocity": 30,
+  "lifetime": 10,
+  "max_velocity": 60,
+  "model": {
+    "filename": "/pa/units/sea/torpedo/torpedo.papa"
+  },
+  "splash_damage": 0,
+  "splash_damages_allies": false,
+  "splash_radius": 0,
+  "stages": [
+    {
       "ignores_LOS": true,
       "ignores_gravity": false,
       "rotates_to_velocity": false,
@@ -31,14 +38,7 @@
       "rotates_to_velocity": true,
       "stage_duration": 5000,
       "stage_turn_rate": 360
-        }
-    ],
-    "model": {
-        "filename": "/pa/units/sea/torpedo/torpedo.papa"
-    },
-    "events": {
-        "died": {
-            "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx"
-        }
     }
+  ],
+  "turn_rate": 360
 }

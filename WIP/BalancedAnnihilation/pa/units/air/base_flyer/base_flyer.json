@@ -16,7 +16,7 @@
     "ORDER_Patrol",
     "ORDER_Attack",
     "ORDER_Assist",
-	"ORDER_Use"
+    "ORDER_Use"
   ],
   "description": "Base Flyer Description - If you're seeing this, something is wrong in your flyer.",
   "display_group": 99,

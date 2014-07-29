@@ -18,21 +18,18 @@
     "AdvancedArtilleryBot": {
       "spec_id": "/pa/units/land/bot_sniper/bot_sniper.json"
     },
-    "AdvancedMortarVehicle": {
-      "spec_id": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json"
+    "AdvancedArtilleryVehicle": {
+      "spec_id": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.json"
     },
-	"AdvancedArtilleryVehicle": {
-	  "spec_id": "/pa/units/land/tank_heavy_artillery/tank_heavy_artillery.json"
-	},
     "AdvancedAssaultBot": {
       "spec_id": "/pa/units/land/assault_bot_adv/assault_bot_adv.json"
     },
     "AdvancedBomber": {
       "spec_id": "/pa/units/air/bomber_adv/bomber_adv.json"
     },
-	"AdvancedBomberNaval": {
-	  "spec_id": "/pa/units/air/bomber_naval/bomber_naval.json"
-	},
+    "AdvancedBomberNaval": {
+      "spec_id": "/pa/units/air/bomber_naval/bomber_naval.json"
+    },
     "AdvancedBotCombatFabber": {
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json"
     },
@@ -59,6 +56,9 @@
     },
     "AdvancedMetalExtractor": {
       "spec_id": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json"
+    },
+    "AdvancedMortarVehicle": {
+      "spec_id": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json"
     },
     "AdvancedNavalDefense": {
       "spec_id": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json"
@@ -102,12 +102,12 @@
     "AnyBasicFactory": {
       "unit_types": "Factory & Basic"
     },
+    "BasicAABoat": {
+      "spec_id": "/pa/units/sea/sea_scout/sea_scout.json"
+    },
     "BasicAABot": {
       "spec_id": "/pa/units/land/bot_grenadier/bot_grenadier.json"
     },
-	"BasicAABoat": {
-	  "spec_id": "/pa/units/sea/sea_scout/sea_scout.json"
-	},
     "BasicAAVehicle": {
       "spec_id": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json"
     },
@@ -132,15 +132,15 @@
     "BasicAssaultBot": {
       "spec_id": "/pa/units/land/assault_bot/assault_bot.json"
     },
+    "BasicBoatCombatFabber": {
+      "spec_id": "/pa/units/sea/fabrication_boat_combat/fabrication_boat_combat.json"
+    },
     "BasicBomber": {
       "spec_id": "/pa/units/air/bomber/bomber.json"
     },
     "BasicBotCombatFabber": {
       "spec_id": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json"
     },
-	"BasicBoatCombatFabber": {
-	  "spec_id": "/pa/units/sea/fabrication_boat_combat/fabrication_boat_combat.json"
-	},
     "BasicBotFabber": {
       "spec_id": "/pa/units/land/fabrication_bot/fabrication_bot.json"
     },
@@ -159,15 +159,15 @@
     "BasicLandDefense": {
       "spec_id": "/pa/units/land/laser_defense/laser_defense.json"
     },
-	"BasicLandDefenseRocket": {
-	  "spec_id": "/pa/units/land/rocket_defense/rocket_defense.json"
-	},
+    "BasicLandDefenseRocket": {
+      "spec_id": "/pa/units/land/rocket_defense/rocket_defense.json"
+    },
     "BasicLandDefenseSingle": {
       "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single.json"
     },
-	"BasicLandDefenseSniper": {
-	  "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper.json"
-	},
+    "BasicLandDefenseSniper": {
+      "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper.json"
+    },
     "BasicMetalExtractor": {
       "spec_id": "/pa/units/land/metal_extractor/metal_extractor.json"
     },
@@ -210,9 +210,6 @@
     "Destroyer": {
       "spec_id": "/pa/units/sea/destroyer/destroyer.json"
     },
-    "SeaScout": {
-      "spec_id": "/pa/units/sea/attack_boat/attack_boat.json"
-    },
     "EnergyStorage": {
       "spec_id": "/pa/units/land/energy_storage/energy_storage.json"
     },
@@ -236,9 +233,6 @@
     },
     "MissleShip": {
       "spec_id": "/pa/units/sea/missile_ship/missile_ship.json"
-    },
-    "TacticalMissile": {
-      "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
     },
     "NukeMissile": {
       "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json"
@@ -270,6 +264,9 @@
     "RaiderTank": {
       "spec_id": "/pa/units/land/tank_attack/tank_attack.json"
     },
+    "SeaScout": {
+      "spec_id": "/pa/units/sea/attack_boat/attack_boat.json"
+    },
     "SkirmishBot": {
       "spec_id": "/pa/units/land/amphibious_bot/amphibious_bot.json"
     },
@@ -281,6 +278,9 @@
     },
     "TMLBot": {
       "spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile.json"
+    },
+    "TacticalMissile": {
+      "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
     },
     "Teleporter": {
       "spec_id": "/pa/units/land/teleporter/teleporter.json"

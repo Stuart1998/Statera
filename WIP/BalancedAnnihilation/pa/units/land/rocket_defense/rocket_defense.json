@@ -34,14 +34,16 @@
     10.7778
   ],
   "model": [
-    { "layer":"WL_LandHorizontal",
+    {
       "animtree": "/pa/anim/anim_trees/rocket_defense_anim_tree.json",
       "filename": "/pa/units/land/rocket_defense/rocket_defense.papa",
+      "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     },
-    { "layer":"WL_WaterSurface",
+    {
       "animtree": "/pa/anim/anim_trees/rocket_defense_anim_tree.json",
-      "filename": "/pa/units/sea/floating_rocket_defense/floating_rocket_defense.papa"
+      "filename": "/pa/units/sea/floating_rocket_defense/floating_rocket_defense.papa",
+      "layer": "WL_WaterSurface"
     }
   ],
   "nearby_target_tick_update_interval": 3,

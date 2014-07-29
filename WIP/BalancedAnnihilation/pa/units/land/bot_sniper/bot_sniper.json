@@ -29,11 +29,11 @@
   "consumption": {
     "energy": 750
   },
-  "energy_efficiency_requirement": 0.9,
   "description": "Hunter: Analysis: Sniper: Long range, anti-land, and anti-ship bot. Slow reload speed. Slow.",
   "display_group": 60,
   "display_index": 100,
   "display_name": "Hunter",
+  "energy_efficiency_requirement": 0.9,
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
@@ -83,9 +83,9 @@
   },
   "recon": {
     "observable": {
-      "layer": "surface_and_air",
       "ignore_radar": true,
-"uses_energy": true
+      "layer": "surface_and_air",
+      "uses_energy": true
     },
     "observer": {
       "items": [

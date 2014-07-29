@@ -356,6 +356,6 @@
       "name": "Advanced Air Fighter",
       "priority": 97,
       "to_build": "AdvancedFighter"
-    },
+    }
   ]
 }
