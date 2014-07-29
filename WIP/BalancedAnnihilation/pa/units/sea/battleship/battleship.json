@@ -69,39 +69,139 @@
   "tools": [
     {
       "aim_bone": "bone_pitch01",
+      "fire_event": "fired0",
       "muzzle_bone": [
-        "socket_muzzle01",
-        "socket_muzzle02",
+        "socket_muzzle01"
+      ],
+      "record_index": 0,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch01",
+      "fire_event": "fired0",
+      "muzzle_bone": [
+        "socket_muzzle02"
+      ],
+      "record_index": 0,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch01",
+      "fire_event": "fired0",
+      "muzzle_bone": [
         "socket_muzzle03"
       ],
+      "record_index": 0,
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch02",
+      "fire_event": "fired1",
       "muzzle_bone": [
-        "socket_muzzle04",
-        "socket_muzzle05",
+        "socket_muzzle04"
+      ],
+      "record_index": 1,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch02",
+      "fire_event": "fired1",
+      "muzzle_bone": [
+        "socket_muzzle05"
+      ],
+      "record_index": 1,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch02",
+      "fire_event": "fired1",
+      "muzzle_bone": [
         "socket_muzzle06"
       ],
+      "record_index": 1,
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch03",
+      "fire_event": "fired2",
       "muzzle_bone": [
-        "socket_muzzle07",
-        "socket_muzzle08",
+        "socket_muzzle07"
+      ],
+      "record_index": 2,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch03",
+      "fire_event": "fired2",
+      "muzzle_bone": [
+        "socket_muzzle08"
+      ],
+      "record_index": 2,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch03",
+      "fire_event": "fired2",
+      "muzzle_bone": [
         "socket_muzzle09"
       ],
+      "record_index": 2,
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch04",
+      "fire_event": "fired3",
       "muzzle_bone": [
-        "socket_muzzle10",
-        "socket_muzzle11",
+        "socket_muzzle10"
+      ],
+      "record_index": 3,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch04",
+      "fire_event": "fired3",
+      "muzzle_bone": [
+        "socket_muzzle11"
+      ],
+      "record_index": 3,
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch04",
+      "fire_event": "fired3",
+      "muzzle_bone": [
         "socket_muzzle12"
       ],
+      "record_index": 3,
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_smallPitch01",
+      "muzzle_bone": [
+        "socket_smallMuzzle01"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_aa_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_smallPitch02",
+      "muzzle_bone": [
+        "socket_smallMuzzle02"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_aa_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_smallPitch03",
+      "muzzle_bone": [
+        "socket_smallMuzzle03"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_aa_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_smallPitch04",
+      "muzzle_bone": [
+        "socket_smallMuzzle04"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_aa_tool_weapon.json"
     }
   ],
   "unit_types": [
