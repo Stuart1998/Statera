@@ -11,7 +11,7 @@
   "description": "Apocalypse Apparatus: Analysis: Advanced Defense: 3 direct fire anti-land and anti-ship guns. Effective vs all.",
   "display_group": 20,
   "display_index": 100,
-  "display_name": "Riot Laser Tower",
+  "display_name": "Apocalypse Apparatus",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/structure_small"
