@@ -21,7 +21,7 @@
       "effect_scale": 0.3
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/structure/laser_defence_fire",
+      "audio_cue": "/SE/Weapons/bot/sniper_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
     }
   },

@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Apocalypse Apparatus: Analysis: Advanced Defense: 3 direct fire anti-land and anti-ship guns. Effective vs all.",
+  "description": "Riot Laser Tower: Analysis: Riot Defense: Direct fire anti-land and anti-ship defense. Effective vs light units.",
   "display_group": 20,
   "display_index": 100,
   "display_name": "Riot Laser Tower",
@@ -20,17 +20,9 @@
       "audio_cue": "/SE/Death/structure_small",
       "effect_scale": 0.5
     },
-    "fired1": {
-      "audio_cue": "/SE/Weapons/bot/sniper_fire",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_centerMuzzle"
-    },
-    "fired2": {
-      "audio_cue": "/SE/Weapons/structure/laser_defence_fire",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
-    },
-    "fired3": {
-      "audio_cue": "/SE/Weapons/orb/orb_fighter_fire",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
+    "fired": {
+      "audio_cue": "/SE/Weapons/structure/laser_defense_adv_fire",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_centerMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -44,13 +36,13 @@
   "model": [
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_adv_anim_tree.json",
-      "filename": "/pa/units/land/laser_defense_adv/laser_defense_adv.papa",
+      "filename": "/pa/units/land/laser_defense_riot/laser_defense_adv.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense_adv.json"
     },
     {
       "animtree": "/pa/anim/anim_trees/defense_turret_adv_anim_tree.json",
-      "filename": "/pa/units/sea/floating_laser_adv/floating_laser_adv.papa",
+      "filename": "/pa/units/sea/floating_laser_riot/floating_laser_adv.papa",
       "layer": "WL_WaterSurface"
     }
   ],
@@ -70,28 +62,13 @@
   "tools": [
     {
       "aim_bone": "bone_pitch",
-      "fire_event": "fired1",
       "muzzle_bone": [
-        "socket_centerMuzzle"
+        "socket_rightMuzzle",
+        "socket_centerMuzzle",
+        "socket_leftMuzzle"
       ],
-      "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_tool_weapon.json"
-    },
-	{
-	  "aim_bone": "bone_pitch",
-      "fire_event": "fired2",
-	  "muzzle_bone": [
-	    "socket_leftMuzzle"
-      ],
-	  "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single_tool_weapon.json",
-	},
-	{
-	  "aim_bone": "bone_pitch",
-      "fire_event": "fired3",
-	  "muzzle_bone": [
-	    "socket_riotMuzzle"
-      ],
-	  "spec_id": "/pa/units/land/laser_defense/laser_defense_tool_weapon.json",
-	}
+      "spec_id": "/pa/units/land/laser_defense_riot/laser_defense_riot_tool_weapon.json"
+    }
   ],
   "unit_types": [
     "UNITTYPE_Structure",
