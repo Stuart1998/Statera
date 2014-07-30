@@ -56,7 +56,7 @@
   },
   "show_in_orbital_layer": true,
   "show_strategic_icon": true,
-  "sim_impact_effect": "/pa/units/land/nuke_launcher/nuke_launcher_bigammo_explosion_ent.json",
+  "sim_impact_effect": "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion_ent.json",
   "spawn_layers": "WL_Air",
   "splash_damage": 12000,
   "splash_damages_allies": true,
