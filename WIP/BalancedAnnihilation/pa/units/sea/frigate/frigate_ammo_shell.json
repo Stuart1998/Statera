@@ -9,9 +9,9 @@
       0
     ]
   },
-  "initial_velocity": 250,
+  "initial_velocity": 150,
   "lifetime": 1,
-  "max_velocity": 250,
+  "max_velocity": 150,
   "model": null,
   "splash_damage": 0,
   "splash_radius": 0
