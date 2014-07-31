@@ -1,0 +1,113 @@
+{
+  "TEMP_texelinfo": 47.2606,
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/sea/T2_battleship_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "base_spec": "/pa/units/sea/base_ship/base_ship.json",
+  "build_metal_cost": 2500,
+  "description": "Moon Boat: Analyis: Moon Boat: A distant cousin of the land ship and the ground sub.",
+  "display_group": 20,
+  "display_index": 100,
+  "display_name": "Moon Boat",
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/sea"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Sea_large"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/sea/T2_battleship_fire"
+    }
+  },
+  "guard_layer": "WL_LandHorizontal",
+  "guard_radius": 270,
+  "max_health": 4000,
+  "mesh_bounds": [
+    12,
+    90,
+    12
+  ],
+  "model": {
+    "animtree": "/pa/anim/anim_trees/battleship_anim_tree.json",
+    "arrows": 5,
+    "filename": "/pa/units/sea/battleship/battleship.papa"
+  },
+  "navigation": {
+    "acceleration": 2,
+    "brake": 2,
+    "move_speed": 18,
+    "turn_speed": 15,
+    "type": "land-small"
+  },
+  "nearby_target_tick_update_interval": 15,
+  "physics": {
+    "push_class": 2,
+    "radius": 12,
+    "shape": "box"
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 180,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "spawn_layers": "WL_LandHorizontal",
+  "tools": [
+    {
+      "aim_bone": "bone_pitch01",
+      "muzzle_bone": [
+        "socket_muzzle01",
+        "socket_muzzle02",
+        "socket_muzzle03"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch02",
+      "muzzle_bone": [
+        "socket_muzzle04",
+        "socket_muzzle05",
+        "socket_muzzle06"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch03",
+      "muzzle_bone": [
+        "socket_muzzle07",
+        "socket_muzzle08",
+        "socket_muzzle09"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch04",
+      "muzzle_bone": [
+        "socket_muzzle10",
+        "socket_muzzle11",
+        "socket_muzzle12"
+      ],
+      "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Land",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Advanced"
+  ],
+  "wreckage_health_frac": 0.0
+}

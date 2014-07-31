@@ -90,6 +90,7 @@
     "/pa/units/land/metal_extractor/metal_extractor.json",
     "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json",
     "/pa/units/land/metal_storage/metal_storage.json",
+	"/pa/units/land/moon_boat/moon_boat.json",
     "/pa/units/land/nuke_launcher/nuke_launcher.json",
     "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
     "/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json",
