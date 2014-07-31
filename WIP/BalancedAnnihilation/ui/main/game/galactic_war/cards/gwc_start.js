@@ -87,7 +87,7 @@ define(['shared/gw_common'], function(GW) {
                 '/pa/units/orbital/orbital_launcher/orbital_launcher.json',
                 '/pa/units/orbital/deep_space_radar/deep_space_radar.json',
                 '/pa/units/orbital/ion_defense/ion_defense.json',
-                //'/pa/units/orbital/orbital_fighter/orbital_fighter.json',
+                '/pa/units/orbital/orbital_fighter/orbital_fighter.json',
                 '/pa/units/orbital/orbital_lander/orbital_lander.json',
                 //'/pa/units/orbital/radar_satellite/radar_satellite.json',
                 //'/pa/units/orbital/solar_array/solar_array.json',
