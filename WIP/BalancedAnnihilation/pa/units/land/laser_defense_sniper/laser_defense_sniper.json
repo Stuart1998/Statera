@@ -35,13 +35,13 @@
   ],
   "model": [
     {
-      "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
+      "animtree": "/pa/anim/anim_trees/defense_turret_sniper_anim_tree.json",
       "filename": "/pa/units/land/laser_defense_sniper/laser_defense_single.papa",
       "layer": "WL_LandHorizontal",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     },
     {
-      "animtree": "/pa/anim/anim_trees/defense_turret_single_anim_tree.json",
+      "animtree": "/pa/anim/anim_trees/defense_turret_sniper_anim_tree.json",
       "filename": "/pa/units/sea/floating_laser_sniper/floating_laser_single.papa",
       "layer": "WL_WaterSurface"
     }
