@@ -47,6 +47,7 @@ function BuildHotkeyModel() {
             "/pa/units/sea/torpedo_launcher/torpedo_launcher.json": ["combat", 14],
             
             "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 0],
+			"/pa/units/land/moon_boat/moon_boat.json": ["vehicle", 1],
             "/pa/units/land/tank_laser_adv/tank_laser_adv.json": ["vehicle", 4],
             "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json": ["vehicle", 5],
             "/pa/units/land/tank_armor/tank_armor.json": ["vehicle", 6],
