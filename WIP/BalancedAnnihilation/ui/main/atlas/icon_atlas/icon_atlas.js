@@ -117,6 +117,7 @@ $(document).ready(function () {
             'orbital_factory',
             'transport',
             'transport_large',
+			'laser_defense_riot',
         ]);
 
         self.sendIconList = function () {
