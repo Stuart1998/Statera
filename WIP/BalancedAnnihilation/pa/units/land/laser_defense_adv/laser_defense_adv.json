@@ -90,7 +90,7 @@
 	  "muzzle_bone": [
 	    "socket_riotMuzzle"
       ],
-	  "spec_id": "/pa/units/land/laser_defense/laser_defense_tool_weapon.json"
+	  "spec_id": "/pa/units/land/laser_defense_adv/laser_defense_tool_weapon.json"
 	}
   ],
   "unit_types": [
