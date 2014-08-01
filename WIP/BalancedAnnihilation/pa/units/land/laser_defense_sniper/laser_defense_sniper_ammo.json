@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_laser_blast/base_laser_blast.json",
-  "damage": 2000,
+  "damage": 1350,
   "fx_trail": {
     "filename": "/pa/units/land/bot_sniper/bot_sniper_ammo_trail.pfx"
   },
