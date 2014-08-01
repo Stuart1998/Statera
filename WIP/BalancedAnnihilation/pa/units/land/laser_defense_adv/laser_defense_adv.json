@@ -17,7 +17,7 @@
       "audio_cue": "/SE/Build_Complete/structure_small"
     },
     "died": {
-      "audio_ciue": "/SE/Death/structure_small",
+      "audio_cue": "/SE/Death/structure_small",
       "effect_scale": 0.5
     },
     "fired1": {
