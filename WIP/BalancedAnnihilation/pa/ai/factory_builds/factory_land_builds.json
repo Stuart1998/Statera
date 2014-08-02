@@ -256,9 +256,9 @@
       ],
       "instance_count": -1,
       "max_num_assisters": 10,
-      "name": "Basic Skirmish Bot",
+      "name": "Skirmish Bot",
       "priority": 97,
-      "to_build": "BasicSkirmishBot"
+      "to_build": "SkirmishBot"
     },
     {
       "build_conditions": [
