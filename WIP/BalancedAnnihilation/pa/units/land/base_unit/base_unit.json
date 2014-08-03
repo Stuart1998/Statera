@@ -93,6 +93,7 @@
     "energy": 1,
     "metal": 1
   },
+  "strategic_icon_priority": 3,
   "tools": [
     {
       "aim_bone": "bone_root",

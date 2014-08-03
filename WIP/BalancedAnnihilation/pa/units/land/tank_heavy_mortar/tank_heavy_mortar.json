@@ -39,7 +39,7 @@
       "effect_scale": 1.4
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/veh/tank_heavy_mortar_fire"
+      "audio_cue": "/SE/Weapons/veh/tank_T2_sheller"
     }
   },
   "guard_layer": "WL_AnySurface",
