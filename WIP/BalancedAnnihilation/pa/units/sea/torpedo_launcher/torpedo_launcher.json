@@ -2,11 +2,11 @@
   "TEMP_texelinfo": 10.4007,
   "area_build_separation": 18,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 375,
+  "build_metal_cost": 550,
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Torpedo Launcher: Analysis: Defense: Anti-sub and anti-ship torpedos.",
+  "description": "Torpedo Launcher: Analysis: Defense: Anti-sub and anti-ship torpedos. Effective vs light armored.",
   "display_group": 50,
   "display_index": 70,
   "display_name": "Torpedo Launcher",
