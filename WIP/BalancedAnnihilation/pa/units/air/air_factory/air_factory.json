@@ -23,7 +23,8 @@
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Attack",
-    "ORDER_Assist"
+    "ORDER_Assist",
+    "ORDER_Use"
   ],
   "death": {
     "decals": [

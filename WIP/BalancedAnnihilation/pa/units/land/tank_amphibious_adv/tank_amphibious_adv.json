@@ -1,5 +1,19 @@
 {
   "TEMP_texelinfo": 10.3794,
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        2.7
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
   "audio": {
     "loops": {
       "move": {
@@ -26,7 +40,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/sea/T2_battleship_fire",
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle"
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -35,7 +49,7 @@
   "model": {
     "animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.papa"
+    "filename": "/pa/units/land/tank_amphibious_adv/tank_amphibious.papa"
   },
   "navigation": {
     "acceleration": 2,
@@ -67,12 +81,7 @@
   "tools": [
     {
       "aim_bone": "socket_aim",
-      "muzzle_bone": "socket_leftMuzzle",
-      "spec_id": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv_tool_weapon.json"
-    },
-    {
-      "aim_bone": "socket_aim",
-      "muzzle_bone": "socket_rightMuzzle",
+      "muzzle_bone": "socket_muzzle",
       "spec_id": "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv_tool_weapon.json"
     }
   ],

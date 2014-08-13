@@ -114,5 +114,6 @@
   "useable": {
     "range": 10,
     "type": "transport"
-  }
+  },
+  "wreckage_health_frac": 1.0
 }

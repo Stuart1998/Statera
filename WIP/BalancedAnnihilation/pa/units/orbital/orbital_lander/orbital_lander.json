@@ -29,7 +29,7 @@
     "ORDER_Unload",
     "ORDER_SpecialMove"
   ],
-  "description": "Astraeus: Analysis: Orbital Lander: Transports units to neighbouring celestial bodies.",
+  "description": "Orbital lander- Load it up, get units to other planets.",
   "display_name": "Astraeus",
   "events": {
     "build_complete": {
@@ -148,8 +148,8 @@
     "filename": "/pa/units/orbital/orbital_lander/orbital_lander.papa"
   },
   "navigation": {
-    "acceleration": 3,
-    "brake": 3,
+    "acceleration": 25,
+    "brake": 25,
     "hover_time": -1.0,
     "move_speed": 25,
     "turn_speed": 360,
@@ -179,8 +179,9 @@
       ]
     }
   },
+  "system_velocity_multiplier": 7.5,
   "transporter": {
-    "capacity": 5,
+    "capacity": 4,
     "transportable_attach_offset": "head",
     "transporter_attach_bone": "bone_payload"
   },
@@ -193,7 +194,7 @@
   ],
   "usable": true,
   "useable": {
-    "range": 15,
+    "range": 10,
     "type": "transport"
   }
 }

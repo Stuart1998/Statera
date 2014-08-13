@@ -76,5 +76,6 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_NoBuild"
-  ]
+  ],
+  "wreckage_health_frac": 1.5
 }

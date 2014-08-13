@@ -23,7 +23,8 @@
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Attack",
-    "ORDER_Assist"
+    "ORDER_Assist",
+    "ORDER_Use"
   ],
   "description": "Specialist Air Factory: Analysis: Factory: Builds specialized air units",
   "display_group": 75,
