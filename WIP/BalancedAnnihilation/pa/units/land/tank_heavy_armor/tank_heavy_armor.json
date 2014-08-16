@@ -33,10 +33,10 @@
     "ORDER_Load",
     "ORDER_Unload"
   ],
-  "description": "Vanguard: Analysis: Transport: Unarmed, heavily armored amphibious transport.",
+  "description": "Shield: Analysis: Transport: Unarmed, heavily armored amphibious transport. Named by Foerest, winner of the first Statera Tournament.",
   "display_group": 60,
   "display_index": 115,
-  "display_name": "Vanguard",
+  "display_name": "Shield",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
