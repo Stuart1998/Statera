@@ -23,9 +23,13 @@
       "audio_cue": "/SE/Death/Air",
       "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx"
     },
-    "fired": {
+    "fired1": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
-      "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx socket_rightMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_leftMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_topMuzzle"
+      "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx socket_rightMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_leftMuzzle"
+    },
+    "fired2": {
+      "audio_cue": "/SE/Weapons/air/fighter_fire",
+      "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx socket_topMuzzle"
     }
   },
   "fx_offsets": [
@@ -121,6 +125,7 @@
   "tools": [
     {
       "aim_bone": "bone_pitch",
+      "fire_event": "fired2",
       "muzzle_bone": [
         "socket_topMuzzle"
       ],
@@ -128,11 +133,13 @@
     },
     {
       "aim_bone": "bone_rightRecoil",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_rightMuzzle",
       "spec_id": "/pa/units/air/gunship_basic/gunship_tool_gun.json"
     },
     {
       "aim_bone": "bone_leftRecoil",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_leftMuzzle",
       "spec_id": "/pa/units/air/gunship_basic/gunship_tool_gun.json"
     }
