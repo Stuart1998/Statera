@@ -25,7 +25,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/bot/sniper_fire",
-      "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx socket_rightMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_leftMuzzle"
+      "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx socket_rightMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_leftMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_topMuzzle"
     }
   },
   "fx_offsets": [
@@ -85,7 +85,7 @@
       "fly": "/pa/units/air/gunship/gunship_anim_fly.papa"
     },
     "animtree": "/pa/anim/anim_trees/gunship_anim_tree.json",
-    "filename": "/pa/units/air/gunship/gunship.papa"
+    "filename": "/pa/units/air/gunship_basic/gunship_basic.papa"
   },
   "navigation": {
     "acceleration": 120,
@@ -122,7 +122,7 @@
     {
       "aim_bone": "bone_pitch",
       "muzzle_bone": [
-        "socket_rightMuzzle;socket_leftMuzzle"
+        "socket_topMuzzle"
       ],
       "spec_id": "/pa/units/air/gunship_basic/gunship_tool_weapon.json"
     },
