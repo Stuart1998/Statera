@@ -30,7 +30,7 @@
       }
     }
   },
-  "build_metal_cost": 25000,
+  "build_metal_cost": 6250,
   "buildable_types": "CmdBuild",
   "command_caps": [
     "ORDER_Move",
@@ -43,6 +43,11 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
+  "death_weapon": {
+    "air_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json",
+    "air_height_threshold": 100,
+    "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json"
+  },
   "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",
   "display_group": 99,
   "display_index": 99,
@@ -60,7 +65,7 @@
       "type": "build"
     }
   ],
-  "max_health": 25000,
+  "max_health": 12500,
   "navigation": {
     "acceleration": 60,
     "brake": 60,

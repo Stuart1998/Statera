@@ -34,7 +34,7 @@
   "gravwell_velocity_multiplier": 6.0,
   "guard_layer": "WL_Orbital",
   "guard_radius": 280,
-  "max_health": 4000,
+  "max_health": 1500,
   "mesh_bounds": [
     25,
     25,

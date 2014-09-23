@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/base_mortar/base_mortar.json",
-  "damage": 80,
+  "damage": 120,
   "full_damage_splash_radius": 1,
   "initial_velocity": 140,
   "lifetime": 6,

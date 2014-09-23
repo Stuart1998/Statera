@@ -62,6 +62,7 @@
     "UNITTYPE_Naval",
     "UNITTYPE_Defense",
     "UNITTYPE_CmdBuild",
-    "UNITTYPE_FabBuild"
+    "UNITTYPE_FabBuild",
+    "UNITTYPE_Custom1"
   ]
 }

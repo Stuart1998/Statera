@@ -73,6 +73,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Defense",
     "UNITTYPE_CmdBuild",
+    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild"
   ]

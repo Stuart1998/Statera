@@ -93,7 +93,9 @@
     "UNITTYPE_Structure",
     "UNITTYPE_Artillery",
     "UNITTYPE_Defense",
+    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_Basic"
+    "UNITTYPE_Basic",
+    "UNITTYPE_Custom1"
   ]
 }

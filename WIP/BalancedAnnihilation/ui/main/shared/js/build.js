@@ -12,7 +12,10 @@ function BuildHotkeyModel() {
             "/pa/units/land/radar/radar.json": ["utility", 5],
             "/pa/units/land/energy_plant/energy_plant.json": ["utility", 6],
             "/pa/units/land/metal_extractor/metal_extractor.json": ["utility", 7],
-			"/pa/units/orbital/ion_defense/ion_defense.json": ["utility", 9],
+
+"/pa/units/land/control_module/control_module.json": ["utility", 8],
+
+"/pa/units/orbital/ion_defense/ion_defense.json": ["utility", 9],
             "/pa/units/land/teleporter/teleporter.json": ["utility", 10],
             "/pa/units/orbital/deep_space_radar/deep_space_radar.json": ["utility", 11],
             "/pa/units/land/land_barrier/land_barrier.json": ["utility", 12],
@@ -60,21 +63,25 @@ function BuildHotkeyModel() {
             "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 13],
             "/pa/units/land/tank_attack/tank_attack.json": ["vehicle", 14],
         
-            "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.json": ["bot", 0],
+"/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.json": ["bot", 0],
             "/pa/units/land/assault_bot_adv/assault_bot_adv.json": ["bot", 2],
             "/pa/units/land/bot_tactical_missile/bot_tactical_missile.json": ["bot", 3],
             "/pa/units/land/bot_aa_adv/bot_aa_adv.json": ["bot", 4],
             "/pa/units/land/bot_sniper/bot_sniper.json": ["bot", 5],
-            "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json": ["bot", 6],
             "/pa/units/land/fabrication_bot/fabrication_bot.json": ["bot", 8],
             "/pa/units/land/assault_bot/assault_bot.json": ["bot", 9],
-            "/pa/units/land/amphibious_bot/amphibious_bot.json": ["bot", 10],
-            "/pa/units/land/bot_arty/bot_arty.json": ["bot", 11],
-            "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 12],
-            "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 13],
-            "/pa/units/land/bot_grenadier/bot_grenadier.json": ["bot", 14],
+            "/pa/units/land/amphibious_bot/amphibious_bot.json": ["bot", 6],
+            "/pa/units/land/bot_arty/bot_arty.json": ["bot", 10],
+            "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 11],
+            "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 12],
+
+"/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json": ["bot", 13],
+
+"/pa/units/land/bot_grenadier/bot_grenadier.json": ["bot", 14],
      
             
+
+"/pa/units/orbital/mining_platform/mining_platform.json": ["orbital", 5],
             "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 6],
             "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json": ["orbital", 7],
             "/pa/units/orbital/defense_satellite/defense_satellite.json": ["orbital", 9],

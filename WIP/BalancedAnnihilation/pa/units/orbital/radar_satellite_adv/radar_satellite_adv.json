@@ -35,7 +35,7 @@
     }
   },
   "gravwell_velocity_multiplier": 6.0,
-  "max_health": 10000,
+  "max_health": 500,
   "mesh_bounds": [
     25,
     15,
@@ -51,10 +51,10 @@
     "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa"
   },
   "navigation": {
-    "acceleration": 5,
-    "brake": 5,
+    "acceleration": 4,
+    "brake": 4,
     "hover_time": -1.0,
-    "move_speed": 35,
+    "move_speed": 65,
     "turn_speed": 40,
     "type": "orbital"
   },
@@ -69,14 +69,14 @@
         {
           "channel": "sight",
           "layer": "surface_and_air",
-          "radius": 600,
+          "radius": 400,
           "shape": "capsule",
           "uses_energy": true
         },
         {
           "channel": "sight",
           "layer": "orbital",
-          "radius": 600,
+          "radius": 400,
           "shape": "capsule",
           "uses_energy": true
         }

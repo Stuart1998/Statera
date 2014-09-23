@@ -26,6 +26,11 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 150,
+  "death_weapon": {
+    "air_ammo_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo.json",
+    "air_height_threshold": 7,
+    "ground_ammo_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo.json"
+  },
   "description": "Detonator: Analysis: Self Destruction Bot. Very effective vs structures. Moderately effective vs units.",
   "display_group": 40,
   "display_index": 60,

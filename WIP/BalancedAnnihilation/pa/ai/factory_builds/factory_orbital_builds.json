@@ -255,7 +255,7 @@
         ]
       ],
       "builders": [
-        "OrbitalFactory"
+        "OrbitalLauncher"
       ],
       "instance_count": 1,
       "max_num_assisters": 20,

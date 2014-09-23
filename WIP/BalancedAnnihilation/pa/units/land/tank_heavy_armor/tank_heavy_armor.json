@@ -33,7 +33,7 @@
     "ORDER_Load",
     "ORDER_Unload"
   ],
-  "description": "Shielder: Analysis: Transport: Unarmed, heavily armored amphibious transport. Named by Foerest, winner of the first Statera Tournament.",
+  "description": "Shielder: Analysis: Wall: Unarmed, heavily armored mobile wall. Named by Foerest, winner of the first Statera Tournament.",
   "display_group": 60,
   "display_index": 115,
   "display_name": "Shielder",

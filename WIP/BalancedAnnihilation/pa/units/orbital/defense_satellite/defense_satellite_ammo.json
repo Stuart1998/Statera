@@ -1,6 +1,7 @@
 {
   "base_spec": "/pa/ammo/base_laser_blast/base_laser_blast.json",
   "damage": 25,
+  "flight_type": "Seeking",
   "fx_trail": {
     "filename": "/pa/units/land/laser_defense_single/laser_defense_single_ammo_trail.pfx"
   },
@@ -8,5 +9,6 @@
   "lifetime": 2,
   "max_velocity": 500.0,
   "splash_damage": 0,
-  "splash_radius": 0
+  "splash_radius": 0,
+  "turn_rate": 120
 }

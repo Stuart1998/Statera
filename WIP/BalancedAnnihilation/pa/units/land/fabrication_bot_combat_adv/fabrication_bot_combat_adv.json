@@ -31,7 +31,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 800,
+  "build_metal_cost": 450,
   "buildable_types": "CombatFabAdvBuild",
   "can_only_assist_with_buildable_items": true,
   "command_caps": [
@@ -44,8 +44,8 @@
     "ORDER_Attack",
     "ORDER_Use"
   ],
-  "description": "Advanced Combat Fabrication Bot: Analysis: Combat Fabrication: High health, medium speed bot with a weak laser and a very strong nanolathe.",
-  "display_name": "Advanced Combat Fabrication Bot",
+  "description": "BACON: Analysis: Combat Fabrication: Bot of Assault Construction and Offensive Nanolathing. High health, medium speed bot with a weak laser and a very strong nanolathe. Amphibious. Builds defense structures.",
+  "display_name": "BACON",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/fab"
@@ -74,7 +74,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 60,
-  "max_health": 300,
+  "max_health": 800,
   "mesh_bounds": [
     4.4,
     7.5,
@@ -97,7 +97,7 @@
     "group_preference": "back",
     "move_speed": 12,
     "turn_speed": 720,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "allow_pushing": true,
@@ -136,7 +136,7 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
-    "UNITTYPE_Advanced",
+    "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
   ]
 }

@@ -1,12 +1,17 @@
 {
-  "ammo_id": "/pa/units/land/bot_arty/bot_artillery_ammo.json",
+  "ammo_id": [ 
+    {
+      "id": "/pa/units/land/bot_arty/bot_arty_ammo.json",
+      "layer": "WL_AnyLand"
+    }
+  ],
   "arc_type": "ARC_Low",
   "auto_attack": true,
   "base_spec": "/pa/tools/base_artillery_turret_unit/base_artillery_turret_unit.json",
   "idle_aim_delay": 5,
   "max_range": 115,
   "pitch_range": 50,
-  "pitch_rate": 30,
+  "pitch_rate": 55,
   "rate_of_fire": 0.2,
   "target_layers": [
     "WL_LandHorizontal",
@@ -14,5 +19,5 @@
     "WL_WaterSurface"
   ],
   "yaw_range": 180,
-  "yaw_rate": 30
+  "yaw_rate": 55
 }

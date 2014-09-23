@@ -99,6 +99,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_SurfaceDefense",
     "UNITTYPE_Defense",
+    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabAdvBuild"
   ]
 }

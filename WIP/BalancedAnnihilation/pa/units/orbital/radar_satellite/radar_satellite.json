@@ -10,7 +10,7 @@
     }
   },
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-  "build_metal_cost": 1200,
+  "build_metal_cost": 800,
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
@@ -35,7 +35,7 @@
     }
   },
   "gravwell_velocity_multiplier": 6.0,
-  "max_health": 2000,
+  "max_health": 500,
   "mesh_bounds": [
     20,
     20,
@@ -51,10 +51,10 @@
     "filename": "/pa/units/orbital/radar_satellite/radar_satellite.papa"
   },
   "navigation": {
-    "acceleration": 5,
-    "brake": 5,
+    "acceleration": 4,
+    "brake": 4,
     "hover_time": -1.0,
-    "move_speed": 60,
+    "move_speed": 90,
     "turn_speed": 30,
     "type": "orbital"
   },

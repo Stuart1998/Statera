@@ -76,7 +76,9 @@
     "UNITTYPE_Land",
     "UNITTYPE_AirDefense",
     "UNITTYPE_Defense",
+    "UNITTYPE_CombatFabAdvBuild",
     "UNITTYPE_FabBuild",
-    "UNITTYPE_FabAdvBuild"
+    "UNITTYPE_FabAdvBuild",
+    "UNITTYPE_Custom1"
   ]
 }

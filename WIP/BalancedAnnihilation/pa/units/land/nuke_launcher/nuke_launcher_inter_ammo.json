@@ -1,7 +1,7 @@
 {
   "ammo_type": "Projectile",
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
-  "build_metal_cost": 25000,
+  "build_metal_cost": 35000,
   "burn_damage": 200,
   "burn_radius": 137,
   "collision_check": "ground",

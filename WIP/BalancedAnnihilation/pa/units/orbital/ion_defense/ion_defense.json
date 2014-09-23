@@ -3,7 +3,7 @@
   "area_build_separation": 75,
   "area_build_type": "Sphere",
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 1750,
+  "build_metal_cost": 500,
   "command_caps": [
     "ORDER_Attack"
   ],

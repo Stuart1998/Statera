@@ -26,10 +26,10 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 250,
-  "description": "Smasher: Analysis: AA Gatling bot: Dual gatling gun bot. Effective vs light land units and air. Weak vs armored units.",
+  "description": "Crasher: Analysis: AA Gatling bot: Dual gatling gun bot. Effective vs light land units and air. Weak vs armored units.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Smasher",
+  "display_name": "Crasher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"

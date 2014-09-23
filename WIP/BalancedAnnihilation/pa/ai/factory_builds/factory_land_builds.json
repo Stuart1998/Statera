@@ -252,7 +252,7 @@
         ]
       ],
       "builders": [
-        "BasicBotFactory"
+        "AdvancedBotFactory"
       ],
       "instance_count": -1,
       "max_num_assisters": 10,

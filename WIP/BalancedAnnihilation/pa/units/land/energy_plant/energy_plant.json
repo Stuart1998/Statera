@@ -4,7 +4,7 @@
   "atrophy_cool_down": 30.0,
   "atrophy_rate": 10.0,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 450,
+  "build_metal_cost": 300,
   "description": "Energy Plant: Analysis: Energy: Produces energy. Light armor.",
   "display_group": 80,
   "display_index": 60,
@@ -219,7 +219,7 @@
     12
   ],
   "production": {
-    "energy": 1000
+    "energy": 675
   },
   "recon": {
     "observer": {
@@ -242,6 +242,7 @@
     "UNITTYPE_EnergyProduction",
     "UNITTYPE_Basic",
     "UNITTYPE_CmdBuild",
+    "UNITTYPE_CombatFabBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_Economy"
   ]

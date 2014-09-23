@@ -36,7 +36,12 @@
     10
   ],
   "model": {
-    "arrows": 5,
+    "animations": {
+      "end": "/pa/units/sea/missile_ship/missile_ship_anim_end.papa",
+      "idle": "/pa/units/sea/missile_ship/missile_ship_anim_idle.papa",
+      "start": "/pa/units/sea/missile_ship/missile_ship_anim_start.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/missile_ship_anim_tree.json",
     "filename": "/pa/units/sea/missile_ship/missile_ship.papa"
   },
   "navigation": {

@@ -288,6 +288,7 @@
     "UNITTYPE_Structure",
     "UNITTYPE_EnergyProduction",
     "UNITTYPE_Advanced",
+    "UNITTYPE_CombatFabBuild",
     "UNITTYPE_FabAdvBuild",
     "UNITTYPE_Economy"
   ]

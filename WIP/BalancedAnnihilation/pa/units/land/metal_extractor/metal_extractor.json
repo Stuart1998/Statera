@@ -94,6 +94,7 @@
     "UNITTYPE_Structure",
     "UNITTYPE_Basic",
     "UNITTYPE_MetalProduction",
+    "UNITTYPE_CombatFabBuild",
     "UNITTYPE_CmdBuild",
     "UNITTYPE_FabBuild",
     "UNITTYPE_Economy"

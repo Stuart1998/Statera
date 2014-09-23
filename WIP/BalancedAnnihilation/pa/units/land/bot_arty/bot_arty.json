@@ -26,10 +26,10 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 180,
-  "description": "Stomper: Analysis: Artillery: Anti structure lobbing assault bot. Weak vs units.",
+  "description": "Smasher: Analysis: Artillery: Anti structure lobbing assault bot. Weak vs units. Amphibious.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Stomper",
+  "display_name": "Smasher",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/bot"
@@ -68,7 +68,7 @@
     "brake": 120,
     "move_speed": 10,
     "turn_speed": 720,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "push_class": 2,
@@ -90,12 +90,20 @@
     {
       "aim_bone": "bone_leftRecoil",
       "muzzle_bone": "socket_leftMuzzle",
-      "spec_id": "/pa/units/land/bot_arty/bot_artillery_tool_weapon.json"
+      "spec_id": "/pa/units/land/bot_arty/bot_arty_tool_weapon.json"
     },
     {
       "aim_bone": "bone_rightRecoil",
       "muzzle_bone": "socket_rightMuzzle",
-      "spec_id": "/pa/units/land/bot_arty/bot_artillery_tool_weapon.json"
+      "spec_id": "/pa/units/land/bot_arty/bot_arty_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_rightRecoil",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ],
+      "spec_id": "/pa/units/land/bot_arty/bot_arty_torpedo_tool_weapon.json"
     }
   ],
   "transportable": {

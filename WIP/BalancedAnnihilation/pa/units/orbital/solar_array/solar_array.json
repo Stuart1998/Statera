@@ -30,7 +30,7 @@
       "audio_cue": "/SE/Weapons/air/bomber_fire"
     }
   },
-  "max_health": 1000,
+  "max_health": 750,
   "mesh_bounds": [
     45,
     15,
@@ -76,5 +76,6 @@
     "UNITTYPE_Economy",
     "UNITTYPE_Advanced",
     "UNITTYPE_FabOrbBuild"
-  ]
+  ],
+  "wreckage_health_frac": 0.0
 }

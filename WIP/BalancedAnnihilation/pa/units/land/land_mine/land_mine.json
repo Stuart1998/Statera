@@ -2,6 +2,11 @@
   "TEMP_texelinfo": 2.37699,
   "area_build_separation": 1.0,
   "build_metal_cost": 40,
+  "death_weapon": {
+    "air_ammo_spec": "/pa/units/land/land_mine/land_mine_ammo.json",
+    "air_height_threshold": 100,
+    "ground_ammo_spec": "/pa/units/land/land_mine/land_mine_ammo.json"
+  },
   "description": "Mine: Analysis: Mine: Detonates when enemy combat units get too close",
   "display_group": 50,
   "display_index": 40,
@@ -63,8 +68,8 @@
   "unit_types": [
     "UNITTYPE_Basic",
     "UNITTYPE_Defense",
-    "UNITTYPE_CombatFabBuild",
-    "UNITTYPE_CombatFabAdvBuild"
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Custom1"
   ],
   "wreckage_health_frac": 0.0
 }
