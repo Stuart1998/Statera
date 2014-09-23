@@ -4,7 +4,7 @@
   "build_metal_cost": 40,
   "death_weapon": {
     "air_ammo_spec": "/pa/units/land/land_mine/land_mine_ammo.json",
-    "air_height_threshold": 100,
+    "air_height_threshold": 5,
     "ground_ammo_spec": "/pa/units/land/land_mine/land_mine_ammo.json"
   },
   "description": "Mine: Analysis: Mine: Detonates when enemy combat units get too close",
