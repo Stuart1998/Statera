@@ -27,8 +27,5 @@
     },
     "animtree": "/pa/anim/anim_trees/commander_anim_tree.json",
     "filename": "/pa/units/commanders/tank_aeson/tank_aeson.papa"
-  },
-  "navigation": {
-    "turn_in_place": true
   }
 }

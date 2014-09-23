@@ -72,7 +72,7 @@
     "dodge_multiplier": 1,
     "dodge_radius": 15,
     "move_speed": 13,
-    "turn_speed": 400,
+    "turn_speed": 90,
     "type": "land-small",
     "wobble_factor": 0.1,
     "wobble_speed": 0.2,
