@@ -851,7 +851,7 @@
         ]
       ],
       "builders": [
-        "AdvancedBotFactory"
+        "BasicBotFactory"
       ],
       "instance_count": 1,
       "name": "Advanced Combat Fabber Bot",
