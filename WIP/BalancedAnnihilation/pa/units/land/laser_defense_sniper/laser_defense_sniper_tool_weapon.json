@@ -11,8 +11,8 @@
   "pitch_rate": 13,
   "rate_of_fire": 0.25,
   "target_layers": [
+    "WL_Air",
     "WL_LandHorizontal",
-    "WL_Seafloor",
     "WL_WaterSurface"
   ],
   "yaw_range": 180,
