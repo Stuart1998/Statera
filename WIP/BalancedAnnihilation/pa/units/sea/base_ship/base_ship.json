@@ -56,5 +56,5 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_NoBuild"
   ],
-  "wreckage_health_frac": 0.75
+  "wreckage_health_frac": 0.0
 }
