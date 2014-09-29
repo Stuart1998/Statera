@@ -76,6 +76,9 @@
     "UNITTYPE_Wall",
     "UNITTYPE_FabBuild",
     "UNITTYPE_FabAdvBuild",
-    "UNITTYPE_CmdBuild"
+    "UNITTYPE_CmdBuild",
+    "UNITTYPE_CombatFabBuild",
+    "UNITTYPE_CombatFabAdvBuild",
+    "UNITTYPE_Cusom1"
   ]
 }
