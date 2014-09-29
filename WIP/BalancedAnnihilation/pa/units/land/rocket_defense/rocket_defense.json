@@ -8,7 +8,7 @@
   "command_caps": [
     "ORDER_Attack"
   ],
-  "description": "Rocket Defense Tower: Analysis: Long range defensive rockets.",
+  "description": "Rocket Defense Tower: Analysis: Long range defensive rockets. Effective vs tanks. Weak armor. Unable to attack air.",
   "display_group": 50,
   "display_index": 80,
   "display_name": "Rocket Defense Tower",
