@@ -1,8 +1,8 @@
 {
-  "ammo_capacity": 300,
+  "ammo_capacity": 400,
   "ammo_demand": 200,
   "ammo_id": "/pa/units/land/air_defense/air_defense_ammo.json",
-  "ammo_per_shot": 300,
+  "ammo_per_shot": 400,
   "ammo_source": "energy",
   "auto_attack": true,
   "base_spec": "/pa/tools/base_missile_turret/base_missile_turret.json",
