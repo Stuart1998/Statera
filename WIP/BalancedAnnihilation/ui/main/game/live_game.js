@@ -297,7 +297,8 @@ $(document).ready(function() {
         self.executeCelestialAction = function() {
             switch (self.actionIndex()) {
                 case 0:
-                    /* do nothing */ break;
+                    /* do nothing */
+                    break;
                 case 1:
                     engine.call('planet.movePlanet', self.sourcePlanetIndex(), self.targetPlanetIndex(), 10000.0);
                     break;
@@ -2459,7 +2460,8 @@ $(document).ready(function() {
                 }
                 break;
             default:
-                /* do nothing */ break;
+                /* do nothing */
+                break;
         }
     };
     handlers.server_state = function(msg) {
@@ -2685,14 +2687,15 @@ $(document).ready(function() {
                 }
             }
         });
+
         // nuke hack
         // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
-        var nuke_id = '/pa/units/land_combat/nuke_launcher/nuke_launcher_strat_ammo.json';
-        var anti_nuke_id = '/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
-        var tac_nuke_id = '/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_ammo.json';
-        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'IPBM-96 -Pacifier- Missile', 10000, siconFor(nuke_strat_id));
-        model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'ICBM-64 -Silencer- Missile', 1500, siconFor(nuke_tac_id));
-        model.itemDetails[anti_nuke_id] = new UnitDetailModel('anti nuke', 'SR-24 -Shield- Missile Defense', 1500, siconFor(anti_nuke_id));
+        var nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json';
+        var anti_nuke_id = '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
+        var tac_nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json';
+        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'IPBM-96 -Pacifier- Missile', 25000, siconFor(nuke_id));
+        model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'IPBM-13 -Silencer- Missile', 8000, siconFor(tac_nuke_id));
+        model.itemDetails[anti_nuke_id] = new UnitDetailModel('anti nuke', 'SR-24 -Shield- Missile Defense', 5000, siconFor(anti_nuke_id));
     };
     handlers.army = function(payload) {
         model.currentEnergy(payload.energy.current);
