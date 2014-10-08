@@ -133,5 +133,6 @@
     "UNITTYPE_Orbital",
     "UNITTYPE_NoBuild"
   ],
+  "planetary_arrival_cooldown_time": 3.0,
   "wreckage_health_frac": 0.0
 }
