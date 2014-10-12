@@ -176,7 +176,7 @@
     1000
   ],
   "production": {
-    "energy": 9000,
+    "energy": 3500,
     "metal": 10
   },
   "recon": {
