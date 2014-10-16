@@ -43,7 +43,7 @@
       "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
     }
   },
-  "max_health": 100,
+  "max_health": 120,
   "model": {
     "animations": {
       "drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
