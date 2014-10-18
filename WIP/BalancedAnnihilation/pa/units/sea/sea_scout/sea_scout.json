@@ -27,6 +27,17 @@
       "audio_cue": "/SE/Weapons/sea/sea_scout_fire"
     }
   },
+  "fx_offsets":[
+    {
+      "type":"moving_forward",
+      "filename":"/pa/units/sea/sea_scout/sea_scout_jets.pfx",
+      "offset":[
+        0,
+        4,
+        0
+      ]
+    }
+  ],
   "max_health": 320,
   "model": {
     "animations": {

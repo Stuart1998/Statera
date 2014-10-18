@@ -4,9 +4,9 @@
   "fx_trail": {
     "filename": "/pa/units/land/laser_defense_riot/laser_defense_riot_ammo_trail.pfx"
   },
-  "initial_velocity": 500.0,
+  "initial_velocity": 150.0,
   "lifetime": 2,
-  "max_velocity": 500.0,
+  "max_velocity": 150.0,
   "splash_damage": 8,
   "splash_radius": 15
 }

@@ -1,6 +1,6 @@
 {
   "ammo_type": "PBAOE",
-  "damage": 25000,
+  "damage": 40000,
   "damage_volume": {
     "burnable_remove_radius": 100.0,
     "delay": 1.0,
