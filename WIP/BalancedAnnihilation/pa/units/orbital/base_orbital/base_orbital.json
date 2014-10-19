@@ -126,6 +126,7 @@
     "push_class": 15,
     "radius": 5
   },
+  "planetary_arrival_cooldown_time": 3.0,
   "show_in_orbital_layer": true,
   "system_velocity_multiplier": 15.0,
   "unit_types": [
@@ -133,6 +134,5 @@
     "UNITTYPE_Orbital",
     "UNITTYPE_NoBuild"
   ],
-  "planetary_arrival_cooldown_time": 3.0,
   "wreckage_health_frac": 0.0
 }

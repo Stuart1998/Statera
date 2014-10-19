@@ -1,5 +1,5 @@
 {
-  "ammo_id": [ 
+  "ammo_id": [
     {
       "id": "/pa/units/land/bot_arty/bot_arty_ammo.json",
       "layer": "WL_AnyLand"

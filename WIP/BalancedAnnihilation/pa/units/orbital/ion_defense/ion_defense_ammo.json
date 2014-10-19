@@ -1,4 +1,4 @@
- {
+{
   "base_spec": "/pa/ammo/base_laser_blast/base_laser_blast.json",
   "damage": 100,
   "flight_type": "Seeking",

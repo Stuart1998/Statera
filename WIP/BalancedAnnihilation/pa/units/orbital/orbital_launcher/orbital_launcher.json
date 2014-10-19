@@ -28,7 +28,6 @@
   "display_name": "Orbital Launcher",
   "factory": {
     "deploy_projectile": "/pa/units/orbital/orbital_launcher/orbital_launcher_deploy.json",
-
     "spawn_points": [
       "bone_missile01"
     ]

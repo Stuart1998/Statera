@@ -196,7 +196,7 @@
           "value": 50
         }
       },
-      "priority": 376,
+      "priority": 371,
       "shared_instance_count": "BasicFactory",
       "to_build": "BasicNavalFactory"
     },

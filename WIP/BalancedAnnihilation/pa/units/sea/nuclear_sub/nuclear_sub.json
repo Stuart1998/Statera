@@ -12,7 +12,7 @@
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
   "build_metal_cost": 1500,
-  "description": "Barracuda: Analysis: Missile Ship: Long Range Powerful anti-land and anti-ship Strike Missiles."
+  "description": "Barracuda: Analysis: Missile Ship: Long Range Powerful anti-land and anti-ship Strike Missiles.",
   "display_group": 40,
   "display_index": 100,
   "display_name": "Barracuda",
@@ -40,13 +40,13 @@
   "navigation": {
     "acceleration": 2,
     "brake": 2,
-    "dodge_multiplier": 1.0,
+    "dodge_multiplier": 1,
     "dodge_radius": 15,
     "move_speed": 18,
     "turn_speed": 15,
     "type": "deepwater",
-    "wobble_factor": 0.0,
-    "wobble_speed": 0.0
+    "wobble_factor": 0,
+    "wobble_speed": 0
   },
   "physics": {
     "push_class": 2,
@@ -78,6 +78,6 @@
     "UNITTYPE_Advanced",
     "UNITTYPE_Tactical",
     "UNITTYPE_FactoryBuild"
-  ]
+  ],
   "wreckage_health_frac": 0
 }

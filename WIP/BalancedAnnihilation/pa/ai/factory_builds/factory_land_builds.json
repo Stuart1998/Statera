@@ -616,7 +616,7 @@
       "instance_count": -1,
       "max_num_assisters": 10,
       "name": "Basic Armor Tank",
-      "priority": 97,
+      "priority": 95,
       "to_build": "BasicArmorTank"
     },
     {

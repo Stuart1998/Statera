@@ -76,22 +76,22 @@
       ],
       "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_tool_weapon.json"
     },
-	{
-	  "aim_bone": "bone_pitch",
+    {
+      "aim_bone": "bone_pitch",
       "fire_event": "fired2",
-	  "muzzle_bone": [
-	    "socket_leftMuzzle"
+      "muzzle_bone": [
+        "socket_leftMuzzle"
       ],
-	  "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single_tool_weapon.json"
-	},
-	{
-	  "aim_bone": "bone_pitch",
+      "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch",
       "fire_event": "fired3",
-	  "muzzle_bone": [
-	    "socket_riotMuzzle"
+      "muzzle_bone": [
+        "socket_riotMuzzle"
       ],
-	  "spec_id": "/pa/units/land/laser_defense_adv/laser_defense_tool_weapon.json"
-	}
+      "spec_id": "/pa/units/land/laser_defense_adv/laser_defense_tool_weapon.json"
+    }
   ],
   "unit_types": [
     "UNITTYPE_Structure",

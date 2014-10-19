@@ -120,11 +120,13 @@
   "tools": [
     {
       "aim_bone": "bone_turretBack",
+      "record_index": 0,
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json"
     },
     {
       "aim_bone": "bone_turretFront",
       "muzzle_bone": "socket_muzzleFront",
+      "record_index": 1,
       "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json"
     }
   ],

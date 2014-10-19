@@ -18,7 +18,7 @@
       "audio_cue": "/SE/Death/Sea"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/sea/torpedo_fire"
+      "audio_cue": "/SE/Weapons/sea/attack_sub_fire"
     }
   },
   "guard_layer": "WL_AnySurface",

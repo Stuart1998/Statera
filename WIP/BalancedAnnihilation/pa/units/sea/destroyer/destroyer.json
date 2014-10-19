@@ -23,8 +23,11 @@
     "died": {
       "audio_cue": "/SE/Death/Sea_large"
     },
-    "fired": {
+    "fired1": {
       "audio_cue": "/SE/Weapons/sea/destroyer_fire"
+    },
+    "fired2": {
+      "audio_cue": "/SE/Weapons/sea/attack_sub_fire"
     }
   },
   "guard_layer": "WL_AnySurface",
@@ -69,26 +72,31 @@
   "tools": [
     {
       "aim_bone": "bone_pitch01",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_rightMuzzle01",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch01",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_leftMuzzle01",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch02",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_rightMuzzle02",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch02",
+      "fire_event": "fired1",
       "muzzle_bone": "socket_leftMuzzle02",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_weapon.json"
     },
     {
       "aim_bone": "bone_root",
+      "fire_event": "fired2",
       "muzzle_bone": "bone_root",
       "spec_id": "/pa/units/sea/destroyer/destroyer_tool_torpedo.json"
     }

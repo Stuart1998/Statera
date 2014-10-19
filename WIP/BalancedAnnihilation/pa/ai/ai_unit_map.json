@@ -51,9 +51,6 @@
     "AdvancedLandDefense": {
       "spec_id": "/pa/units/land/laser_defense_adv/laser_defense_adv.json"
     },
-	"RiotLandDefense": {
-	  "spec_id": "/pa/units/land/laser_defense_riot/laser_defense_riot.json"
-	},
     "AdvancedLaserTank": {
       "spec_id": "/pa/units/land/tank_laser_adv/tank_laser_adv.json"
     },
@@ -266,6 +263,9 @@
     },
     "RaiderTank": {
       "spec_id": "/pa/units/land/tank_attack/tank_attack.json"
+    },
+    "RiotLandDefense": {
+      "spec_id": "/pa/units/land/laser_defense_riot/laser_defense_riot.json"
     },
     "SeaScout": {
       "spec_id": "/pa/units/sea/attack_boat/attack_boat.json"

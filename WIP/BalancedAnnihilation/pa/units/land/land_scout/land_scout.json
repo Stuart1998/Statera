@@ -50,7 +50,7 @@
     },
     "animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/land/land_scout/land_scout.papa"
+    "filename": "/pa/units/land/land_scout/veh_scout.papa"
   },
   "navigation": {
     "acceleration": 150,

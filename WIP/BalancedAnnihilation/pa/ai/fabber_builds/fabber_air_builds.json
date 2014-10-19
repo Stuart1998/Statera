@@ -57,7 +57,7 @@
           "value": 50
         }
       },
-      "priority": 376,
+      "priority": 373,
       "shared_instance_count": "BasicFactory",
       "to_build": "BasicAirFactory"
     },

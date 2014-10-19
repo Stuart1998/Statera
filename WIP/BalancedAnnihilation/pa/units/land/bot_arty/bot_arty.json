@@ -107,7 +107,7 @@
     {
       "aim_bone": "bone_leftRecoil",
       "muzzle_bone": [
-         "socket_leftMuzzle"
+        "socket_leftMuzzle"
       ],
       "spec_id": "/pa/units/land/bot_arty/bot_arty_torpedo_tool_weapon.json"
     }

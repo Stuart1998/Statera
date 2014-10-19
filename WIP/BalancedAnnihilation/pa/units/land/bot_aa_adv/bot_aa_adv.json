@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 300,
-  "description": "Stinger: Analysis: Flak: Heavy anti-air flak cannons.",
+  "description": "Stinger: Analysis: AA: Heavy anti-air aoe missiles.",
   "display_group": 60,
   "display_index": 80,
   "display_name": "Stinger",
