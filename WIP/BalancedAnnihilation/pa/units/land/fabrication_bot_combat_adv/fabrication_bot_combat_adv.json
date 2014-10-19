@@ -31,7 +31,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "build_metal_cost": 450,
+  "build_metal_cost": 500,
   "buildable_types": "CombatFabAdvBuild",
   "can_only_assist_with_buildable_items": true,
   "command_caps": [
@@ -74,7 +74,7 @@
   ],
   "guard_layer": "WL_LandHorizontal",
   "guard_radius": 60,
-  "max_health": 800,
+  "max_health": 500,
   "mesh_bounds": [
     4.4,
     7.5,
