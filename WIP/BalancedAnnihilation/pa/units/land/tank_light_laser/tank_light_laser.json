@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 200,
-  "description": "Radar Satellite: Analysis: Tank: Anti-land and anti-ship lasers. Slow speed. Medium armor.",
+  "description": "Wasted Metal: Analysis: Tank: Anti-land and anti-ship lasers. Slow speed. Medium armor.",
   "display_group": 40,
   "display_index": 80,
   "display_name": "Radar Satellite",

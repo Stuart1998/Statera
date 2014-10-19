@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/ammo/torpedo/torpedo.json",
   "cruise_height": 2,
-  "damage": 100,
+  "damage": 90,
   "events": {
     "died": {
       "effect_scale": 0.2,
