@@ -74,7 +74,7 @@
       "muzzle_bone": [
         "socket_centerMuzzle"
       ],
-      "spec_id": "/pa/units/land/laser_defense_sniper/laser_defense_sniper_tool_weapon.json"
+      "spec_id": "/pa/units/land/laser_defense_adv/laser_defense_sniper_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
@@ -82,7 +82,7 @@
       "muzzle_bone": [
         "socket_leftMuzzle"
       ],
-      "spec_id": "/pa/units/land/laser_defense_single/laser_defense_single_tool_weapon.json"
+      "spec_id": "/pa/units/land/laser_defense_adv/laser_defense_single_tool_weapon.json"
     },
     {
       "aim_bone": "bone_pitch",
