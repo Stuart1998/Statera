@@ -93,7 +93,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
-  ],
-  "wreckage_health_frac": 1
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom3"
+  ]
 }

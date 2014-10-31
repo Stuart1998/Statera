@@ -11,11 +11,22 @@
     }
   },
   "base_spec": "/pa/units/sea/base_ship/base_ship.json",
-  "build_metal_cost": 1500,
-  "description": "Stingray: Analysis: Missile Ship: Long Range Powerful anti-land and anti-ship Strike Missiles",
+  "build_metal_cost": 1200,
+  "buildable_types": "(Air & Mobile) & FactoryBuild",
+  "can_only_assist_with_buildable_items": true,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "description": "Proteus: Analysis: Aircraft Carrier: Mobile aircraft construction and fleet repair.",
   "display_group": 20,
   "display_index": 80,
-  "display_name": "Stingray",
+  "display_name": "Proteus",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
@@ -27,6 +38,68 @@
       "audio_cue": "/SE/Weapons/sea/T2_missile_ship_fire"
     }
   },
+  "fx_offsets": [
+    {
+      "bone": "socket_missile_muzzle01",
+      "filename": "/pa/effects/specs/fab_combat_spray.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    },
+    {
+      "bone": "socket_missile_muzzle02",
+      "filename": "/pa/effects/specs/fab_combat_spray.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    },
+    {
+      "bone": "socket_missile_muzzle03",
+      "filename": "/pa/effects/specs/fab_combat_spray.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    },
+    {
+      "bone": "socket_missile_muzzle04",
+      "filename": "/pa/effects/specs/fab_combat_spray.pfx",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "type": "build"
+    }
+  ],
   "guard_layer": "WL_AnySurface",
   "guard_radius": 420,
   "max_health": 3000,
@@ -37,9 +110,10 @@
   ],
   "model": {
     "animations": {
-      "end": "/pa/units/sea/missile_ship/missile_ship_anim_end.papa",
+      "build_end": "/pa/units/sea/missile_ship/missile_ship_anim_end.papa",
       "idle": "/pa/units/sea/missile_ship/missile_ship_anim_idle.papa",
-      "start": "/pa/units/sea/missile_ship/missile_ship_anim_start.papa"
+      "build_loop": "/pa/units/sea/missile_ship/missile_ship_anim_idle.papa",
+      "build_start": "/pa/units/sea/missile_ship/missile_ship_anim_start.papa"
     },
     "animtree": "/pa/anim/anim_trees/missile_ship_anim_tree.json",
     "filename": "/pa/units/sea/missile_ship/missile_ship.papa"
@@ -71,21 +145,15 @@
   "spawn_layers": "WL_WaterSurface",
   "tools": [
     {
-      "aim_bone": "socket_missile_aim",
-      "muzzle_bone": [
-        "socket_missile_muzzle001",
-        "socket_missile_muzzle002",
-        "socket_missile_muzzle005",
-        "socket_missile_muzzle006"
-      ],
-      "spec_id": "/pa/units/sea/missile_ship/missile_ship_tool_weapon.json"
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/sea/missile_ship/missile_ship_build_arm.json"
     }
   ],
   "unit_types": [
+    "UNITTYPE_Construction",
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",
     "UNITTYPE_Advanced",
-    "UNITTYPE_Tactical",
     "UNITTYPE_FactoryBuild"
   ],
   "wreckage_health_frac": 0

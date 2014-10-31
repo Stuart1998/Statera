@@ -194,7 +194,7 @@
   ],
   "usable": true,
   "useable": {
-    "range": 10,
+    "range": 20,
     "type": "transport"
   }
 }

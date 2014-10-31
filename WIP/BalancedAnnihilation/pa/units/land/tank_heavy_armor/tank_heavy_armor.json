@@ -112,7 +112,7 @@
   ],
   "usable": true,
   "useable": {
-    "range": 10,
+    "range": 20,
     "type": "transport"
   },
   "wreckage_health_frac": 1.0

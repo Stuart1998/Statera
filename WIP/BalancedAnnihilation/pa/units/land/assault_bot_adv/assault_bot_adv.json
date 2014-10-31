@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 400,
-  "description": "Slammer: Analysis: Shotgun Bot: Close range anti-land and anti-ship shotgun. Amphibious",
+  "description": "Slammer: Analysis: Shotgun Bot: Close range anti-land and anti-ship shotgun. Amphibious.",
   "display_group": 40,
   "display_index": 100,
   "display_name": "Slammer",
@@ -134,6 +134,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom3"
   ]
 }

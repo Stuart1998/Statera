@@ -95,6 +95,5 @@
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild"
-  ],
-  "wreckage_health_frac": 1.0
+  ]
 }

@@ -26,7 +26,7 @@
   },
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "build_metal_cost": 75,
-  "description": "Skitter: Analysis: Scout: Light attack laser, fast speed. Weak armor.",
+  "description": "Skitter: Analysis: Scout: Light attack laser, fast speed. Weak armor. Amphibious.",
   "display_group": 80,
   "display_index": 80,
   "display_name": "Skitter",
@@ -57,7 +57,7 @@
     "brake": 200,
     "move_speed": 15,
     "turn_speed": 180,
-    "type": "land-small"
+    "type": "amphibious"
   },
   "physics": {
     "push_class": 50,
@@ -91,7 +91,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
-  ],
-  "wreckage_health_frac": 1
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom3"
+  ]
 }

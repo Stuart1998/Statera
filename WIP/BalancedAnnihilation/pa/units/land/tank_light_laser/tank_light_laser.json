@@ -29,7 +29,7 @@
   "description": "Wasted Metal: Analysis: Tank: Anti-land and anti-ship lasers. Slow speed. Medium armor.",
   "display_group": 40,
   "display_index": 80,
-  "display_name": "Radar Satellite",
+  "display_name": "Wasted Metal",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"

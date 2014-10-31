@@ -79,7 +79,7 @@
       "spec_id": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json"
     },
     "AdvancedVehicleFactory": {
-      "spec_id": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json"
+      "spec_id": "/pa/units/land/veh_factory_adv/vehicle_factory_adv.json"
     },
     "AirScout": {
       "spec_id": "/pa/units/air/air_scout/air_scout.json"
@@ -190,7 +190,7 @@
       "spec_id": "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json"
     },
     "BasicVehicleFactory": {
-      "spec_id": "/pa/units/land/vehicle_factory/vehicle_factory.json"
+      "spec_id": "/pa/units/land/veh_factory/vehicle_factory.json"
     },
     "Battleship": {
       "spec_id": "/pa/units/sea/battleship/battleship.json"
