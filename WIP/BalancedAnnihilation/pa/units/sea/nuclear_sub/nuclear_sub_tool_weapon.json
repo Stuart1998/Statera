@@ -1,7 +1,7 @@
 {
   "ammo_capacity": 4000,
   "ammo_demand": 100,
-  "ammo_id": "/pa/units/sea/missile_ship/missile_ship_ammo.json",
+  "ammo_id": "/pa/units/sea/nuclear_sub/nuclear_sub_ammo.json",
   "ammo_per_shot": 1500,
   "ammo_source": "energy",
   "auto_attack": true,

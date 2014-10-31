@@ -117,7 +117,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_Air",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "bone_rightRecoil",

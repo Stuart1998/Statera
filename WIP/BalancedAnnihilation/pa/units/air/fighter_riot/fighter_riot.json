@@ -44,7 +44,8 @@
   "max_health": 400,
   "model": {
     "animations": {
-      "landed": "/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa"
+      "landed": "/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa",
+      "fly": "/pa/units/air/fighter_riot/fighter_riot_anim_fly_fancy.papa"
     },
     "animtree": "/pa/anim/anim_trees/fighter_adv_anim_tree.json",
     "filename": "/pa/units/air/fighter_adv/fighter_adv.papa"

@@ -11,7 +11,19 @@
         "type": "bind_pose"
       },
       "living": {
-        "type": "bind_pose"
+          "type": "aim_blend",
+          "aim_bone_root": "bone_turret",
+          "child": {
+              "type": "walk",
+              "node_idle": {
+                  "type": "playback",
+                  "anim_name": "hover"
+              },
+              "node_walk": {
+                  "type": "playback",
+                  "anim_name": "hover"
+              }
+          }
       }
     },
     "type": "unit_state"

@@ -70,7 +70,7 @@
       ]
     }
   },
-  "spawn_layers": "WL_LandHorizontal",
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "teleportable": {},
   "unit_types": [
     "UNITTYPE_Mobile",

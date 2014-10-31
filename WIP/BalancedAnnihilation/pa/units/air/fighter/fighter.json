@@ -43,7 +43,11 @@
   "guard_radius": 100,
   "max_health": 200,
   "model": {
+    "animations": {
+      "fly": "/pa/units/air/fighter/fighter_anim_fly.papa"
+    },
     "arrows": 5,
+    "animtree": "/pa/anim/anim_trees/fighter_anim_tree.json",
     "filename": "/pa/units/air/fighter/fighter.papa"
   },
   "navigation": {
