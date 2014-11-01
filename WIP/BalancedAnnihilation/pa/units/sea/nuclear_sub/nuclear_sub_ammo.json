@@ -5,7 +5,7 @@
   "damage": 600,
   "flight_type": "Staged",
   "fx_trail": {
-    "filename": "/pa/effects/specs/tactical_proj_trail.pfx",
+    "filename": "/pa/units/air/missile_tactical/missile_tactical_trail.pfx",
     "offset": [
       0,
       5.5,
