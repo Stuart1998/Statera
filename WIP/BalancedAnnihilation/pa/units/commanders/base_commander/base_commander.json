@@ -30,7 +30,7 @@
       }
     }
   },
-  "build_metal_cost": 6250,
+  "build_metal_cost": 3125,
   "buildable_types": "CmdBuild",
   "command_caps": [
     "ORDER_Move",
@@ -100,6 +100,7 @@
     "energy": 30000,
     "metal": 1500
   },
+  "strategic_icon_priority": 0,
   "teleportable": {},
   "tools": [
     {

@@ -50,6 +50,7 @@
     "shape": "Box"
   },
   "spawn_layers": "WL_WaterSurface",
+  "strategic_icon_priority": 3,
   "teleportable": {},
   "unit_types": [
     "UNITTYPE_Naval",

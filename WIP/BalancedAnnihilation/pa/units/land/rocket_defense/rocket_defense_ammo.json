@@ -6,7 +6,7 @@
   "max_velocity": 75.0,
   "physics": {
     "add_to_spatial_db": false,
-    "gravity_scalar": 5,
+    "gravity_scalar": 1,
     "ignore_gravity": false,
     "push_class": 1,
     "radius": 1

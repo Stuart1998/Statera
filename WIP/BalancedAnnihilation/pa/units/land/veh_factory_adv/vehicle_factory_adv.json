@@ -122,7 +122,7 @@
       ]
     }
   ],
-  "max_health": 5000,
+  "max_health": 6000,
   "mesh_bounds": [
     50,
     50,
@@ -142,8 +142,8 @@
     "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"
   },
   "placement_size": [
-    50,
-    80
+    80,
+    50
   ],
   "recon": {
     "observer": {

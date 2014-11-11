@@ -40,7 +40,7 @@
     }
   ],
   "guard_layer": "WL_Air",
-  "guard_radius": 200,
+  "guard_radius": 300,
   "max_health": 400,
   "model": {
     "animations": {
