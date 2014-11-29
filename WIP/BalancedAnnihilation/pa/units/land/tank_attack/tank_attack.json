@@ -76,12 +76,12 @@
     2.6835
   ],
   "model": {
+    "animations": {
+      "hover": "/pa/units/land/tank_attack/anim_hover.papa"
+    },
     "animtree": "/pa/anim/anim_trees/tank_hover_anim_tree.json",
     "arrows": 5,
-    "filename": "/pa/units/land/tank_attack/tank_attack.papa",
-    "animations":{
-      "hover":"/pa/units/land/tank_attack/anim_hover.papa"
-    }
+    "filename": "/pa/units/land/tank_attack/tank_attack.papa"
   },
   "navigation": {
     "acceleration": 25,

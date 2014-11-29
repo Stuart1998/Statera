@@ -1,7 +1,7 @@
 {
-  "ammo_id": "/pa/units/air/fighter_riot/fighter_adv_ammo.json",
   "ammo_capacity": 3000,
   "ammo_demand": 500,
+  "ammo_id": "/pa/units/air/fighter_riot/fighter_adv_ammo.json",
   "ammo_per_shot": 1000,
   "ammo_source": "energy",
   "auto_attack": true,

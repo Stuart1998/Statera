@@ -5,7 +5,7 @@
     "display_name": "Statera",
     "description": "A balance mod with the goal of increasing unitdiversity and making T2 units comparable to T1 in power.",
     "author": "SquishyPon3, TheTrophySystem, Stuart98, ZX0",
-    "version": "1.26",
+    "version": "1.261",
     "icon": "http://i.imgur.com/bzz5HyF.jpg?2",
     "priority": 100,
     "signature": "(not yet implemented)",
@@ -13,6 +13,6 @@
         "Units",
         "Balance"
     ],
-    "date": "2014/11/10",
-    "build": "74525"
+    "date": "2014/11/29",
+    "build": "75539"
 }

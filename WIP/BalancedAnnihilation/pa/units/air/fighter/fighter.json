@@ -46,8 +46,8 @@
     "animations": {
       "fly": "/pa/units/air/fighter/fighter_anim_fly.papa"
     },
-    "arrows": 5,
     "animtree": "/pa/anim/anim_trees/fighter_anim_tree.json",
+    "arrows": 5,
     "filename": "/pa/units/air/fighter/fighter.papa"
   },
   "navigation": {
