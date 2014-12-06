@@ -10,7 +10,7 @@
     "WL_WaterSurface"
   ],
   "target_priorities": [
-    "Mobile - Air",
+    "Mobile - Wall",
     "Structure - Wall",
     "Wall"
   ],

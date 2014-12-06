@@ -41,7 +41,7 @@
       "skirt_decal": "/pa/effects/specs/skirt_air_defense_adv.json"
     },
     {
-      "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
+      "animtree": "/pa/anim/anim_trees/air_defense_adv_anim_tree.json",
       "filename": "/pa/units/sea/air_defense_adv/air_defense_adv.papa",
       "layer": "WL_WaterSurface"
     }

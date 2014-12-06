@@ -97,7 +97,7 @@
   "show_in_orbital_layer": true,
   "si_name": "commander",
   "storage": {
-    "energy": 30000,
+    "energy": 40000,
     "metal": 1500
   },
   "strategic_icon_priority": 0,

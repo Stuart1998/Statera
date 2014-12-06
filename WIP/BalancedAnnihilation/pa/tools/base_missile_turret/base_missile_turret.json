@@ -13,7 +13,7 @@
   ],
   "target_priorities": [
     "Air",
-    "Mobile",
+    "Mobile - Wall",
     "Structure - Wall",
     "Wall"
   ],

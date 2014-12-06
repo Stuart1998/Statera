@@ -13,7 +13,7 @@
   ],
   "target_priorities": [
     "Sub",
-    "Mobile",
+    "Mobile - Wall",
     "Structure - Wall",
     "Wall"
   ],

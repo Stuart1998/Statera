@@ -1,4 +1,4 @@
-﻿var model;
+var model;
 var handlers;
 
 $(document).ready(function () {
@@ -98,6 +98,7 @@ $(document).ready(function () {
             'nuke_launcher',
             'anti_nuke_launcher',
             'nuke_launcher_ammo',
+            'nuke_launcher_inter_ammo',
             'anti_nuke_launcher_ammo',
             'avatar',
             'teleporter',
@@ -117,7 +118,7 @@ $(document).ready(function () {
             'orbital_factory',
             'transport',
             'transport_large',
-			'laser_defense_riot',
+            'laser_defense_riot',
         ]);
 
         self.sendIconList = function () {
