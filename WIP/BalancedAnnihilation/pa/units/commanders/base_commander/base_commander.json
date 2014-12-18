@@ -44,8 +44,8 @@
     "ORDER_FireSecondaryWeapon"
   ],
   "death_weapon": {
-    "air_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json",
-    "air_height_threshold": 100,
+    "air_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe_air.json",
+    "air_height_threshold": 50,
     "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json"
   },
   "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",

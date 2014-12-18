@@ -1,0 +1,5 @@
+{
+  "base_spec": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json",
+  "impact_decals": [],
+  "sim_fire_effect": "/pa/effects/specs/default_commander_explosion_air_ent.json"
+}

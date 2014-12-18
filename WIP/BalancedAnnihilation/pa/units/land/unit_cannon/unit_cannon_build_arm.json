@@ -1,10 +1,7 @@
 {
-  "base_spec": "/pa/tools/engineer_build_arm_adv/engineer_build_arm_adv.json",
+  "base_spec": "/pa/tools/factory_build_arm/factory_build_arm.json",
   "construction_demand": {
-    "energy": 5000,
-    "metal": 500
-  },
-  "max_range": 30,
-  "pitch_rate": 90,
-  "yaw_rate": 90
+    "energy": 4050,
+    "metal": 40
+  }
 }
