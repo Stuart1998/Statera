@@ -34,9 +34,9 @@
   "guard_radius": 200,
   "max_health": 1800,
   "mesh_bounds": [
-    5,
-    40,
-    5
+    4,
+    24,
+    7
   ],
   "model": {
     "animtree": "/pa/anim/anim_trees/destroyer_anim_tree.json",

@@ -31,8 +31,8 @@
   "guard_radius": 270,
   "max_health": 4000,
   "mesh_bounds": [
-    12,
-    90,
+    9,
+    40,
     12
   ],
   "model": {

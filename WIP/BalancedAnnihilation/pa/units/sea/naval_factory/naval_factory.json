@@ -73,9 +73,9 @@
   ],
   "max_health": 3000,
   "mesh_bounds": [
+    20,
     30,
-    50,
-    20
+    12
   ],
   "model": {
     "animations": {
@@ -87,8 +87,8 @@
     "filename": "/pa/units/sea/naval_factory/naval_factory.papa"
   },
   "placement_size": [
-    30,
-    70
+    20,
+    47
   ],
   "recon": {
     "observer": {

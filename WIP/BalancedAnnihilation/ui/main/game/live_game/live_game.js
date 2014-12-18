@@ -3212,9 +3212,9 @@ $(document).ready(function () {
         var nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json';
         var anti_nuke_id = '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
         var tac_nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json';
-        model.itemDetails[nuke_id] = new UnitDetailModel({ name: '!LOC(live_game:isbm_42_pacifier_missile.message):ISBM-42 -Pacifier- Missile', description: '!LOC(live_game:nuclear_missile_long_range_large_area_damage_projectile.message):Nuclear missile - Long range, large area damage, projectile.',  cost: 35000, sicon: siconFor(nuke_id) });
-        model.itemDetails[tac_nuke_id] = new UnitDetailModel({ name: '!LOC(live_game:ipbm_13_silencer_missile.message):IPMB-13 -Silencer- Missile', description: '!LOC(live_game:tactical_missile_long_range_large_area_damage_projectile.message):Tactical missile - Long range, medium area damage, projectile.',  cost: 8000, sicon: siconFor(tac_nuke_id) });
-        model.itemDetails[anti_nuke_id] = new UnitDetailModel({ name: '!LOC(live_game:sr_24_shield_missile_defense.message):SR-24 -Shield- Missile Defense', description: '!LOC(live_game:anti_nuke_intercepts_incoming_nuclear_missiles.message):Anti-nuke - Intercepts incoming nuclear missiles.', cost: 6750, sicon: siconFor(anti_nuke_id) });
+        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'ISBM-13 -Pacifier- Missile', 35000, siconFor(nuke_strat_id));
+		model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'IPBM-42 -Silencer- Missile', 8000, siconFor(nuke_tac_id));
+        model.itemDetails[anti_nuke_id] = new UnitDetailModel('anti nuke', 'SR-24 -Shield- Missile Defense', 6750, siconFor(anti_nuke_id));
     };
 
     handlers.army = function (payload) {
