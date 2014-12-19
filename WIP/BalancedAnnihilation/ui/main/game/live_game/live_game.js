@@ -693,16 +693,26 @@ $(document).ready(function () {
         });
 
         self.showSettings = ko.observable(false);
-        self.showSettings.subscribe(function() {
-            var show = self.showSettings();
-            engine.call("game.allowKeyboard", !show);
-            if (show) {
-                api.panels.settings && api.panels.settings.focus();
-            }
-            else {
+        self.showPlayerGuide = ko.observable(false);
+        self.toggleShowPlayerGuide = function () {
+            self.showPlayerGuide(!self.showPlayerGuide());
+        };
+
+        var refreshPanel = function (name, visible) {
+            engine.call("game.allowKeyboard", !visible);
+            if (visible) 
+                api.panels[name] && api.panels[name].focus();
+            else 
                 api.Holodeck.refreshSettings();
-            }
-            _.delay(api.panels.settings.update);
+            
+            _.delay(api.panels[name].update);
+        };
+
+        self.showSettings.subscribe(function() {
+            refreshPanel('settings', self.showSettings());
+        });
+        self.showPlayerGuide.subscribe(function () {
+            refreshPanel('player_guide', self.showPlayerGuide());
         });
 
         // Sandbox
@@ -1434,11 +1444,30 @@ $(document).ready(function () {
         };
 
         self.abandon = function () {
-            var result = $.Deferred();
-            $.when(self.haveUberNet() && api.net.removePlayerFromGame()).always(function() {
-                result.resolve();
-            });
-            return result.promise();
+            var removeDeferred = $.Deferred();
+            $.when(self.haveUberNet() && api.net.removePlayerFromGame()).always(removeDeferred.resolve);
+
+            if (self.serverMode() !== 'replay') {
+                var surrenderDeferred = $.Deferred();
+                api.select.commander().always(function () {
+                    api.camera.track(true);
+                    self.send_message("surrender", {}, function() {
+                        surrenderDeferred.resolve();
+                    });
+                });
+
+                // Make sure this promise is fulfilled in at least 3 seconds.
+                _.delay(function() {
+                    // Calling reject() after resolve() leaves the promise as resolved,
+                    // *not* rejected, and fail() callbacks are not called. This is
+                    // intended & documented. That makes this fine to do unconditionally.
+                    surrenderDeferred.reject();
+                }, 3000);
+
+                return $.when(removeDeferred, surrenderDeferred);
+            } else {
+                return removeDeferred.promise();
+            }
         }
 
         self.navToGameOptions = function () {
@@ -1454,10 +1483,9 @@ $(document).ready(function () {
             engine.call('pop_mouse_constraint_flag');
             engine.call("game.allowKeyboard", true);
 
-            self.userTriggeredDisconnect(true);
-            self.disconnect();
-
-            self.abandon().then(function () {
+            self.abandon().always(function () {
+                self.userTriggeredDisconnect(true);
+                self.disconnect();
                 window.location.href = self.mainMenuUrl();
             });
         }
@@ -1477,9 +1505,9 @@ $(document).ready(function () {
             engine.call('pop_mouse_constraint_flag');
             engine.call("game.allowKeyboard", true);
 
-            self.userTriggeredDisconnect(true);
-            self.disconnect();
-            self.abandon().then(function() {
+            self.abandon().always(function() {
+                self.userTriggeredDisconnect(true);
+                self.disconnect();
                 self.exit();
             });
         }
@@ -1859,6 +1887,10 @@ $(document).ready(function () {
             self.pauseSim();
             self.closeMenu();
         };
+        self.menuTogglePlayerGuide = function () {
+            self.toggleShowPlayerGuide();
+            self.closeMenu();
+        };
         self.menuToggleChronoCam = function() {
             self.showTimeControls(!self.showTimeControls());
             self.closeMenu();
@@ -1867,6 +1899,24 @@ $(document).ready(function () {
             self.showSettings(true);
             self.closeMenu();
         };
+        self.menuSurrender = function() {
+            self.popUp({ message: loc('!LOC(live_game:surrender_game.message):Surrender Game?') }).then(function (result) {
+                if (result === 0) {
+                    self.closeMenu();
+
+                    // Abandoning should take you to the game_over state, but if it fails (times out), we disconnect
+                    // and move you to the main menu. It's probably happening because the server is hanging.
+                    self.abandon().fail(function () {
+                        engine.call('pop_mouse_constraint_flag');
+                        engine.call("game.allowKeyboard", true);
+
+                        self.userTriggeredDisconnect(true);
+                        self.disconnect();
+                        window.location.href = self.mainMenuUrl();
+                    });
+                }
+            });
+        };
         self.menuMainMenu = function() {
             self.popUp({ message: loc('!LOC(live_game:quit_to_main_menu.message):Quit to Main Menu?') }).then(function (result) {
                 if (result === 0)
@@ -1874,7 +1924,7 @@ $(document).ready(function () {
             });
         };
         self.menuExit = function() {
-            self.popUp({ message: loc('!LOC(live_game:quit_and_exit_to_desktop.message):Quit and exit to Desktop?') }).then(function (result) {
+            self.popUp({ message: loc('!LOC(live_game:surrender_and_exit_to_desktop.message):Surrender and exit to Desktop?') }).then(function (result) {
                 if (result === 0)
                     self.exitGame();
             });
@@ -1894,29 +1944,46 @@ $(document).ready(function () {
 
         /* affected by gw live_game_patch. check patch before changing. */
         self.menuConfig = ko.computed(function() {
-            var list = [
-                {
-                    label: loc('!LOC(live_game:chrono_cam.message):Chrono Cam'),
-                    action: 'menuToggleChronoCam'
-                },
-                {
-                    label: loc('!LOC(live_game:game_settings.message):Game Settings'),
-                    action: 'menuSettings'
-                },
-                {
-                    label: loc('!LOC(live_game:main_menu.message):Main Menu'),
-                    action: 'menuMainMenu',
-                },
-                {
-                    label: loc('!LOC(live_game:quit.message):Quit'),
-                    action: 'menuExit'
-                }
-            ];
+            var list = [];
 
             if (!self.ranked()) {
-                list.unshift({
+                list.push({
                     label: loc('!LOC(live_game:pause_game.message):Pause Game'),
                     action: 'menuPauseGame'
+                });
+            }
+
+            list.push({
+                label: 'Player Guide',
+                action: 'menuTogglePlayerGuide'
+            });
+
+            list.push({
+                label: loc('!LOC(live_game:chrono_cam.message):Chrono Cam'),
+                action: 'menuToggleChronoCam'
+            });
+
+            list.push({
+                label: loc('!LOC(live_game:game_settings.message):Game Settings'),
+                action: 'menuSettings'
+            });
+
+            if (self.isSpectator() || self.serverMode() === 'replay') {
+                list.push({
+                    label: loc('!LOC(live_game:main_menu.message):Main Menu'),
+                    action: 'menuMainMenu',
+                });
+            } else {
+                list.push({
+                    label: loc('!LOC(live_game:surrender.message):Surrender'),
+                    action: 'menuSurrender',
+                });
+            }
+
+            if (!self.ranked()) {
+                list.push({
+                    label: loc('!LOC(live_game:quit.message):Quit'),
+                    action: 'menuExit'
                 });
             }
 
@@ -3209,11 +3276,13 @@ $(document).ready(function () {
 
         // nuke hack
         // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
+
         var nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_inter_ammo.json';
         var anti_nuke_id = '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
         var tac_nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json';
-        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'ISBM-13 -Pacifier- Missile', 35000, siconFor(nuke_strat_id));
-		model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'IPBM-42 -Silencer- Missile', 8000, siconFor(nuke_tac_id));
+
+        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'ISBM-42 -Pacifier- Missile', 35000, siconFor(nuke_strat_id));
+		model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'IPBM-13 -Silencer- Missile', 8000, siconFor(nuke_tac_id));
         model.itemDetails[anti_nuke_id] = new UnitDetailModel('anti nuke', 'SR-24 -Shield- Missile Defense', 6750, siconFor(anti_nuke_id));
     };
 
@@ -3391,12 +3460,17 @@ $(document).ready(function () {
         engine.call("game.allowKeyboard", true);
 
         if (payload.disconnect) {
-            model.abandon().then(function () {
+            var navAway = function() {
                 model.userTriggeredDisconnect(true);
                 model.disconnect();
 
                 window.location.href = payload.url;
-            });
+            };
+
+            if (model.haveUberNet())
+                api.net.removePlayerFromGame().always(navAway);
+            else
+                navAway();
         }
         else
             window.location.href = payload.url;
@@ -3489,6 +3563,14 @@ $(document).ready(function () {
 
     handlers['settings.exit'] = function() {
         model.showSettings(false);
+    };
+
+    handlers['guide.hide'] = function () {
+        model.showPlayerGuide(false);
+    };
+
+    handlers['guide.show'] = function () {
+        model.showPlayerGuide(true);
     };
 
     handlers['query.item_details'] = function(query) {

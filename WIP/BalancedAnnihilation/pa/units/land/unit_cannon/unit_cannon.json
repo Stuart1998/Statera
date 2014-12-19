@@ -63,7 +63,7 @@
     ],
     "store_units": true
   },
-  "factory_cooldown_time": 1.0,
+  "factory_cooldown_time": 3.0,
   "fx_offsets": [
     {
       "bone": "bone_buildSpray01",
@@ -126,6 +126,7 @@
     50,
     50
   ],
+  "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "bone_turret",

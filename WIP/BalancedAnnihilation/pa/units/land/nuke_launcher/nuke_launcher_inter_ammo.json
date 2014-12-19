@@ -15,7 +15,7 @@
     "radius_velocity": 50.0
   },
   "description": "Nuclear missile - Long range, large area damage, projectile. Strong vs bases.",
-  "display_name": "ISBM-96 -Pacifier- Missile",
+  "display_name": "ISBM-42 -Pacifier- Missile",
   "enable_orbital_shell": true,
   "events": {
     "collided": {
