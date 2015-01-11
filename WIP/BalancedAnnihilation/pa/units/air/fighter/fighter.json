@@ -51,13 +51,13 @@
     "filename": "/pa/units/air/fighter/fighter.papa"
   },
   "navigation": {
-    "acceleration": 180,
+    "acceleration": 50,
     "aggressive_distance": 250,
     "aggressive_height": 100,
     "brake": 45,
     "dodge_multiplier": 0,
     "dodge_radius": 0,
-    "move_speed": 90,
+    "move_speed": 80,
     "turn_speed": 180,
     "type": "air",
     "wobble_factor": 0.05,
