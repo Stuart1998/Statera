@@ -16,12 +16,12 @@
       0.0
     ]
   },
-  "initial_velocity": 155.0,
-  "max_velocity": 155.0,
+  "initial_velocity": 95.0,
+  "max_velocity": 125.0,
   "model": {
     "filename": "/pa/units/air/atoa_missile/atoa_missile.papa"
   },
   "splash_damage": 0,
   "splash_radius": 0,
-  "turn_rate": 270
+  "turn_rate": 75
 }
