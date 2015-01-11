@@ -1,5 +1,6 @@
 {
   "blend_root": {
+    "type":"unit_state",
     "nodes": {
       "being_built": {
         "type": "bind_pose"
